@@ -16,5 +16,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    WT(bself);
+    UIButton *regBtn = [[UIButton alloc] initWithFrame:CGRectMake(WTScreenWidth-60, WT_NavBar_Height-64, 60, 64)];
+    [regBtn setTitle:@"登录" forState:UIControlStateNormal];
+    [regBtn setBackgroundColor:[UIColor redColor]];
+    [regBtn wt_addEventHandler:^{
+        [bself.navigationController popViewControllerAnimated:YES];
+    } forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:regBtn];
+    
+    UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectMake((WTScreenWidth-120)/2, 300, 120, 50)];
+    [loginBtn setTitle:@"立即登录" forState:UIControlStateNormal];
+    [loginBtn setBackgroundColor:[UIColor redColor]];
+    [loginBtn wt_addEventHandler:^{
+        [bself.navigationController dismissViewControllerAnimated:YES completion:nil];
+    } forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:loginBtn];
 }
 @end

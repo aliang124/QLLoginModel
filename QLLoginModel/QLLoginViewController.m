@@ -7,7 +7,7 @@
 //
 
 #import "QLLoginViewController.h"
-
+#import "QLRegisterViewController.h"
 @interface QLLoginViewController ()
 
 @end
@@ -16,6 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    WT(bself);
+    UIButton *regBtn = [[UIButton alloc] initWithFrame:CGRectMake(WTScreenWidth-60, WT_NavBar_Height-64, 60, 64)];
+    [regBtn setTitle:@"注册" forState:UIControlStateNormal];
+    [regBtn setBackgroundColor:[UIColor redColor]];
+    [regBtn wt_addEventHandler:^{
+        [bself.navigationController pushViewController:[QLRegisterViewController new] animated:YES];
+    } forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:regBtn];
 }
 - (void)backBtnPress {
     [self.navigationController dismissViewControllerAnimated:YES completion:nil];
