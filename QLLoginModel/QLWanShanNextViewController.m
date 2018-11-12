@@ -16,5 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navBar.title = @"完善资料";
 }
 @end

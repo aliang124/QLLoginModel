@@ -7,6 +7,7 @@
 //
 
 #import "QLRegisterViewController.h"
+#import "QLWanShanViewController.h"
 
 @interface QLRegisterViewController ()
 
@@ -26,11 +27,17 @@
     [self.view addSubview:regBtn];
     
     UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectMake((WTScreenWidth-120)/2, 300, 120, 50)];
-    [loginBtn setTitle:@"立即登录" forState:UIControlStateNormal];
+    [loginBtn setTitle:@"立即注册" forState:UIControlStateNormal];
     [loginBtn setBackgroundColor:[UIColor redColor]];
     [loginBtn wt_addEventHandler:^{
-        [bself.navigationController dismissViewControllerAnimated:YES completion:nil];
+        [bself registerVC];
     } forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:loginBtn];
+}
+
+- (void)registerVC {
+    QLWanShanViewController *wan = [QLWanShanViewController new];
+    [self.navigationController pushViewController:wan animated:YES];
+//    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
 }
 @end
