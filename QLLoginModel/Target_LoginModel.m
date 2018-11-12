@@ -8,11 +8,9 @@
 
 #import "Target_LoginModel.h"
 #import "QLLoginViewController.h"
-#import "WTDefine.h"
-#import "WTUtil.h"
 @implementation Target_LoginModel
 -(void)Action_loginVC:(NSDictionary*)param {
-    QLLoginViewController *camera = [[QLLoginViewController alloc] init];
+    QLLoginViewController *login = [[QLLoginViewController alloc] init];
     login.titleText = param[@"title"];
     WTRootNavPush(login);
 }
