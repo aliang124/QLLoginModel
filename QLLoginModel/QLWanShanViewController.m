@@ -7,6 +7,7 @@
 //
 
 #import "QLWanShanViewController.h"
+#import "WTBaseCore.h"
 
 @interface QLWanShanViewController ()
 

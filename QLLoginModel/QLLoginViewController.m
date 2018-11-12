@@ -8,6 +8,8 @@
 
 #import "QLLoginViewController.h"
 #import "QLRegisterViewController.h"
+#import "WTBaseCore.h"
+
 @interface QLLoginViewController ()
 
 @end

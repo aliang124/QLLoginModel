@@ -7,6 +7,7 @@
 //
 
 #import "QLWanShanNextViewController.h"
+#import "WTBaseCore.h"
 
 @interface QLWanShanNextViewController ()
 
