@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "QLCareViewController.h"
+#import "QLLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -25,34 +25,7 @@
 }
 
 - (void)initRoot {
-    WTTabBarItem *itIndex = [[WTTabBarItem alloc] init];
-    itIndex.titleText = @"发现";
-    itIndex.normalImage = @"tabbar_translate";
-    itIndex.selectImage = @"tabbar_translate_highlighted";
-    itIndex.vc = [[WTViewController alloc] init];
-    
-    WTTabBarItem *itCare = [[WTTabBarItem alloc] init];
-    itCare.titleText = @"关注";
-    itCare.normalImage = @"tabbar_application";
-    itCare.selectImage = @"tabbar_application_highlighted";
-    itCare.vc = [[QLCareViewController alloc] init];
-    
-    WTTabBarItem *itTieBa = [[WTTabBarItem alloc] init];
-    itTieBa.titleText = @"浪吧";
-    itTieBa.normalImage = @"tabbar_application";
-    itTieBa.selectImage = @"tabbar_application_highlighted";
-    itTieBa.vc = [[WTViewController alloc] init];
-    
-    WTTabBarItem *itMine = [[WTTabBarItem alloc] init];
-    itMine.titleText = @"我的";
-    itMine.normalImage = @"tabbar_profile";
-    itMine.selectImage = @"tabbar_profile_highlighted";
-    itMine.vc = [[WTViewController alloc] init];
-    
-    WTTabbarController *tab = [[WTTabbarController alloc] init];
-    tab.itemsArray = [NSArray arrayWithObjects:itIndex,itCare,itTieBa,itMine, nil];
-    
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:tab];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[QLLoginViewController new]];
     nav.navigationBarHidden = YES;
     [WTUtil appDelegate].window.rootViewController = nav;
     [[WTUtil appDelegate].window makeKeyAndVisible];
