@@ -12,6 +12,6 @@
 -(void)Action_loginVC:(NSDictionary*)param {
     QLLoginViewController *login = [[QLLoginViewController alloc] init];
     login.titleText = param[@"title"];
-    WTRootNavPush(login);
+    [login.navigationController presentViewController:[[UINavigationController alloc] initWithRootViewController:login] animated:YES completion:nil];
 }
 @end

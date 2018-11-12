@@ -17,4 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
+- (void)backBtnPress {
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+}
+
 @end

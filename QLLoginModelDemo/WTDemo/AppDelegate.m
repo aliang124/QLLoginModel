@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "QLLoginViewController.h"
+#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -25,7 +26,7 @@
 }
 
 - (void)initRoot {
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[QLLoginViewController new]];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[MainViewController new]];
     nav.navigationBarHidden = YES;
     [WTUtil appDelegate].window.rootViewController = nav;
     [[WTUtil appDelegate].window makeKeyAndVisible];
