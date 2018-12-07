@@ -1,13 +1,20 @@
 PODS:
-  - DZNEmptyDataSet (1.8.1)
   - FDFullscreenPopGesture (1.1)
   - IQKeyboardManager (5.0.8)
-  - MJExtension (3.0.13)
+  - QLBusiness (0.0.1):
+    - QLBusiness/Cell (= 0.0.1)
+    - QLBusiness/Controller (= 0.0.1)
+    - QLBusiness/Model (= 0.0.1)
+    - QLBusiness/Request (= 0.0.1)
+    - QLBusiness/View (= 0.0.1)
+  - QLBusiness/Cell (0.0.1)
+  - QLBusiness/Controller (0.0.1)
+  - QLBusiness/Model (0.0.1)
+  - QLBusiness/Request (0.0.1)
+  - QLBusiness/View (0.0.1)
   - WTBaseCore (0.0.1):
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
     - WTBaseCore/CoreCell (= 0.0.1)
     - WTBaseCore/CoreController (= 0.0.1)
     - WTBaseCore/CoreNetworking (= 0.0.1)
@@ -17,71 +24,62 @@ PODS:
     - WTBaseCore/CoreUtil (= 0.0.1)
     - WTBaseCore/RETableViewManager (= 0.0.1)
     - WTBaseCore/WTAppDelegate (= 0.0.1)
+    - WTBaseCore/WTCustomNavBar (= 0.0.1)
   - WTBaseCore/CoreCell (0.0.1):
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
   - WTBaseCore/CoreController (0.0.1):
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
   - WTBaseCore/CoreNetworking (0.0.1):
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
   - WTBaseCore/CoreRes (0.0.1):
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
   - WTBaseCore/CoreString (0.0.1):
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
   - WTBaseCore/CoreUI (0.0.1):
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
   - WTBaseCore/CoreUtil (0.0.1):
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
   - WTBaseCore/RETableViewManager (0.0.1):
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
   - WTBaseCore/WTAppDelegate (0.0.1):
-    - DZNEmptyDataSet (~> 1.8.1)
     - FDFullscreenPopGesture (~> 1.1)
     - IQKeyboardManager (~> 5.0.7)
-    - MJExtension (~> 3.0.13)
+  - WTBaseCore/WTCustomNavBar (0.0.1):
+    - FDFullscreenPopGesture (~> 1.1)
+    - IQKeyboardManager (~> 5.0.7)
 
 DEPENDENCIES:
+  - QLBusiness (from `https://github.com/aliang124/QLBusiness.git`)
   - WTBaseCore (from `https://github.com/jienliang000/WTBaseCore.git`)
 
 EXTERNAL SOURCES:
+  QLBusiness:
+    :git: https://github.com/aliang124/QLBusiness.git
   WTBaseCore:
     :git: https://github.com/jienliang000/WTBaseCore.git
 
 CHECKOUT OPTIONS:
+  QLBusiness:
+    :commit: bf3bed5b523367af2a667e27d93ff6132a943a3d
+    :git: https://github.com/aliang124/QLBusiness.git
   WTBaseCore:
-    :commit: a66ae50648782e8e4c0b5d79ba2c4b69b8d7c8cf
+    :commit: 86ce2b64e74215c73088c611023a3d4a4762cb15
     :git: https://github.com/jienliang000/WTBaseCore.git
 
 SPEC CHECKSUMS:
-  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   IQKeyboardManager: 266cb7b1d11f94a3e71229d77f960f9a1b538e5b
-  MJExtension: 5932755f451458eefa24239358817f8d291240c7
-  WTBaseCore: 8c4d030edeb8a3bca35b93620906ca364c09181d
+  QLBusiness: cf65898ae78dcd54b6afa348601a1a76ddaac12b
+  WTBaseCore: c46847e84d6a933554f3bed7ea1a94ed729131b3
 
-PODFILE CHECKSUM: 6d9e153652d9b738880c690bf49ec8e145cd4a1f
+PODFILE CHECKSUM: e0bb5635e4894212ac2d7a1c8b4daaa9f2f1fa76
 
 COCOAPODS: 1.4.0

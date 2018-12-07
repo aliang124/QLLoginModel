@@ -9,6 +9,7 @@
 #import "QLRegisterViewController.h"
 #import "QLWanShanViewController.h"
 #import "WTBaseCore.h"
+#import "QLBusiness.h"
 
 @interface QLRegisterViewController ()
 
