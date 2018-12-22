@@ -9,9 +9,9 @@
 #import "Target_QLLoginModel.h"
 #import "QLLoginViewController.h"
 @implementation Target_QLLoginModel
--(void)Action_loginVC:(NSDictionary*)param {
+- (UIViewController *)Action_loginVC:(NSDictionary*)param {
     QLLoginViewController *login = [[QLLoginViewController alloc] init];
     login.titleText = param[@"title"];
-    [login.navigationController presentViewController:[[UINavigationController alloc] initWithRootViewController:login] animated:YES completion:nil];
+    return login;
 }
 @end

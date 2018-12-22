@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface Target_QLLoginModel : NSObject
--(void)Action_loginVC:(NSDictionary*)param;
+- (UIViewController *)Action_loginVC:(NSDictionary*)param;
 @end
