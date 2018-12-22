@@ -55,52 +55,23 @@
     [self.view addSubview:titleLab];
     
     //用户名或手机号
-    UIView *phoneOrNameView = [[UIView alloc] initWithFrame:CGRectMake(24, titleLab.bottom+32, WTScreenWidth-24-24, 44)];
-    [QLBusinessUtil setPhoneTextViewBackGround:phoneOrNameView];
-    [self.view addSubview:phoneOrNameView];
-    
-    _phoneNameTextField = [[UITextField alloc] initWithFrame:CGRectMake(15, 0, phoneOrNameView.width-30, phoneOrNameView.height)];
-    _phoneNameTextField.textColor = QL_UserName_TitleColor_Black;
-    _phoneNameTextField.font = WTFontSys(16);
-    _phoneNameTextField.placeholder = @"请输入用户名或手机号";
+    _phoneNameTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, titleLab.bottom+32, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"请输入用户名或手机号" hasClear:YES];
     _phoneNameTextField.text = @"13478906890";
-    [phoneOrNameView addSubview:_phoneNameTextField];
-    
-    UIButton *clearBtn = [[UIButton alloc] initWithFrame:CGRectMake(phoneOrNameView.width-14-22, 11, 22, 22)];
-    [clearBtn setImage:[UIImage imageNamed:@"clearBtn"] forState:UIControlStateNormal];
-    [clearBtn addTarget:self action:@selector(clearBtnPress) forControlEvents:UIControlEventTouchUpInside];
-    [phoneOrNameView addSubview:clearBtn];
-    
-    //验证码
-    float verifyViewWidth = phoneOrNameView.width-12-100;
-    UIView *verifyView = [[UIView alloc] initWithFrame:CGRectMake(24, phoneOrNameView.bottom+12, verifyViewWidth, 44)];
-    [QLBusinessUtil setPhoneTextViewBackGround:verifyView];
-    [self.view addSubview:verifyView];
-    
-    _verifyTextField = [[UITextField alloc] initWithFrame:CGRectMake(15, 0, verifyView.width-30, verifyView.height)];
-    _verifyTextField.textColor = QL_UserName_TitleColor_Black;
-    _verifyTextField.font = WTFontSys(16);
-    _verifyTextField.placeholder = @"请输入验证码码";
-    [verifyView addSubview:_verifyTextField];
 
-    UIButton *verifyBtn = [[UIButton alloc] initWithFrame:CGRectMake(verifyView.right+12, verifyView.top, 100, 44)];
+    //验证码
+    float verifyViewWidth = _phoneNameTextField.width+30-12-100;
+    _verifyTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, _phoneNameTextField.bottom+12, verifyViewWidth, 44) superView:self.view placeHolder:@"请输入验证码码" hasClear:NO];
+
+    UIButton *verifyBtn = [[UIButton alloc] initWithFrame:CGRectMake(_verifyTextField.right+15+12, _verifyTextField.top, 100, 44)];
     [QLBusinessUtil setRoundBtn:verifyBtn titleText:@"获取验证码"];
     verifyBtn.titleLabel.font = WTFontSys(14);
     [verifyBtn setTitleColor:QL_UserName_TitleColor_Black forState:UIControlStateNormal];
     [self.view addSubview:verifyBtn];
 
     //设置登录密码
-    UIView *passWodrView = [[UIView alloc] initWithFrame:CGRectMake(24, verifyView.bottom+12, WTScreenWidth-24-24, 44)];
-    [QLBusinessUtil setPhoneTextViewBackGround:passWodrView];
-    [self.view addSubview:passWodrView];
+    _passwordTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, _verifyTextField.bottom+12, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"设置登录密码" hasClear:NO];
     
-    _passwordTextField = [[UITextField alloc] initWithFrame:CGRectMake(15, 0, passWodrView.width-30, passWodrView.height)];
-    _passwordTextField.textColor = QL_UserName_TitleColor_Black;
-    _passwordTextField.font = WTFontSys(16);
-    _passwordTextField.placeholder = @"设置登录密码";
-    [passWodrView addSubview:_passwordTextField];
-    
-    UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(24, passWodrView.bottom+16, WTScreenWidth-24-24, 44)];
+    UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(24, _passwordTextField.bottom+16, WTScreenWidth-24-24, 44)];
     [QLBusinessUtil setRoundBtn:loginBtn titleText:@"确定"];
     [loginBtn addTarget:self action:@selector(loginBtnPress) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:loginBtn];

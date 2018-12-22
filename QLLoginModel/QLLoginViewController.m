@@ -52,28 +52,12 @@
     titleLab.textColor = QL_NavBar_TitleColor_Black;
     titleLab.text = @"密码登录";
     [self.view addSubview:titleLab];
-    
-    UIView *phoneOrNameView = [[UIView alloc] initWithFrame:CGRectMake(24, titleLab.bottom+32, WTScreenWidth-24-24, 44)];
-    [QLBusinessUtil setPhoneTextViewBackGround:phoneOrNameView];
-    [self.view addSubview:phoneOrNameView];
-
-    _phoneNameTextField = [[UITextField alloc] initWithFrame:CGRectMake(15, 0, phoneOrNameView.width-30, phoneOrNameView.height)];
-    _phoneNameTextField.textColor = QL_UserName_TitleColor_Black;
-    _phoneNameTextField.font = WTFontSys(16);
-    _phoneNameTextField.placeholder = @"请输入用户名或手机号";
-    [phoneOrNameView addSubview:_phoneNameTextField];
-    
-    UIView *passWodrView = [[UIView alloc] initWithFrame:CGRectMake(24, phoneOrNameView.bottom+12, WTScreenWidth-24-24, 44)];
-    [QLBusinessUtil setPhoneTextViewBackGround:passWodrView];
-    [self.view addSubview:passWodrView];
-    
-    _passwordTextField = [[UITextField alloc] initWithFrame:CGRectMake(15, 0, passWodrView.width-30, passWodrView.height)];
-    _passwordTextField.textColor = QL_UserName_TitleColor_Black;
-    _passwordTextField.font = WTFontSys(16);
-    _passwordTextField.placeholder = @"请输入密码";
-    [passWodrView addSubview:_passwordTextField];
-    
-    UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(24, passWodrView.bottom+16, WTScreenWidth-24-24, 44)];
+    //用户名或手机号
+    _phoneNameTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, titleLab.bottom+32, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"请输入用户名或手机号" hasClear:NO];
+    //密码
+    _passwordTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, _phoneNameTextField.bottom+12, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"请输入密码" hasClear:NO];
+    //登录按钮
+    UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(24, _passwordTextField.bottom+16, WTScreenWidth-24-24, 44)];
     [QLBusinessUtil setRoundBtn:loginBtn titleText:@"登录"];
     [self.view addSubview:loginBtn];
 
