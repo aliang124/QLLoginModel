@@ -1,19 +1,19 @@
 //
-//  QLBusinessUtil.m
+//  QLLoginUtil.m
 //  WTDemo
 //
 //  Created by 计恩良 on 2018/12/22.
 //  Copyright © 2018年 计恩良. All rights reserved.
 //
 
-#import "QLBusinessUtil.h"
+#import "QLLoginUtil.h"
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
 
-@implementation QLBusinessUtil
+@implementation QLLoginUtil
 + (UITextField *)createTextFieldView:(CGRect)frame superView:(UIView *)superView placeHolder:(NSString *)place {
     UIView *phoneOrNameView = [[UIView alloc] initWithFrame:frame];
-    [QLBusinessUtil setPhoneTextViewBackGround:phoneOrNameView];
+    [QLLoginUtil setPhoneTextViewBackGround:phoneOrNameView];
     [superView addSubview:phoneOrNameView];
     
     UITextField *phoneNameTextField = [[UITextField alloc] initWithFrame:CGRectMake(frame.origin.x+15, frame.origin.y, phoneOrNameView.width-30, phoneOrNameView.height)];

@@ -9,11 +9,12 @@
 #import "QLWanShanViewController.h"
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
-#import "QLBusinessUtil.h"
+#import "QLLoginUtil.h"
 
 @interface QLWanShanViewController ()
 @property (nonatomic,strong) UIButton *cameraBtn;
 @property (nonatomic,strong) UIImageView *cameraImg;
+@property (nonatomic,strong) UITextField *nickNameTextField;
 @end
 
 @implementation QLWanShanViewController
@@ -57,5 +58,10 @@
     _cameraImg = [[UIImageView alloc] initWithFrame:CGRectMake(14, 14, 28, 28)];
     [_cameraImg setImage:[UIImage imageNamed:@"camera"]];
     [_cameraBtn addSubview:_cameraImg];
+    //昵称
+    _nickNameTextField = [QLLoginUtil createTextFieldView:CGRectMake(24, subTitleLab.bottom+32, WTScreenWidth-24-23, 44) superView:self.view placeHolder:@"你的昵称"];
+    //所在地
+    //当前身份
+    //
 }
 @end

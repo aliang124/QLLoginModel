@@ -15,4 +15,12 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/aliang124/QLLoginModel.git", :tag => "#{s.version}" }
   s.source_files  = "QLLoginModel/*.{h,m}"
 
+  s.subspec 'View' do |ss|
+  ss.source_files = 'QLLoginModel/View/**/*.{h,m,c,mm}'
+  end
+
+  s.subspec 'Util' do |ss|
+  ss.source_files = 'QLLoginModel/Util/**/*.{h,m,c,mm}'
+  end
+
 end
