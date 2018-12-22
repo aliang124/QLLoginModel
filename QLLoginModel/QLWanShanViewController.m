@@ -10,11 +10,14 @@
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
 #import "QLLoginUtil.h"
+#import "QLSelectCheckButton.h"
 
 @interface QLWanShanViewController ()
 @property (nonatomic,strong) UIButton *cameraBtn;
 @property (nonatomic,strong) UIImageView *cameraImg;
 @property (nonatomic,strong) UITextField *nickNameTextField;
+@property (nonatomic,strong) QLSelectCheckButton *checkAreaBtn;
+@property (nonatomic,strong) QLSelectCheckButton *checkShenFenBtn;
 @end
 
 @implementation QLWanShanViewController
@@ -61,7 +64,15 @@
     //昵称
     _nickNameTextField = [QLLoginUtil createTextFieldView:CGRectMake(24, subTitleLab.bottom+32, WTScreenWidth-24-23, 44) superView:self.view placeHolder:@"你的昵称"];
     //所在地
+    _checkAreaBtn = [[QLSelectCheckButton alloc] initWithFrame:CGRectMake(24, _nickNameTextField.bottom+12, WTScreenWidth-24-23, 44)];
+    _checkAreaBtn.leftText = @"所在地";
+    _checkAreaBtn.rightText = @"请选择";
+    [self.view addSubview:_checkAreaBtn];
     //当前身份
+    _checkShenFenBtn = [[QLSelectCheckButton alloc] initWithFrame:CGRectMake(24, _checkAreaBtn.bottom+12, WTScreenWidth-24-23, 44)];
+    _checkShenFenBtn.leftText = @"当前身份";
+    _checkShenFenBtn.rightText = @"宝爸";
+    [self.view addSubview:_checkShenFenBtn];
     //
 }
 @end

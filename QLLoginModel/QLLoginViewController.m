@@ -60,7 +60,6 @@
     UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(24, _passwordTextField.bottom+16, WTScreenWidth-24-24, 44)];
     [QLLoginUtil setRoundBtn:loginBtn titleText:@"登录"];
     [self.view addSubview:loginBtn];
-
     //底部第三方登录区域背景
     UIView *bgView = [[UIView alloc] initWithFrame:CGRectMake(0, WTScreenHeight-196, WTScreenWidth, 196)];
     [self.view addSubview:bgView];
