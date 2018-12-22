@@ -10,26 +10,105 @@
 #import "QLRegisterViewController.h"
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
-@interface QLLoginViewController ()
+#import "QLBusinessUtil.h"
 
+@interface QLLoginViewController ()
+@property (nonatomic,strong) UITextField *phoneNameTextField;
+@property (nonatomic,strong) UITextField *passwordTextField;
 @end
 
 @implementation QLLoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     
-    WT(bself);
-    UIButton *regBtn = [[UIButton alloc] initWithFrame:CGRectMake(WTScreenWidth-60, WT_NavBar_Height-64, 60, 64)];
-    [regBtn setTitle:@"注册" forState:UIControlStateNormal];
-    [regBtn setBackgroundColor:[UIColor redColor]];
-    [regBtn wt_addEventHandler:^{
-        [bself.navigationController pushViewController:[QLRegisterViewController new] animated:YES];
-    } forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:regBtn];
+    WTCustomBarItem *itLeft = [[WTCustomBarItem alloc] init];
+    itLeft.itemStyle = 1;
+    itLeft.imgSize = CGSizeMake(22, 22);
+    itLeft.itemImage = [UIImage imageNamed:@"closeBtn"];
+    itLeft.onClick = ^{
+        [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+    };
+    self.navBar.leftItemList = [NSArray arrayWithObject:itLeft];
+    
+    WTCustomBarItem *itRight = [[WTCustomBarItem alloc] init];
+    itRight.itemStyle = 0;
+    itRight.itemTitle = @"注册";
+    itRight.itemTextColor = QL_NavBar_TitleColor_Black;
+    itRight.itemTextFont = [UIFont systemFontOfSize:16];
+    itRight.onClick = ^{
+        [self.navigationController pushViewController:[QLRegisterViewController new] animated:YES];
+    };
+    self.navBar.rightItemList = [NSArray arrayWithObject:itRight];
+
+    [self createSubView];
 }
-- (void)backBtnPress {
-    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+
+- (void)createSubView {
+    UILabel *titleLab = [[UILabel alloc] initWithFrame:CGRectMake(25, 98+WT_Height_StatusBar, WTScreenWidth-25-25, 23)];
+    titleLab.font = WTFontSys(24);
+    titleLab.textColor = QL_NavBar_TitleColor_Black;
+    titleLab.text = @"密码登录";
+    [self.view addSubview:titleLab];
+    
+    UIView *phoneOrNameView = [[UIView alloc] initWithFrame:CGRectMake(24, titleLab.bottom+32, WTScreenWidth-24-24, 44)];
+    [QLBusinessUtil setPhoneTextViewBackGround:phoneOrNameView];
+    [self.view addSubview:phoneOrNameView];
+
+    _phoneNameTextField = [[UITextField alloc] initWithFrame:CGRectMake(15, 0, phoneOrNameView.width-30, phoneOrNameView.height)];
+    _phoneNameTextField.textColor = QL_NavBar_TitleColor_Black;
+    _phoneNameTextField.font = WTFontSys(16);
+    _phoneNameTextField.placeholder = @"请输入用户名或手机号";
+    [phoneOrNameView addSubview:_phoneNameTextField];
+    
+    UIView *passWodrView = [[UIView alloc] initWithFrame:CGRectMake(24, phoneOrNameView.bottom+12, WTScreenWidth-24-24, 44)];
+    [QLBusinessUtil setPhoneTextViewBackGround:passWodrView];
+    [self.view addSubview:passWodrView];
+    
+    _passwordTextField = [[UITextField alloc] initWithFrame:CGRectMake(15, 0, passWodrView.width-30, passWodrView.height)];
+    _passwordTextField.textColor = QL_NavBar_TitleColor_Black;
+    _passwordTextField.font = WTFontSys(16);
+    _passwordTextField.placeholder = @"请输入密码";
+    [passWodrView addSubview:_passwordTextField];
+    
+    UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(24, passWodrView.bottom+16, WTScreenWidth-24-24, 44)];
+    [loginBtn setBackgroundImage:[WTUtil createImageFromColor:QL_NavBar_BgColor_Yellow] forState:UIControlStateNormal];
+    loginBtn.layer.cornerRadius = 2;
+    loginBtn.layer.masksToBounds = YES;
+    loginBtn.titleLabel.font = WTFontSys(17);
+    [loginBtn setTitle:@"登录" forState:UIControlStateNormal];
+    [loginBtn setTitleColor:QL_NavBar_TitleColor_Black forState:UIControlStateNormal];
+    [self.view addSubview:loginBtn];
+
+    //底部第三方登录区域背景
+    UIView *bgView = [[UIView alloc] initWithFrame:CGRectMake(0, WTScreenHeight-196, WTScreenWidth, 196)];
+    [self.view addSubview:bgView];
+
+    UIImageView *bgImg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, WTScreenWidth, 196)];
+    [bgImg setImage:[UIImage imageNamed:@"loginBack"]];
+    [bgView addSubview:bgImg];
+    
+    UILabel *tipLab = [[UILabel alloc] initWithFrame:CGRectMake(0, 56, WTScreenWidth, 12)];
+    tipLab.text = @"第三方登录";
+    tipLab.font = WTFontSys(12);
+    tipLab.textAlignment = NSTextAlignmentCenter;
+    tipLab.textColor = WTColorHex(0xBBA31A);
+    [bgView addSubview:tipLab];
+    
+    float offsetX = (WTScreenWidth-48*3-36*2)/2;
+    
+    UIButton *btnWeiXin = [[UIButton alloc] initWithFrame:CGRectMake(offsetX, 90, 48, 48)];
+    [btnWeiXin setBackgroundImage:[UIImage imageNamed:@"weixinLogin"] forState:UIControlStateNormal];
+    [bgView addSubview:btnWeiXin];
+
+    UIButton *btnSina = [[UIButton alloc] initWithFrame:CGRectMake(btnWeiXin.right+36, 90, 48, 48)];
+    [btnSina setBackgroundImage:[UIImage imageNamed:@"sinaLogin"] forState:UIControlStateNormal];
+    [bgView addSubview:btnSina];
+
+    UIButton *btnQQ = [[UIButton alloc] initWithFrame:CGRectMake(btnSina.right+36, 90, 48, 48)];
+    [btnQQ setBackgroundImage:[UIImage imageNamed:@"qqLogin"] forState:UIControlStateNormal];
+    [bgView addSubview:btnQQ];
 }
 
 @end

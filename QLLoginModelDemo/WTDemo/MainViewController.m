@@ -19,6 +19,11 @@
     [super viewDidLoad];
     self.navBar.leftItemList = [NSArray array];
     self.navBar.title = @"首页";
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(20, 120, 200, 40)];
+    btn.backgroundColor = [UIColor redColor];
+    [btn addTarget:self action:@selector(goLogin) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    
     [self performSelector:@selector(goLogin) withObject:nil afterDelay:0.5];
 }
 
