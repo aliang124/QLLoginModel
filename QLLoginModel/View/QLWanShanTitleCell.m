@@ -7,11 +7,12 @@
 //
 #import "QLWanShanTitleCell.h"
 #import "WTBaseCore.h"
-
+#import "QLBusiness.h"
+#import "QLLoginUtil.h"
 @implementation QLWanShanTitleItem
 - (id)init{
     if (self = [super init]) {
-        self.cellHeight = 120;
+        self.cellHeight = 56;
         self.bgColor = [UIColor whiteColor];
         self.hasBottomLine = NO;
         self.canHighlighted = NO;
@@ -23,6 +24,8 @@
 
 @interface QLWanShanTitleCell()
 {
+    UIButton *cameraBtn;
+    UIImageView *cameraImg;
 }
 @end
 
@@ -31,6 +34,27 @@
 - (void)cellDidLoad
 {
     [super cellDidLoad];
+    UILabel *titleLab = [[UILabel alloc] initWithFrame:CGRectMake(25, 4, WTScreenWidth-25-25, 23)];
+    titleLab.font = WTFontSys(24);
+    titleLab.textColor = QL_NavBar_TitleColor_Black;
+    titleLab.text = @"完善资料";
+    [self.contentView addSubview:titleLab];
+    
+    UILabel *subTitleLab = [[UILabel alloc] initWithFrame:CGRectMake(25, titleLab.bottom+14, titleLab.width, 11)];
+    subTitleLab.font = WTFontSys(12);
+    subTitleLab.textColor = QL_DescColor_Gray;
+    subTitleLab.text = @"请完善你的基本信息";
+    [self.contentView addSubview:subTitleLab];
+
+    cameraBtn = [[UIButton alloc] initWithFrame:CGRectMake(WTScreenWidth-23-56, 0, 56, 56)];
+    [cameraBtn setBackgroundImage:[WTUtil createImageFromColor:QL_NavBar_BgColor_Yellow] forState:UIControlStateNormal];
+    cameraBtn.layer.cornerRadius = 28;
+    cameraBtn.layer.masksToBounds = YES;
+    [self.contentView addSubview:cameraBtn];
+    
+    cameraImg = [[UIImageView alloc] initWithFrame:CGRectMake(14, 14, 28, 28)];
+    [cameraImg setImage:[UIImage imageNamed:@"camera"]];
+    [cameraBtn addSubview:cameraImg];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated{}
