@@ -53,9 +53,9 @@
     titleLab.text = @"密码登录";
     [self.view addSubview:titleLab];
     //用户名或手机号
-    _phoneNameTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, titleLab.bottom+32, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"请输入用户名或手机号" hasClear:NO];
+    _phoneNameTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, titleLab.bottom+32, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"请输入用户名或手机号"];
     //密码
-    _passwordTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, _phoneNameTextField.bottom+12, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"请输入密码" hasClear:NO];
+    _passwordTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, _phoneNameTextField.bottom+12, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"请输入密码"];
     //登录按钮
     UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(24, _passwordTextField.bottom+16, WTScreenWidth-24-24, 44)];
     [QLBusinessUtil setRoundBtn:loginBtn titleText:@"登录"];

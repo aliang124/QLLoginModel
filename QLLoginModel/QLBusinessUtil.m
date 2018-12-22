@@ -11,18 +11,11 @@
 #import "QLBusiness.h"
 
 @implementation QLBusinessUtil
-+ (UITextField *)createTextFieldView:(CGRect)frame superView:(UIView *)superView placeHolder:(NSString *)place hasClear:(BOOL)hasClear {
++ (UITextField *)createTextFieldView:(CGRect)frame superView:(UIView *)superView placeHolder:(NSString *)place {
     UIView *phoneOrNameView = [[UIView alloc] initWithFrame:frame];
     [QLBusinessUtil setPhoneTextViewBackGround:phoneOrNameView];
     [superView addSubview:phoneOrNameView];
     
-    if (hasClear) {
-        UIButton *clearBtn = [[UIButton alloc] initWithFrame:CGRectMake(phoneOrNameView.width-14-22, 11, 22, 22)];
-        [clearBtn setImage:[UIImage imageNamed:@"clearBtn"] forState:UIControlStateNormal];
-        [clearBtn addTarget:self action:@selector(clearBtnPress) forControlEvents:UIControlEventTouchUpInside];
-        [phoneOrNameView addSubview:clearBtn];
-    }
-
     UITextField *phoneNameTextField = [[UITextField alloc] initWithFrame:CGRectMake(frame.origin.x+15, frame.origin.y, phoneOrNameView.width-30, phoneOrNameView.height)];
     phoneNameTextField.textColor = QL_UserName_TitleColor_Black;
     phoneNameTextField.font = WTFontSys(16);
@@ -47,4 +40,5 @@
     [loginBtn setTitle:titleText forState:UIControlStateNormal];
     [loginBtn setTitleColor:QL_NavBar_TitleColor_Black forState:UIControlStateNormal];
 }
+
 @end

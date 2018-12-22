@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface QLBusinessUtil : NSObject
-+ (UITextField *)createTextFieldView:(CGRect)frame superView:(UIView *)superView placeHolder:(NSString *)place hasClear:(BOOL)hasClear;
++ (UITextField *)createTextFieldView:(CGRect)frame superView:(UIView *)superView placeHolder:(NSString *)place;
 + (void)setPhoneTextViewBackGround:(UIView *)phoneOrNameView;
 + (void)setRoundBtn:(UIButton *)loginBtn titleText:(NSString *)titleText;
 @end

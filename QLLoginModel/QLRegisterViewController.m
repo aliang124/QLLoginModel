@@ -55,12 +55,17 @@
     [self.view addSubview:titleLab];
     
     //用户名或手机号
-    _phoneNameTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, titleLab.bottom+32, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"请输入用户名或手机号" hasClear:YES];
+    _phoneNameTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, titleLab.bottom+32, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"请输入用户名或手机号"];
     _phoneNameTextField.text = @"13478906890";
+    
+    UIButton *clearBtn = [[UIButton alloc] initWithFrame:CGRectMake(_phoneNameTextField.right+15-14-22, _phoneNameTextField.top+11, 22, 22)];
+    [clearBtn setImage:[UIImage imageNamed:@"clearBtn"] forState:UIControlStateNormal];
+    [clearBtn addTarget:self action:@selector(clearBtnPress) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:clearBtn];
 
     //验证码
     float verifyViewWidth = _phoneNameTextField.width+30-12-100;
-    _verifyTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, _phoneNameTextField.bottom+12, verifyViewWidth, 44) superView:self.view placeHolder:@"请输入验证码码" hasClear:NO];
+    _verifyTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, _phoneNameTextField.bottom+12, verifyViewWidth, 44) superView:self.view placeHolder:@"请输入验证码码"];
 
     UIButton *verifyBtn = [[UIButton alloc] initWithFrame:CGRectMake(_verifyTextField.right+15+12, _verifyTextField.top, 100, 44)];
     [QLBusinessUtil setRoundBtn:verifyBtn titleText:@"获取验证码"];
@@ -69,7 +74,7 @@
     [self.view addSubview:verifyBtn];
 
     //设置登录密码
-    _passwordTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, _verifyTextField.bottom+12, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"设置登录密码" hasClear:NO];
+    _passwordTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, _verifyTextField.bottom+12, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"设置登录密码"];
     
     UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(24, _passwordTextField.bottom+16, WTScreenWidth-24-24, 44)];
     [QLBusinessUtil setRoundBtn:loginBtn titleText:@"确定"];
