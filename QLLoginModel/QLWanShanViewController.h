@@ -6,11 +6,11 @@
 //  Copyright © 2018年 计恩良. All rights reserved.
 //
 
-#import "WTViewController.h"
+#import "QLFormViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface QLWanShanViewController : WTViewController
+@interface QLWanShanViewController : QLFormViewController
 
 @end
 
