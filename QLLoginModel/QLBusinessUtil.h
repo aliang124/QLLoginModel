@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface QLBusinessUtil : NSObject
 + (void)setPhoneTextViewBackGround:(UIView *)phoneOrNameView;
++ (void)setRoundBtn:(UIButton *)loginBtn titleText:(NSString *)titleText;
 @end
 
 NS_ASSUME_NONNULL_END

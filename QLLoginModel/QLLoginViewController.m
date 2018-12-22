@@ -22,6 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    self.navBar.bgColor = [UIColor whiteColor];
     
     WTCustomBarItem *itLeft = [[WTCustomBarItem alloc] init];
     itLeft.itemStyle = 1;
@@ -46,7 +47,7 @@
 }
 
 - (void)createSubView {
-    UILabel *titleLab = [[UILabel alloc] initWithFrame:CGRectMake(25, 98+WT_Height_StatusBar, WTScreenWidth-25-25, 23)];
+    UILabel *titleLab = [[UILabel alloc] initWithFrame:CGRectMake(25, 98+WT_Height_StatusBar-20, WTScreenWidth-25-25, 23)];
     titleLab.font = WTFontSys(24);
     titleLab.textColor = QL_NavBar_TitleColor_Black;
     titleLab.text = @"密码登录";
@@ -57,7 +58,7 @@
     [self.view addSubview:phoneOrNameView];
 
     _phoneNameTextField = [[UITextField alloc] initWithFrame:CGRectMake(15, 0, phoneOrNameView.width-30, phoneOrNameView.height)];
-    _phoneNameTextField.textColor = QL_NavBar_TitleColor_Black;
+    _phoneNameTextField.textColor = QL_UserName_TitleColor_Black;
     _phoneNameTextField.font = WTFontSys(16);
     _phoneNameTextField.placeholder = @"请输入用户名或手机号";
     [phoneOrNameView addSubview:_phoneNameTextField];
@@ -67,18 +68,13 @@
     [self.view addSubview:passWodrView];
     
     _passwordTextField = [[UITextField alloc] initWithFrame:CGRectMake(15, 0, passWodrView.width-30, passWodrView.height)];
-    _passwordTextField.textColor = QL_NavBar_TitleColor_Black;
+    _passwordTextField.textColor = QL_UserName_TitleColor_Black;
     _passwordTextField.font = WTFontSys(16);
     _passwordTextField.placeholder = @"请输入密码";
     [passWodrView addSubview:_passwordTextField];
     
     UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(24, passWodrView.bottom+16, WTScreenWidth-24-24, 44)];
-    [loginBtn setBackgroundImage:[WTUtil createImageFromColor:QL_NavBar_BgColor_Yellow] forState:UIControlStateNormal];
-    loginBtn.layer.cornerRadius = 2;
-    loginBtn.layer.masksToBounds = YES;
-    loginBtn.titleLabel.font = WTFontSys(17);
-    [loginBtn setTitle:@"登录" forState:UIControlStateNormal];
-    [loginBtn setTitleColor:QL_NavBar_TitleColor_Black forState:UIControlStateNormal];
+    [QLBusinessUtil setRoundBtn:loginBtn titleText:@"登录"];
     [self.view addSubview:loginBtn];
 
     //底部第三方登录区域背景

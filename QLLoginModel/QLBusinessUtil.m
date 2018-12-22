@@ -7,6 +7,8 @@
 //
 
 #import "QLBusinessUtil.h"
+#import "WTBaseCore.h"
+#import "QLBusiness.h"
 
 @implementation QLBusinessUtil
 + (void)setPhoneTextViewBackGround:(UIView *)phoneOrNameView {
@@ -17,4 +19,12 @@
     phoneOrNameView.layer.borderWidth = 1;
 }
 
++ (void)setRoundBtn:(UIButton *)loginBtn titleText:(NSString *)titleText {
+    [loginBtn setBackgroundImage:[WTUtil createImageFromColor:QL_NavBar_BgColor_Yellow] forState:UIControlStateNormal];
+    loginBtn.layer.cornerRadius = 2;
+    loginBtn.layer.masksToBounds = YES;
+    loginBtn.titleLabel.font = WTFontSys(17);
+    [loginBtn setTitle:titleText forState:UIControlStateNormal];
+    [loginBtn setTitleColor:QL_NavBar_TitleColor_Black forState:UIControlStateNormal];
+}
 @end
