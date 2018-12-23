@@ -25,6 +25,11 @@
 
 @interface QLChildInfoCell()
 {
+    UIButton *editNameBtn;
+    UITextField *nameTextField;
+    UIButton *huanYunBtn;
+    UIButton *wangZiBtn;
+    UIButton *gongZhuBtn;
 }
 @end
 
@@ -46,10 +51,56 @@
     bgView.layer.borderWidth = 1;
     [self.contentView addSubview:bgView];
 
+    //宝宝姓名
+    editNameBtn = [[UIButton alloc] initWithFrame:CGRectMake(bgView.width-16-64, 12, 64, 24)];
+    [editNameBtn setBackgroundImage:[WTUtil createImageFromColor:QL_NavBar_BgColor_Yellow] forState:UIControlStateNormal];
+    editNameBtn.titleLabel.font = WTFontSys(12);
+    [editNameBtn setTitleColor:QL_UserName_TitleColor_Black forState:UIControlStateNormal];
+    [editNameBtn setTitle:@"编辑姓名" forState:UIControlStateNormal];
+    [bgView addSubview:editNameBtn];
+    
+    nameTextField = [[UITextField alloc] initWithFrame:CGRectMake(16, 0, bgView.width-16-64-16, 48)];
+    nameTextField.textColor = QL_UserName_TitleColor_Black;
+    nameTextField.font = WTFontSys(16);
+    nameTextField.placeholder = @"宝宝姓名";
+    [bgView addSubview:nameTextField];
+
     UIImageView *line1 = [[UIImageView alloc] initWithFrame:CGRectMake(12, 48, bgView.width-12-12, 1)];
     line1.backgroundColor = WTColorHex(0xEEEEE5);
     [bgView addSubview:line1];
     
+    //宝宝状态（怀孕中、小王子、小公主）
+    UILabel *tipLab = [[UILabel alloc] initWithFrame:CGRectMake(16, 48, bgView.width-16-16, 48)];
+    tipLab.font = WTFontSys(14);
+    tipLab.textColor = QL_UserName_TitleColor_Black;
+    tipLab.text = @"状态";
+    [bgView addSubview:tipLab];
+    
+    float offsetX = bgView.width-(52*3)-(2*8)-16;
+    for (int i = 0; i < 3; i++) {
+        UIButton *statusBtn = [[UIButton alloc] initWithFrame:CGRectMake(offsetX, 48+12, 52, 24)];
+        statusBtn.titleLabel.font = WTFontSys(12);
+        [statusBtn setTitleColor:QL_UserName_TitleColor_Black forState:UIControlStateNormal];
+        [statusBtn setBackgroundImage:[WTUtil createImageFromColor:WTColorHex(0xF5F5F2)] forState:UIControlStateNormal];
+        [statusBtn setBackgroundImage:[WTUtil createImageFromColor:QL_NavBar_BgColor_Yellow] forState:UIControlStateSelected];
+        [statusBtn addTarget:self action:@selector(statusBtnPress:) forControlEvents:UIControlEventTouchUpInside];
+        if (i==0) {
+            huanYunBtn = statusBtn;
+            [statusBtn setTitle:@"怀孕中" forState:UIControlStateNormal];
+        } else if (i==1) {
+            wangZiBtn = statusBtn;
+            [statusBtn setTitle:@"小王子" forState:UIControlStateNormal];
+        } else {
+            gongZhuBtn = statusBtn;
+            [statusBtn setTitle:@"小公主" forState:UIControlStateNormal];
+        }
+        [bgView addSubview:statusBtn];
+        
+        offsetX = statusBtn.right + 8;        
+    }
+    //默认选中怀孕中
+    [self statusBtnPress:huanYunBtn];
+
     UIImageView *line2 = [[UIImageView alloc] initWithFrame:CGRectMake(12, 96, bgView.width-12-12, 1)];
     line2.backgroundColor = WTColorHex(0xEEEEE5);
     [bgView addSubview:line2];
@@ -79,4 +130,19 @@
     [super layoutSubviews];
 }
 
+- (void)statusBtnPress:(UIButton *)btn {
+    if (btn==huanYunBtn) {
+        huanYunBtn.selected = YES;
+        wangZiBtn.selected = NO;
+        gongZhuBtn.selected = NO;
+    } else if (btn==wangZiBtn) {
+        huanYunBtn.selected = NO;
+        wangZiBtn.selected = YES;
+        gongZhuBtn.selected = NO;
+    } else if (btn==gongZhuBtn) {
+        huanYunBtn.selected = NO;
+        wangZiBtn.selected = NO;
+        gongZhuBtn.selected = YES;
+    }
+}
 @end
