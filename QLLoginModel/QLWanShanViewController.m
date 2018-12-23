@@ -14,6 +14,7 @@
 #import "QLNickNameCell.h"
 #import "QLSelectCheckCell.h"
 #import "QLChildInfoCell.h"
+#import "QLAddBabyCell.h"
 @interface QLWanShanViewController ()
 @end
 
@@ -38,6 +39,7 @@
     self.formManager[@"QLNickNameItem"] = @"QLNickNameCell";
     self.formManager[@"QLSelectCheckItem"] = @"QLSelectCheckCell";
     self.formManager[@"QLChildInfoItem"] = @"QLChildInfoCell";
+    self.formManager[@"QLAddBabyItem"] = @"QLAddBabyCell";
     [self initForm];
 }
 
@@ -70,6 +72,11 @@
 
     QLChildInfoItem *info = [[QLChildInfoItem alloc] init];
     [section0 addItem:info];
+    
+    [section0 addItem:[WTEmptyItem initWithHeight:12]];
+
+    QLAddBabyItem *itBaby = [[QLAddBabyItem alloc] init];
+    [section0 addItem:itBaby];
     
     [sectionArray addObject:section0];
     [self.formManager replaceSectionsWithSectionsFromArray:sectionArray];
