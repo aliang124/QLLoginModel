@@ -38,8 +38,8 @@
 {
     [super cellDidLoad];
     bgBtn = [[UIButton alloc] initWithFrame:CGRectMake(24, 0, WTScreenWidth-24-23, 44)];
-    [bgBtn setBackgroundImage:[WTUtil createImageFromColor:WTColorHex(0xFAFAF7)] forState:UIControlStateNormal];
-    bgBtn.backgroundColor = WTColorHex(0xFAFAF7);
+    [bgBtn setBackgroundImage:[WTUtil createImageFromColor:[UIColor whiteColor]] forState:UIControlStateNormal];
+    bgBtn.backgroundColor = [UIColor whiteColor];
     bgBtn.layer.cornerRadius = 2;
     bgBtn.layer.masksToBounds = YES;
     bgBtn.layer.borderColor = WTColorHex(0xECECE6).CGColor;

@@ -30,6 +30,8 @@
     UIButton *huanYunBtn;
     UIButton *wangZiBtn;
     UIButton *gongZhuBtn;
+    UILabel *dateTipLab;
+    UILabel *dateLab;
 }
 @end
 
@@ -96,7 +98,7 @@
         }
         [bgView addSubview:statusBtn];
         
-        offsetX = statusBtn.right + 8;        
+        offsetX = statusBtn.right + 8;
     }
     //默认选中怀孕中
     [self statusBtnPress:huanYunBtn];
@@ -105,6 +107,27 @@
     line2.backgroundColor = WTColorHex(0xEEEEE5);
     [bgView addSubview:line2];
     
+    //选择日期（预产期、生日）
+    UIButton *dateBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 97, bgView.width, 47)];
+    [dateBtn setBackgroundImage:[WTUtil createImageFromColor:[UIColor whiteColor]] forState:UIControlStateNormal];
+    [bgView addSubview:dateBtn];
+    
+    dateTipLab = [[UILabel alloc] initWithFrame:CGRectMake(16, 0, dateBtn.width-16-16, 47)];
+    dateTipLab.font = WTFontSys(14);
+    dateTipLab.textColor = QL_UserName_TitleColor_Black;
+    dateTipLab.text = @"预产期";
+    [dateBtn addSubview:dateTipLab];
+
+    UIImageView *arrowImg = [[UIImageView alloc] initWithFrame:CGRectMake(dateBtn.width-16-7, (47-10)/2, 7, 10)];
+    [arrowImg setImage:[UIImage imageNamed:@"arrowImg"]];
+    [dateBtn addSubview:arrowImg];
+
+    dateLab = [[UILabel alloc] initWithFrame:CGRectMake(16, 0, dateBtn.width-16-16-7-15, 47)];
+    dateLab.font = WTFontSys(14);
+    dateLab.textColor = WTColorHex(0xFF63625C);
+    dateLab.textAlignment = NSTextAlignmentRight;
+    [dateBtn addSubview:dateLab];
+
     UIImageView *line3 = [[UIImageView alloc] initWithFrame:CGRectMake(0, 144, bgView.width, 1)];
     line3.backgroundColor = WTColorHex(0xEEEEE5);
     [bgView addSubview:line3];
@@ -113,6 +136,7 @@
     [clearInfo setBackgroundImage:[WTUtil createImageFromColor:[UIColor whiteColor]] forState:UIControlStateNormal];
     clearInfo.titleLabel.font = WTFontSys(12);
     [clearInfo setTitleColor:WTColorHex(0xFF6A18) forState:UIControlStateNormal];
+    [clearInfo addTarget:self action:@selector(clearBtnPress) forControlEvents:UIControlEventTouchUpInside];
     [clearInfo setTitle:@"清除信息" forState:UIControlStateNormal];
     [bgView addSubview:clearInfo];
 }
@@ -144,5 +168,11 @@
         wangZiBtn.selected = NO;
         gongZhuBtn.selected = YES;
     }
+}
+
+- (void)clearBtnPress {
+    [self endEditing:YES];
+    dateLab.text = @"";
+    nameTextField.text = @"";
 }
 @end
