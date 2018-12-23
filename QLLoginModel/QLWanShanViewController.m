@@ -7,6 +7,7 @@
 //
 
 #import "QLWanShanViewController.h"
+#import "QLWanShanNextViewController.h"
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
 #import "QLLoginUtil.h"
@@ -24,7 +25,8 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.navBar.bgColor = [UIColor whiteColor];
-    
+    self.formTable.frame = CGRectMake(0, 84+WT_Height_StatusBar-20, WTScreenWidth, WTScreenHeight-(84+WT_Height_StatusBar-20)-55);
+
     WTCustomBarItem *itRight = [[WTCustomBarItem alloc] init];
     itRight.itemStyle = 0;
     itRight.itemTitle = @"跳过";
@@ -34,13 +36,24 @@
         [self.navigationController popViewControllerAnimated:YES];
     };
     self.navBar.rightItemList = [NSArray arrayWithObject:itRight];
-    self.formTable.frame = CGRectMake(0, 84+WT_Height_StatusBar-20, WTScreenWidth, WTScreenHeight-(84+WT_Height_StatusBar-20)-55);
+
     self.formManager[@"QLWanShanTitleItem"] = @"QLWanShanTitleCell";
     self.formManager[@"QLNickNameItem"] = @"QLNickNameCell";
     self.formManager[@"QLSelectCheckItem"] = @"QLSelectCheckCell";
     self.formManager[@"QLChildInfoItem"] = @"QLChildInfoCell";
     self.formManager[@"QLAddBabyItem"] = @"QLAddBabyCell";
     [self initForm];
+    
+    UIButton *nextBtn = [[UIButton alloc] initWithFrame:CGRectMake(8, WTScreenHeight-8-38, WTScreenWidth-8-8, 38)];
+    if (iPhoneX) {
+        nextBtn.top = WTScreenHeight-8-38-34;
+    }
+    [nextBtn setBackgroundImage:[WTUtil createImageFromColor:QL_NavBar_BgColor_Yellow] forState:UIControlStateNormal];
+    nextBtn.titleLabel.font = WTFontSys(18);
+    [nextBtn setTitle:@"下一步" forState:UIControlStateNormal];
+    [nextBtn setTitleColor:WTColorHex(0xFF232A34) forState:UIControlStateNormal];
+    [nextBtn addTarget:self action:@selector(nextBtnPress) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:nextBtn];
 }
 
 - (void)initForm {
@@ -84,4 +97,8 @@
     [self.formTable reloadData];
 }
 
+- (void)nextBtnPress {
+    QLWanShanNextViewController *next = [[QLWanShanNextViewController alloc] init];
+    [self.navigationController pushViewController:next animated:YES];
+}
 @end
