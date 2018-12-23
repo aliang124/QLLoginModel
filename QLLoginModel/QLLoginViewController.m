@@ -8,10 +8,8 @@
 
 #import "QLLoginViewController.h"
 #import "QLRegisterViewController.h"
-#import "WTBaseCore.h"
-#import "QLBusiness.h"
 #import "QLLoginUtil.h"
-
+#import "QLThirdLoginViewController.h"
 @interface QLLoginViewController ()
 @property (nonatomic,strong) UITextField *phoneNameTextField;
 @property (nonatomic,strong) UITextField *passwordTextField;
@@ -79,15 +77,34 @@
     
     UIButton *btnWeiXin = [[UIButton alloc] initWithFrame:CGRectMake(offsetX, 90, 48, 48)];
     [btnWeiXin setBackgroundImage:[UIImage imageNamed:@"weixinLogin"] forState:UIControlStateNormal];
+    [btnWeiXin addTarget:self action:@selector(weixinLogin) forControlEvents:UIControlEventTouchUpInside];
     [bgView addSubview:btnWeiXin];
 
     UIButton *btnSina = [[UIButton alloc] initWithFrame:CGRectMake(btnWeiXin.right+36, 90, 48, 48)];
     [btnSina setBackgroundImage:[UIImage imageNamed:@"sinaLogin"] forState:UIControlStateNormal];
+    [btnSina addTarget:self action:@selector(weiboLogin) forControlEvents:UIControlEventTouchUpInside];
     [bgView addSubview:btnSina];
 
     UIButton *btnQQ = [[UIButton alloc] initWithFrame:CGRectMake(btnSina.right+36, 90, 48, 48)];
     [btnQQ setBackgroundImage:[UIImage imageNamed:@"qqLogin"] forState:UIControlStateNormal];
+    [btnQQ addTarget:self action:@selector(QQLogin) forControlEvents:UIControlEventTouchUpInside];
     [bgView addSubview:btnQQ];
 }
 
+- (void)weiboLogin {
+    [self goThirdLogin];
+}
+
+- (void)QQLogin {
+    [self goThirdLogin];
+}
+
+- (void)weixinLogin {
+    [self goThirdLogin];
+}
+
+- (void)goThirdLogin {
+    QLThirdLoginViewController *third = [[QLThirdLoginViewController alloc] init];
+    [self.navigationController pushViewController:third animated:YES];
+}
 @end

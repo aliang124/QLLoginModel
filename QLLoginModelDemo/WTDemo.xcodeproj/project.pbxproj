@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		221AEC82A8DB30A6462C9440 /* libPods-WTDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A24F37922F2E1F5DE6CD53EC /* libPods-WTDemo.a */; };
 		505D27BC21CFB73500B82E60 /* QLAddBabyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 505D27BB21CFB73500B82E60 /* QLAddBabyCell.m */; };
+		505D27BF21CFD8E800B82E60 /* QLThirdLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505D27BE21CFD8E800B82E60 /* QLThirdLoginViewController.m */; };
 		507CD35B21CE97EF00F5AF8C /* QLLoginUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 507CD35821CE97EF00F5AF8C /* QLLoginUtil.m */; };
 		507CD36121CEAA4E00F5AF8C /* QLWanShanTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 507CD35F21CEAA4E00F5AF8C /* QLWanShanTitleCell.m */; };
 		507CD36821CEBFB700F5AF8C /* QLNickNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 507CD36721CEBFB700F5AF8C /* QLNickNameCell.m */; };
@@ -29,6 +30,8 @@
 /* Begin PBXFileReference section */
 		505D27BA21CFB73500B82E60 /* QLAddBabyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLAddBabyCell.h; sourceTree = "<group>"; };
 		505D27BB21CFB73500B82E60 /* QLAddBabyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLAddBabyCell.m; sourceTree = "<group>"; };
+		505D27BD21CFD8E700B82E60 /* QLThirdLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLThirdLoginViewController.h; sourceTree = "<group>"; };
+		505D27BE21CFD8E800B82E60 /* QLThirdLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLThirdLoginViewController.m; sourceTree = "<group>"; };
 		507CD35821CE97EF00F5AF8C /* QLLoginUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLLoginUtil.m; sourceTree = "<group>"; };
 		507CD35921CE97EF00F5AF8C /* QLLoginUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLLoginUtil.h; sourceTree = "<group>"; };
 		507CD35F21CEAA4E00F5AF8C /* QLWanShanTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLWanShanTitleCell.m; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 				50E8FF9121996CCE002C0695 /* Target_QLLoginModel.m */,
 				50E8FF9021996CCE002C0695 /* QLLoginViewController.h */,
 				50E8FF9221996CCE002C0695 /* QLLoginViewController.m */,
+				505D27BD21CFD8E700B82E60 /* QLThirdLoginViewController.h */,
+				505D27BE21CFD8E800B82E60 /* QLThirdLoginViewController.m */,
 				50E8FF96219975C3002C0695 /* QLRegisterViewController.h */,
 				50E8FF97219975C3002C0695 /* QLRegisterViewController.m */,
 				50E8FF9C21997D68002C0695 /* QLWanShanViewController.h */,
@@ -307,6 +312,7 @@
 				505D27BC21CFB73500B82E60 /* QLAddBabyCell.m in Sources */,
 				507CD35B21CE97EF00F5AF8C /* QLLoginUtil.m in Sources */,
 				50DADCEF2192811B00DA8BFE /* main.m in Sources */,
+				505D27BF21CFD8E800B82E60 /* QLThirdLoginViewController.m in Sources */,
 				50E8FF9B219975FD002C0695 /* MainViewController.m in Sources */,
 				50E8FF9421996CCE002C0695 /* Target_QLLoginModel.m in Sources */,
 				50E8FFA121997D88002C0695 /* QLWanShanNextViewController.m in Sources */,
@@ -455,7 +461,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WTDemo/WTDemo.pch";
 				INFOPLIST_FILE = WTDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jienliang.WTDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,7 +479,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WTDemo/WTDemo.pch";
 				INFOPLIST_FILE = WTDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jienliang.WTDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

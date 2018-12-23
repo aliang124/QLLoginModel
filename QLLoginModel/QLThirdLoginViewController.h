@@ -1,5 +1,5 @@
 //
-//  QLRegisterViewController.h
+//  QLThirdLoginViewController.h
 //  WTDemo
 //
 //  Created by 计恩良 on 2018/11/12.
@@ -9,6 +9,6 @@
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
 
-@interface QLRegisterViewController : QLViewController
+@interface QLThirdLoginViewController : QLViewController
 
 @end

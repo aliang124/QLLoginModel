@@ -7,7 +7,8 @@
 //
 
 #import "WTBaseCore.h"
+#import "QLBusiness.h"
 
-@interface QLLoginViewController : WTViewController
+@interface QLLoginViewController : QLViewController
 @property (nonatomic,copy) NSString *titleText;
 @end

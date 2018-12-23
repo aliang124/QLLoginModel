@@ -7,11 +7,6 @@
 //
 
 #import "QLFormViewController.h"
-
-NS_ASSUME_NONNULL_BEGIN
-
 @interface QLWanShanViewController : QLFormViewController
 
 @end
-
-NS_ASSUME_NONNULL_END

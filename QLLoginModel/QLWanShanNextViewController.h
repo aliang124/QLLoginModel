@@ -6,12 +6,9 @@
 //  Copyright © 2018年 计恩良. All rights reserved.
 //
 
-#import "WTViewController.h"
+#import "WTBaseCore.h"
+#import "QLBusiness.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
-@interface QLWanShanNextViewController : WTViewController
+@interface QLWanShanNextViewController : QLViewController
 
 @end
-
-NS_ASSUME_NONNULL_END
