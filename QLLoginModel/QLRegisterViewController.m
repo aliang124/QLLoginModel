@@ -65,7 +65,7 @@
 
     //验证码
     float verifyViewWidth = _phoneNameTextField.width+30-12-100;
-    _verifyTextField = [QLLoginUtil createTextFieldView:CGRectMake(24, _phoneNameTextField.bottom+12, verifyViewWidth, 44) superView:self.view placeHolder:@"请输入验证码码"];
+    _verifyTextField = [QLLoginUtil createTextFieldView:CGRectMake(24, _phoneNameTextField.bottom+12, verifyViewWidth, 44) superView:self.view placeHolder:@"请输入验证码"];
 
     UIButton *verifyBtn = [[UIButton alloc] initWithFrame:CGRectMake(_verifyTextField.right+15+12, _verifyTextField.top, 100, 44)];
     [QLLoginUtil setRoundBtn:verifyBtn titleText:@"获取验证码"];

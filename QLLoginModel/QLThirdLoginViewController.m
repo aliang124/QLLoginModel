@@ -11,7 +11,7 @@
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
 #import "QLLoginUtil.h"
-
+#import "WTImagePickerUtil.h"
 @interface QLThirdLoginViewController ()
 @property (nonatomic,strong) UIButton *iconBtn;
 @property (nonatomic,strong) UILabel *nameLab;
@@ -54,6 +54,7 @@
     [_iconBtn setBackgroundImage:[UIImage imageNamed:@"default_userIcon"] forState:UIControlStateNormal];
     _iconBtn.layer.cornerRadius = 40;
     _iconBtn.layer.masksToBounds = YES;
+    [_iconBtn addTarget:self action:@selector(iconBtnPress) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_iconBtn];
     
     _nameLab = [[UILabel alloc] initWithFrame:CGRectMake(0, _iconBtn.bottom+10, WTScreenWidth, 12)];
@@ -77,7 +78,7 @@
 
     //验证码
     float verifyViewWidth = _phoneNameTextField.width+30-12-100;
-    _verifyTextField = [QLLoginUtil createTextFieldView:CGRectMake(24, _phoneNameTextField.bottom+12, verifyViewWidth, 44) superView:self.view placeHolder:@"请输入验证码码"];
+    _verifyTextField = [QLLoginUtil createTextFieldView:CGRectMake(24, _phoneNameTextField.bottom+12, verifyViewWidth, 44) superView:self.view placeHolder:@"请输入验证码"];
 
     UIButton *verifyBtn = [[UIButton alloc] initWithFrame:CGRectMake(_verifyTextField.right+15+12, _verifyTextField.top, 100, 44)];
     [QLLoginUtil setRoundBtn:verifyBtn titleText:@"获取验证码"];
@@ -101,5 +102,15 @@
 
 - (void)clearBtnPress {
     _phoneNameTextField.text = @"";
+}
+
+- (void)iconBtnPress {
+    WT(weakSelf);
+    [[WTImagePickerUtil shareInstance] showImagePicker:WTImagePickerUtilTypeActionSingleCrop inViewController:self];
+    [[WTImagePickerUtil shareInstance] setDidFinishPickingPhotosHandle:^(NSArray<UIImage *> *photos, NSArray *assets) {
+        if (photos.count>0) {
+            [weakSelf.iconBtn setBackgroundImage:photos[0] forState:UIControlStateNormal];
+        }
+    }];
 }
 @end
