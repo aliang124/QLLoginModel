@@ -8,6 +8,8 @@
 #import "WTBaseCell.h"
 
 @interface QLWanShanTitleItem : WTBaseItem
+@property (nonatomic,weak) UIViewController *delegateController;
+@property (nonatomic,copy) UIImage *selectImage;
 @end
 
 @interface QLWanShanTitleCell : WTBaseCell

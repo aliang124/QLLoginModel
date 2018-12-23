@@ -16,6 +16,7 @@
 #import "QLSelectCheckCell.h"
 #import "QLChildInfoCell.h"
 #import "QLAddBabyCell.h"
+
 @interface QLWanShanViewController ()
 @end
 
@@ -62,6 +63,7 @@
     RETableViewSection *section0 = [RETableViewSection section];
 
     QLWanShanTitleItem *itHead = [[QLWanShanTitleItem alloc] init];
+    itHead.delegateController = self;
     [section0 addItem:itHead];
     
     [section0 addItem:[WTEmptyItem initWithHeight:28]];

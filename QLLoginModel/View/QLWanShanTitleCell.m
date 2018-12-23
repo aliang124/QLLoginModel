@@ -9,6 +9,8 @@
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
 #import "QLLoginUtil.h"
+#import "WTImagePickerUtil.h"
+
 @implementation QLWanShanTitleItem
 - (id)init{
     if (self = [super init]) {
@@ -24,12 +26,13 @@
 
 @interface QLWanShanTitleCell()
 {
-    UIButton *cameraBtn;
     UIImageView *cameraImg;
 }
+@property (nonatomic,strong) UIButton *cameraBtn;
 @end
 
 @implementation QLWanShanTitleCell
+@synthesize cameraBtn;
 
 - (void)cellDidLoad
 {
@@ -50,6 +53,7 @@
     [cameraBtn setBackgroundImage:[WTUtil createImageFromColor:QL_NavBar_BgColor_Yellow] forState:UIControlStateNormal];
     cameraBtn.layer.cornerRadius = 28;
     cameraBtn.layer.masksToBounds = YES;
+    [cameraBtn addTarget:self action:@selector(cameraPress) forControlEvents:UIControlEventTouchUpInside];
     [self.contentView addSubview:cameraBtn];
     
     cameraImg = [[UIImageView alloc] initWithFrame:CGRectMake(14, 14, 28, 28)];
@@ -70,4 +74,14 @@
     [super layoutSubviews];
 }
 
+- (void)cameraPress {
+    WT(weakSelf);
+    [[WTImagePickerUtil shareInstance] showImagePicker:WTImagePickerUtilTypeActionSingleCrop inViewController:self.item.delegateController];
+    [[WTImagePickerUtil shareInstance] setDidFinishPickingPhotosHandle:^(NSArray<UIImage *> *photos, NSArray *assets) {
+        if (photos.count>0) {
+            weakSelf.item.selectImage = photos[0];
+            [weakSelf.cameraBtn setBackgroundImage:photos[0] forState:UIControlStateNormal];
+        }
+    }];
+}
 @end
