@@ -8,7 +8,6 @@
 #import "QLWanShanTitleCell.h"
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
-#import "QLLoginUtil.h"
 #import "WTImagePickerUtil.h"
 
 @implementation QLWanShanTitleItem

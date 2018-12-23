@@ -10,7 +10,6 @@
 #import "QLWanShanNextViewController.h"
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
-#import "QLLoginUtil.h"
 #import "QLWanShanTitleCell.h"
 #import "QLNickNameCell.h"
 #import "QLSelectCheckCell.h"

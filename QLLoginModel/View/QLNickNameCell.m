@@ -8,7 +8,6 @@
 #import "QLNickNameCell.h"
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
-#import "QLLoginUtil.h"
 
 @implementation QLNickNameItem
 - (id)init{
@@ -34,7 +33,7 @@
 - (void)cellDidLoad
 {
     [super cellDidLoad];
-    nickNameTextField = [QLLoginUtil createTextFieldView:CGRectMake(24, 0, WTScreenWidth-24-23, 44) superView:self.contentView placeHolder:@"你的昵称"];
+    nickNameTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, 0, WTScreenWidth-24-23, 44) superView:self.contentView placeHolder:@"你的昵称"];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated{}

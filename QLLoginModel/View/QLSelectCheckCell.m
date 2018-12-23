@@ -8,7 +8,6 @@
 #import "QLSelectCheckCell.h"
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
-#import "QLLoginUtil.h"
 
 @implementation QLSelectCheckItem
 - (id)init{

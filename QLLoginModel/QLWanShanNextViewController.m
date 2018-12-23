@@ -9,7 +9,6 @@
 #import "QLWanShanNextViewController.h"
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
-#import "QLLoginUtil.h"
 
 @interface QLWanShanNextViewController ()
 

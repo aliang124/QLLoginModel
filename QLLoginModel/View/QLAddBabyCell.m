@@ -8,7 +8,6 @@
 #import "QLAddBabyCell.h"
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
-#import "QLLoginUtil.h"
 
 @implementation QLAddBabyItem
 - (id)init{

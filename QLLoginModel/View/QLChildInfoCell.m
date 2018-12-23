@@ -8,7 +8,6 @@
 #import "QLChildInfoCell.h"
 #import "WTBaseCore.h"
 #import "QLBusiness.h"
-#import "QLLoginUtil.h"
 
 @implementation QLChildInfoItem
 - (id)init{

@@ -7,163 +7,165 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0004EEAE237D0E51B87F98D3FC815CC3 /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EAF53D35B50713424CB517AA2E3C8E /* TZGifPhotoPreviewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		00D930B00BA894A1219B9A46C7EE4190 /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EE0009E4C4ABD5929A0E3473A6C4A1 /* TZAssetCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		01B2B01350EDD20903A686D11F8C240F /* NSString+WTRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A0E0A7883E1FF28891663FB9B9280BD /* NSString+WTRegex.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		061518F7439BDE09FF05C204B27AC35F /* UIButton+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 07009E6BBA24EB9ACFE101C5A58773AA /* UIButton+Block.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		093B9411F8E6789BB73FED00A0EA2071 /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43977A7EEDC981AFB66021FD71C49A25 /* TZPhotoPickerController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0B488E13FDD29A5B1BEA025AB2F2B1D5 /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD3F0ED15F6C869908EA13EBD63215C /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0E54EE4CF29ED22476658A10745B8AEC /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 777106B1822A166E96CE114A2F0562FB /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0EF07DBC32B7591B6F487170D9385B48 /* QLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FCEFAE5A3E9FA45EB6364CF94A0CC178 /* QLViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0004EEAE237D0E51B87F98D3FC815CC3 /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E8B68CE322261E5DB8D0B7C20C7BC1 /* TZGifPhotoPreviewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		00D930B00BA894A1219B9A46C7EE4190 /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C95419CFBDE9675F3D324544DC07699 /* TZAssetCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		01B2B01350EDD20903A686D11F8C240F /* NSString+WTRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = B1242B7BBAC59879A65ADEAE6B5BCA0D /* NSString+WTRegex.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		024B01902A0BCCFE64117BADECDEF4CF /* WTIconTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BA59688DFEE83B1D2F84F27F9E58E3B0 /* WTIconTextCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		061518F7439BDE09FF05C204B27AC35F /* UIButton+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2FAA718DCDEDDAD009C526017F31E0 /* UIButton+Block.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		093B9411F8E6789BB73FED00A0EA2071 /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D729EF0C1EC779A49B7098F1030AC69B /* TZPhotoPickerController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0B488E13FDD29A5B1BEA025AB2F2B1D5 /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 606C11BB671B0F9FF87AB04E4FAF4DAF /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E54EE4CF29ED22476658A10745B8AEC /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BEDFB8C5980E909F94033CB604FA8BF /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		10DE97BA06D4E87CD05C5621B25DC71B /* Pods-WTDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 704047001650852C5E516ECD46A0B570 /* Pods-WTDemo-dummy.m */; };
-		118A2384F47D1D8F48250833A8E16EC6 /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD571EA6F10DB4C1953EC0D9FDD3BFA3 /* TZImagePickerController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		118C9302745010D79C31004C131F45C0 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A5193C50541D842FAEDF1701BC75A7 /* NSString+Category.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		132EF59F55C41FD1B13E1E8BCC359905 /* WTToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 9285AB59FA36F8C8FBCAC4224E712626 /* WTToast.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		13A4263F70825039234817AB8664776B /* WTCustomBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A068517D67C9682379D423C83159D79 /* WTCustomBarItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		118A2384F47D1D8F48250833A8E16EC6 /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECDA878996AE976955FA654841C6C82 /* TZImagePickerController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		118C9302745010D79C31004C131F45C0 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E0E659F20BE6AE5C8C7A3D9A182F77 /* NSString+Category.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		132EF59F55C41FD1B13E1E8BCC359905 /* WTToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C65F1206E77505B5FBC8DED9195E711 /* WTToast.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13A4263F70825039234817AB8664776B /* WTCustomBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED753FC54D156C38FDC5EF6DEE51297 /* WTCustomBarItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		149E5412AC3CAF625BE3BDDD01FAAA4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48E857FDF81F6085BD120AAAC4FD1EA /* UIKit.framework */; };
-		14FE698B2D18673005D0C1BA47D25E19 /* QLBusiness-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90877B3F5374B3179D22B8320AA892DC /* QLBusiness-dummy.m */; };
-		150D39E0AB1374FF56F86BF33ED60B12 /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BA1A6505E8DDD7F3E6B80350355928 /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		16CCF332FFCF1C26D2D323304367319B /* NSString+WTRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7C26871F17339E93AADD94D325321 /* NSString+WTRegex.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		17B0E8364BC82F8CC3C49C877D323BED /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B5DDE97E476261FF5454EFEDEDB6F7DD /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		190EE6DD9CEE16E929BDE14A4110AEB4 /* WTRegularUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1480184C9B1458AD08D275516FD6B860 /* WTRegularUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		150D39E0AB1374FF56F86BF33ED60B12 /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF59F0102BBB1D3D40C2F83D526333C /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		16CCF332FFCF1C26D2D323304367319B /* NSString+WTRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C5A9A2604F87CC7A27A6B7013D959 /* NSString+WTRegex.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		17B0E8364BC82F8CC3C49C877D323BED /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A670E7D05516CCD4822A151F21F43665 /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		190EE6DD9CEE16E929BDE14A4110AEB4 /* WTRegularUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BAFEEC6AC0B18F8A1564DE360366FEE /* WTRegularUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1A90556F5FCD60DDB1BB0EC6FAB76C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0398BF4A06D44209E25B7D27BFA799 /* Foundation.framework */; };
-		1A96ACFAB4166FB5B44F520A902AAE88 /* WTDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = C19CF79653ED2885CA4951CA2491AC35 /* WTDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1C3A329BC6478612F2193EDC1201EF73 /* WTEmptyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE496635D047515483B47019B694ACD /* WTEmptyCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1E51BACB381984F02F6A039E78E4CA5E /* TZImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96119B3792015D5869F2F5831CA94B9A /* TZImagePickerController-dummy.m */; };
-		2065A4303FAC5FF941922C6C7EB23C4A /* RETableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B93C28CCBC1FA3CE5B9373BC9C59CBA5 /* RETableViewManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		23F73435E29F97AFCA55843DF52A7CFE /* back.png in Sources */ = {isa = PBXBuildFile; fileRef = 6A64250E8DA4E2FCC9AFDC7C53578A91 /* back.png */; };
-		262F09111C574E80A4C77C5FC75D2FC5 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B5B257AB0AF3BE169E450635BBE447 /* IQUITextFieldView+Additions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		27AE1AAE3016DB8D68526DA587D6D954 /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B65416BAEFD66D94859F4C978195F4F9 /* NSBundle+TZImagePicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		28392F325DA875A7533639973D767C7B /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1769378F0EFC2EC7B5F5FEB1219D5EE1 /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		28DDA6734CF8756CDB600CE5E6EA9908 /* RETableViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8862DF9FE777A960F4A4B34E14981457 /* RETableViewItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		298CE2BC1778655141E277A1417A7F54 /* WTImagePickerUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 59A7381DB98F435CFAC8EE7505600238 /* WTImagePickerUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2B354445D4BE48D08CE00F229D18982A /* QLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC95768B7D71FC9F4A175706827F0B0 /* QLViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2BFDB250437B1B44F1C2A8165A1D13AF /* WTCustomButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC0CE63D0472251BAC4223CC38B5481 /* WTCustomButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2C3B040370D56A97C9B1574F63FE97D6 /* NarBarUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 70403422284A24F199453F4F0DA8986A /* NarBarUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2FE5366054F8364E344E410077FBD10E /* WTAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 91D4EC9D389D55ADEB7D7DE0A0C6F6F1 /* WTAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		33E19B81B2797252EB8483DD79498E72 /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F59D2B7BDD6AF0EB9BC7B5A7476AEE /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3424130B531A177C314EBE65AFEE8B40 /* WTAlertUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C991EB97F89159DDFDFC7E1915FD674A /* WTAlertUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		359FE541CD4C98C26771F68D5EE0831E /* WTCustomBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BDB7E7E4EF88D11B49E3C6E66C3A164 /* WTCustomBarItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		35D154FCA7E3980509AF7D3D1780FC2D /* TZProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7217A13F9287D1DDBD0747C14E91ED9C /* TZProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		35EE6308EB74280C9FC6A690FDBDD726 /* REActionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB094D3E4D9E0BBAA1AC030091EEAC26 /* REActionBar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3CC5816A7CC81E461AB85EABA72C3326 /* TZAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BC3C6AAB7C91356F9C035ACB8068B950 /* TZAssetCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A96ACFAB4166FB5B44F520A902AAE88 /* WTDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = E326F0574FB26B74DC34B5A035B2C70C /* WTDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C3A329BC6478612F2193EDC1201EF73 /* WTEmptyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9F8D999C6FE32C1A1059053CC1E4F3 /* WTEmptyCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1E51BACB381984F02F6A039E78E4CA5E /* TZImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61039AA009E93E62D840DF5F143941F0 /* TZImagePickerController-dummy.m */; };
+		1E592EA812D017128AFB66EDC7023003 /* QLBusiness-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B44B0971C11F1EAA2AF6FF37B5350 /* QLBusiness-dummy.m */; };
+		2065A4303FAC5FF941922C6C7EB23C4A /* RETableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A0235030C4EE6AEF0FF74AC2F86BD0 /* RETableViewManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		207C27FA46FB754C10F52E9997EC9155 /* QLFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6A345E73C1AC9C11DA997D9D98EEB6 /* QLFormViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		216326A0AF7AFDAC916DE24C416DD637 /* QLBusinessUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = DF19F92C5101CDA47A0212313B058AE1 /* QLBusinessUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23F73435E29F97AFCA55843DF52A7CFE /* back.png in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F340B3620D5E76EF7C85BB42631F3 /* back.png */; };
+		262F09111C574E80A4C77C5FC75D2FC5 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3237B834EC121BDEB4FD3703B52B8A /* IQUITextFieldView+Additions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		27AE1AAE3016DB8D68526DA587D6D954 /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EB94031E4F117CCA1DB9D50B5450AEAD /* NSBundle+TZImagePicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		28392F325DA875A7533639973D767C7B /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E407322DC1AEA0D5B779509897BAFE6 /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28DDA6734CF8756CDB600CE5E6EA9908 /* RETableViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E5D4A19A4BA7F9A2AFB216B1C4A36D1 /* RETableViewItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		298CE2BC1778655141E277A1417A7F54 /* WTImagePickerUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB9AA565E648E204742AF961E4637CD /* WTImagePickerUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2A8C740B95FE471C50BD11349609DE91 /* QLTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CE601F848913717EAE288D7B4B222A /* QLTabbarController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2BFDB250437B1B44F1C2A8165A1D13AF /* WTCustomButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0305D2823185C29F65E9AE3F174347BB /* WTCustomButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2C3B040370D56A97C9B1574F63FE97D6 /* NarBarUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0864D29A623F338166BC43A545B458 /* NarBarUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2FE5366054F8364E344E410077FBD10E /* WTAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 05F4D55ADEF693C97F34D84ADD8C0A4A /* WTAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33E19B81B2797252EB8483DD79498E72 /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6B3B1D9C63780F7665F7E20A8BD1CF /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3424130B531A177C314EBE65AFEE8B40 /* WTAlertUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = B9BB53B50B46931649E5E7ADC905522A /* WTAlertUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		359FE541CD4C98C26771F68D5EE0831E /* WTCustomBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C333C10CA8BE860452F65D962F1EF9D6 /* WTCustomBarItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35D154FCA7E3980509AF7D3D1780FC2D /* TZProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB4AF83B435927F53FE8F981C5755AB /* TZProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35EE6308EB74280C9FC6A690FDBDD726 /* REActionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 171BCDFF0CD7EB71EE3D64F768CB47B9 /* REActionBar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3CC5816A7CC81E461AB85EABA72C3326 /* TZAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C0B19C9B6AF73EB86A614DB488B259 /* TZAssetCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3D51A7D14E04DEA3F615267326D9DF39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0398BF4A06D44209E25B7D27BFA799 /* Foundation.framework */; };
-		3F9B7B96F95416ABF95F00E750EDB4FC /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BFF2E59D54F26C453DD8CA2D76EE9 /* IQUIView+Hierarchy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4033AD02D7AFB9F8839A39BBB951FC68 /* WTRegularUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFCCBFB53015BBCF311B17555130CB /* WTRegularUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		49682DD7559F0A0C07C3B15473C96E2A /* RETableViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = ADAE503650A3294F85BF28AFAC909A4C /* RETableViewSection.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		497A0F4E796F48A28983C89BFA57A9E5 /* WTCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C601D7A2E640F12E4668B6579F1C22C2 /* WTCustomButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4B0E2A3FCD260DDC14AC986F7DC9A433 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F8313528B50D1B4863E08019FE7B96 /* IQTextView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4BEAFDDBADA6BA5A59595527324D9128 /* TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B5D1FA8507790FBABAC78A826CD399 /* TZLocationManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3F9B7B96F95416ABF95F00E750EDB4FC /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4099D3ED8499F1D57C533E525F7FE97 /* IQUIView+Hierarchy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4033AD02D7AFB9F8839A39BBB951FC68 /* WTRegularUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 87406D16639CD03078A82F0C10D5532B /* WTRegularUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		49682DD7559F0A0C07C3B15473C96E2A /* RETableViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5A1856F8EF175F58B4C38B6FD190CB /* RETableViewSection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		497A0F4E796F48A28983C89BFA57A9E5 /* WTCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E7C280F77E0A867DF092A80D91EC05 /* WTCustomButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		49E8AB4E76CE89521C2C93669A7C579C /* QLFormViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D5778EC24C5D3DB0BF39A998F4C399 /* QLFormViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B0E2A3FCD260DDC14AC986F7DC9A433 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA279D399F9B21FAB121784FB72BAFA /* IQTextView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4BEAFDDBADA6BA5A59595527324D9128 /* TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21DA82F2FFFC57C1CB8DD17A840A8C /* TZLocationManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4C0A6E60328CC14D603820534F5722A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0398BF4A06D44209E25B7D27BFA799 /* Foundation.framework */; };
-		4D213CA3C6256131073EB91F8C32F280 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F083DF97E7B57B12F922DB8D2EBCB /* UINavigationController+FDFullscreenPopGesture.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		50671B2A72234EF1567D9911F57D159D /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C07C2420275F525EB9A64B19483962B /* TZProgressView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		513B2DA49031451EAE8F552B9D99BFC2 /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D56465981E14D640B84D62599182FA /* TZPhotoPreviewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		518FA0E1469F90FF4854DDE7019B7419 /* WTBaseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B52AF6B2DB4FE6E7C588088AA8A2847 /* WTBaseCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		520DB6C63805164E735C9C9E648F15EA /* RETableViewCellStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 474FE9281DDA0AB507B9ACFA3B36F29D /* RETableViewCellStyle.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		54946462286904A3F5B6B032D20B5D3D /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7BE4D1FB5FFD4E9A9BC1475755AA91 /* TZAssetModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		54CA4524F5EF1F0BC0E0F5A0FA82D3D8 /* WTLanguageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 59732C274086F62B4DAC0BD03722399E /* WTLanguageUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		55A4691FBDAA771D79E598CB5A620665 /* UIView+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F13DD8587BFA0E1879A434C5A9F3FEC /* UIView+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5628F7FFE328EDD4A18B7EBD3AEA41AD /* WTAlertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 414DB9A91F1D67D6A6B53ED39CFAC581 /* WTAlertUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5844EF37B57DCAA24748F346B3BB586E /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6841B9B9288E248758206D43284C4D31 /* IQToolbar.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		59D24ED7149E9CBF24456D55FD5D038A /* FDFullscreenPopGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D4DA905D0F56A7DDA5E761D9A63A4B /* FDFullscreenPopGesture-dummy.m */; };
-		5B638F3202E35A3C3389CD48B65869E2 /* WTUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A52535C77608FB29BE9F5983267C1B /* WTUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5D3D81263DD4D80259C19D691151354E /* WTTabbarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C3A6009F2B172F849F94E2B4792B812 /* WTTabbarController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		629393440ABCD73AD3D16C75C633B585 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 933C32650FC248C6D7B114894EE2E00D /* IQNSArray+Sort.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		643FE5125D93CD32A3079C5C8209E5AB /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = CC071B232B6B43D756506E12F2757237 /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6602CDDAD0B9D6D8FE4311CDAA1BAB04 /* QLDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C658EDBCD30591F9138D9CB0F00950 /* QLDropDownMenu.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		66AE9EC19B2FE1AD5DD6AC18947603CB /* WTDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB55DF461E3B587B99BAAC05D136337 /* WTDateUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		66E4410900427FBA5B8052F4D9BC15CC /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A36D14C5934738EB3AEF16B3242996 /* TZImageCropManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		66F6067C3825D290DD16D6E5947ED5DF /* WTWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F4C16C996C2FD63E9B65DAC7D14C33F /* WTWebViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6B34FAB535E09B490A008D137E6939AF /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A80BF555C09DD0F678EB573DDC8398C /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6CC4BB64AAFDD374E8FC4DECA4AD43F7 /* WTImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FDEF87B7048B1ED383352E1D260CF5 /* WTImagePicker-dummy.m */; };
-		6DD7A82ED48E61FD8C2BA3EA9649DD2E /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = DD0B24411622833D49C3DA72AE6E2A9B /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		71CCAC612EF06A0326554E8EAB78EA9B /* WTBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 201EFD37F0B2B6905C21B931A311330A /* WTBaseCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		72D373CDF4DD9187E7E7A8F1766F7166 /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C25E4D23BF7C1FD3D630AD691EDBE4 /* IQTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		73D9B21F8B6BF77C2EF7409FF973F760 /* TZAssetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4133BA69A99D0FD87707F1E51377EE17 /* TZAssetModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		75D421764CD5D9DEEE8C7AE5FFA87681 /* RETableViewCellStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D296F899073AC09A9C2BD4ED3119758 /* RETableViewCellStyle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		769C44520C0BAB2BAF5969826B173A94 /* NarBarUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 21598A16EB23C3727E019EAB919C37F1 /* NarBarUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7740CAC089E3B4248F66972C5B3D1BAA /* WTCustomNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D10C165DA4124D650B48C28D028B9F2 /* WTCustomNavBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		78C2E388BF1A1FA6DC6B38A9207E2E01 /* QLFormViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D6FA91B2F2E2BC4F40C75D1BF72B32 /* QLFormViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		791A2717A409DD3A2CFB424E92C42C9E /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = D761E3D13E84AD99B66F4EA6401D48F2 /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7B67203CCF39BC6008BC669EF4CBF254 /* TZLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D2032C32266BBF95AD8D7C2E53C3784C /* TZLocationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7B9FEEA3A86B220DF5A35C5EB517CD47 /* TZImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 711FCE29BBF12258BD6E4C6FDE4DE52A /* TZImagePickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D213CA3C6256131073EB91F8C32F280 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A706B11DB4150A7045DCCA29951DEF2 /* UINavigationController+FDFullscreenPopGesture.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		50671B2A72234EF1567D9911F57D159D /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4532CC72E2220505B13903FEC332C26 /* TZProgressView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		513B2DA49031451EAE8F552B9D99BFC2 /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AB511E6E11B8B61AF4A917FF861AB1 /* TZPhotoPreviewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		518FA0E1469F90FF4854DDE7019B7419 /* WTBaseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A1D68AEAD94C72C051F3185D7AEBBF /* WTBaseCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		520DB6C63805164E735C9C9E648F15EA /* RETableViewCellStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B62A37FBB401D1166A53046D7FEA31F8 /* RETableViewCellStyle.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		54946462286904A3F5B6B032D20B5D3D /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3554FD4872412AAF5E7F7B63D3720A /* TZAssetModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		54CA4524F5EF1F0BC0E0F5A0FA82D3D8 /* WTLanguageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AF306F54A7EE93079CA6239A5E842CF1 /* WTLanguageUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55A4691FBDAA771D79E598CB5A620665 /* UIView+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EBF6932F4B77859FD3CF86A49DAEFE3 /* UIView+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5628F7FFE328EDD4A18B7EBD3AEA41AD /* WTAlertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CB02340932229740DB41C8EAF3656611 /* WTAlertUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5844EF37B57DCAA24748F346B3BB586E /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A2E43AF215E555742429C98ED7A801 /* IQToolbar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59D24ED7149E9CBF24456D55FD5D038A /* FDFullscreenPopGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D908E561756C26D01A66D431F33C7B /* FDFullscreenPopGesture-dummy.m */; };
+		5B638F3202E35A3C3389CD48B65869E2 /* WTUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 124CB398EDF40A0FFB487470A1BAAD2A /* WTUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5D3D81263DD4D80259C19D691151354E /* WTTabbarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE630B4068C931DEBF8EE05F8AA7344 /* WTTabbarController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		600874E5958B8854BC067E9BECC1C5F8 /* QLDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = E65A1A9C71330D54588BB298CA3CA6CD /* QLDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		629393440ABCD73AD3D16C75C633B585 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823EC86B21C56919D3A7643C12A6CEB /* IQNSArray+Sort.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		643FE5125D93CD32A3079C5C8209E5AB /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBBAFE5BED575C09067619268D38686 /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66AE9EC19B2FE1AD5DD6AC18947603CB /* WTDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B0E16DBC639A8DA9CCBD0B7F17FBDF0 /* WTDateUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66E4410900427FBA5B8052F4D9BC15CC /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2C1F7853FABBA73B747F93B406B462 /* TZImageCropManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		66F6067C3825D290DD16D6E5947ED5DF /* WTWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C1E7CAD34FA3B91DBC22F4F7386DA7F /* WTWebViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B34FAB535E09B490A008D137E6939AF /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE5618C6EFCCFEF427C06C47D6A33A7 /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6CC4BB64AAFDD374E8FC4DECA4AD43F7 /* WTImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0546468B9A56FB63B759E889F54A3DF /* WTImagePicker-dummy.m */; };
+		6D84CF09F167599EE25C3C7DE89C4526 /* QLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE77CC7278B45368A67A8E125E8B7AB /* QLViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6DD7A82ED48E61FD8C2BA3EA9649DD2E /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = A9FF7D84EABFBF6E1118DE81ECDBF9ED /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71CCAC612EF06A0326554E8EAB78EA9B /* WTBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A9838BAE950BC2C88599DEA59638D0 /* WTBaseCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		72D373CDF4DD9187E7E7A8F1766F7166 /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8BC2FC704C6A39E837F191B86EB7B1 /* IQTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73D9B21F8B6BF77C2EF7409FF973F760 /* TZAssetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C10B7446F153510AACDCB525E1AAFF /* TZAssetModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75D421764CD5D9DEEE8C7AE5FFA87681 /* RETableViewCellStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D7AC16BB22108CE586DA73CBF16AA3 /* RETableViewCellStyle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		769C44520C0BAB2BAF5969826B173A94 /* NarBarUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DD0B3E7EFD30AAF5425697DB31700BB /* NarBarUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7740CAC089E3B4248F66972C5B3D1BAA /* WTCustomNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 14F80F40B458ECC537D695111F076A43 /* WTCustomNavBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		791A2717A409DD3A2CFB424E92C42C9E /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = ED06D56E1BB68B678C50DE14A1D3B36E /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		79F1BA6EC8084301D4FFA36F35EE5F50 /* QLBusinessUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ADFAD63EBCAD54413387D256783340 /* QLBusinessUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7B67203CCF39BC6008BC669EF4CBF254 /* TZLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 862B32869E41763F8EC075BFC6164AAB /* TZLocationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B9FEEA3A86B220DF5A35C5EB517CD47 /* TZImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 67894F01B385FF8D98E23C56201211CE /* TZImagePickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7BBAE335CA7667E51CFA81BF17DD861C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A38C450DE7B2916B053A1253884AEF0 /* CoreGraphics.framework */; };
-		8338C66326738E172BF4D2FA2E9BCA81 /* WTTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = BB298FA760D9CA306826AC1B37320221 /* WTTextField.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		868F1775D0460209A5E72E5CD329BFD0 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 152E7A3AC729272B49F1737D6B996649 /* UITextView+Placeholder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		887375C4E5E76435163BF2167053CB87 /* TZPhotoPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A24D82F96764E46647CEF094868F285 /* TZPhotoPickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		88B95197CF75CEDB4D6AFDC5B6626A05 /* WTImageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AC51FD0CF9739DA1260AF049B6B025F0 /* WTImageUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8E3DC47D9C8F8C484B8B535FB46BF78A /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C5D8D5E3E18692CF9B3E44B164B0D0 /* IQBarButtonItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8E80639C83BDCCE3A3C668D88BC1EB12 /* NSBundle+TZImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5FB0FD1B742D3C7764EFB4D0D36CE6 /* NSBundle+TZImagePicker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8338C66326738E172BF4D2FA2E9BCA81 /* WTTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E412CEEC388C1A3DE010503F295B32 /* WTTextField.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		868F1775D0460209A5E72E5CD329BFD0 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E97461CAA96CCD024579CD4347546D6 /* UITextView+Placeholder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		86CE2154CCDA4D5118083B88B328A95A /* QLBusiness.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BDC0742D3C3115B8F8DEFC56C26D47F /* QLBusiness.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		887375C4E5E76435163BF2167053CB87 /* TZPhotoPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D3C849455208AB76498B757C55787C4 /* TZPhotoPickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88B95197CF75CEDB4D6AFDC5B6626A05 /* WTImageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E4B64C328423962AD16A4CA785A48EA7 /* WTImageUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8B7543E0B55C4CDD2E5E48052003913D /* QLTabbarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C5DB54AC4796660196D67A0F7BD6DA6 /* QLTabbarController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E3DC47D9C8F8C484B8B535FB46BF78A /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F9E9F1685C5CFA3591464CBC05C86C /* IQBarButtonItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8E80639C83BDCCE3A3C668D88BC1EB12 /* NSBundle+TZImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = A71AC65D7E68CB3937E3FFD7C0DBC9B3 /* NSBundle+TZImagePicker.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		91F08BF429646D7F4A1009F3596045BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0398BF4A06D44209E25B7D27BFA799 /* Foundation.framework */; };
-		9216E6BF8AF8A584B78667EA7D41DE2F /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B18D14E83B1F19B8B5DCC108F1E17CB /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9216E6BF8AF8A584B78667EA7D41DE2F /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 592769C6E1B8B13EC48231441D64617A /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		93782FED8DF3E0881E727565FA9D04FA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD21DB1F8A1FAF949FD027FB8EAFA6B7 /* AssetsLibrary.framework */; };
-		94D6FC9E345F03396C02EEF2AD6A25B7 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E32267B345D90AFC58B9615A10F7938F /* IQKeyboardReturnKeyHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9590DF56B9E6EAB1BE3FB9441FC03C03 /* WTEmptyCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 111BA40B09CE32B42A0C9EC7BF9530FD /* WTEmptyCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		95B99958DA96A2FB6A5792D6EDBDF0C7 /* QLTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B668CC300DC89436C013B9717EDC0DAD /* QLTabbarController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9859D8F577E558A99C23AA3643FFAA7C /* WTFormViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3C37C94883BEDD8DE87ADE95177847 /* WTFormViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94D6FC9E345F03396C02EEF2AD6A25B7 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E253E5693EFC04C365BED8116730F2CA /* IQKeyboardReturnKeyHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9590DF56B9E6EAB1BE3FB9441FC03C03 /* WTEmptyCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F75F3F7D389D72F1CF88DB182C7CF3C9 /* WTEmptyCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9859D8F577E558A99C23AA3643FFAA7C /* WTFormViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD34B4E8E4128CF74A3A33FB38D12F9 /* WTFormViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		999D4458D39A5CACD8C0622D8FDCEDF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0398BF4A06D44209E25B7D27BFA799 /* Foundation.framework */; };
-		999F4C62DB40F6A7AEB121C9EBB8FD6E /* TZPhotoPreviewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F06A500F057FA5BD5C856898DE4AEC11 /* TZPhotoPreviewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9A9FA18711C27AE309095FA43268E21B /* WTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC6DEA3F5E585447059EFC721490509 /* WTAppDelegate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9AC1516C7D40628D55D6C8121EAEF29F /* RETableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B45507F1BE301D4CD9B4B83BC1AF63B /* RETableViewSection.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9AFFBA75143A7704F935EAFA9AA10DC0 /* QLBusiness.h in Headers */ = {isa = PBXBuildFile; fileRef = 5415963D10DA200A604C5E2AB293CB39 /* QLBusiness.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9B2048BC3640ACC73E645A82177EC222 /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 953AA43E1450344670A5AB23A673BEA2 /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9D7E829DAFF2C34D2CE99DFF5CC5E200 /* WTDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8931D9ACAECEE1DB53FA123CF9C7A6 /* WTDateUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9ED51430111F17A9CC21C02F87020EE7 /* WTWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C44613157EF48B1F59A7019103FB17 /* WTWebViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A0E6864BB7120025809426CFD273FECF /* WTCustomNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E66885D303F6198B1262C29A226CB05C /* WTCustomNavBar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		999F4C62DB40F6A7AEB121C9EBB8FD6E /* TZPhotoPreviewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0F298759C1389F400CDC612208B0D6 /* TZPhotoPreviewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A9FA18711C27AE309095FA43268E21B /* WTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 511F290A0D121318287F03289C315F5C /* WTAppDelegate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9AC1516C7D40628D55D6C8121EAEF29F /* RETableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C83F1887A60A9842A18397F63495116 /* RETableViewSection.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9B2048BC3640ACC73E645A82177EC222 /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AEF760699A1A0D5B677F33CC9940ED3 /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D7E829DAFF2C34D2CE99DFF5CC5E200 /* WTDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAF5206F528CE2BD10436E4A0829B65 /* WTDateUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9ED51430111F17A9CC21C02F87020EE7 /* WTWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DC8C65F5952067EF21E6B9D7F8B4B2 /* WTWebViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A0E6864BB7120025809426CFD273FECF /* WTCustomNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8F9CE7B6F305C674D374B6FC6F8D17 /* WTCustomNavBar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A1A88808F441B00AFBF2008BD88E83BC /* QLDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DFE327A6A68D27B1B8CC8510A2516E /* QLDropDownMenu.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A2DE0660B3A636099A3DA4923D489CB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0398BF4A06D44209E25B7D27BFA799 /* Foundation.framework */; };
-		A3C22E677AD241A3636D3015C6C3D8AE /* WTIconTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 889630FE4C3D0F67E22843D467279F1D /* WTIconTextCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A4223E648086FEF52D8BEF6BC331EDC9 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3446A4700064555125D0328DD4B490DD /* IQUIViewController+Additions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A817B09FF7572E6AC049D9961BF86536 /* QLTabbarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C1EE418730B66A19A4C7EB26DC1451 /* QLTabbarController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A8A450A8C49151F3C0220EABBBA75C9E /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1620B9827158B2D94A945E5B0BC62578 /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AA24BF27742AD5024366FFFFE7B6F277 /* WTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6637B8357D05011523FF0CA17904BB8A /* WTTextField.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AC553A01B10002B610147E6D92CD6B62 /* TZVideoPlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 990795EB645909328E2A7FC447CD0566 /* TZVideoPlayerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AF32ECE7C1159C88DA744AF69DDA9028 /* WTImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 776AF7E55864B367060C752FB1929CDD /* WTImageUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AFFEF27F1057CE4BFE474CCB0FA6FFF3 /* RETableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE64021848C4484BA708DD4B3868A6A5 /* RETableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B07FE4214E020003ACCAF3C5486EE6E5 /* WTToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 340874F6FB1E599E6B97E24EEC752219 /* WTToast.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B0E47D533A7F5D9BF542B524FED5EBEB /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 858C308759F7C17FB5491DE59E951C4E /* UIView+Category.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A4223E648086FEF52D8BEF6BC331EDC9 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2C385B3C2A5EEABE717979E992538 /* IQUIViewController+Additions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A8A450A8C49151F3C0220EABBBA75C9E /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F885BE73AA2D3EEE32019BAB785EF9 /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA24BF27742AD5024366FFFFE7B6F277 /* WTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 73843255B15020D28F2D3A7262A7C19E /* WTTextField.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AC553A01B10002B610147E6D92CD6B62 /* TZVideoPlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D1B5B7D3AFCA15F287623A2B30F960 /* TZVideoPlayerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF32ECE7C1159C88DA744AF69DDA9028 /* WTImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F08DC9B7E57B138B056A56CA12B2844E /* WTImageUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AFFEF27F1057CE4BFE474CCB0FA6FFF3 /* RETableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92571F1B960A2FF877C6188EC2E2D2D0 /* RETableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B07FE4214E020003ACCAF3C5486EE6E5 /* WTToast.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BED2E04955E47F7708257B5B176326 /* WTToast.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B0E47D533A7F5D9BF542B524FED5EBEB /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2CBBB842F44FE39E7D80C2336445B /* UIView+Category.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B1296309B8C74810CC227A5B27A1DE93 /* QLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0EB33AE824C2D7E64E1C5A7092D661 /* QLViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B3A6235D661F70BB8D33265485FD1EA9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA2CA3231C0BA0F940491D2CE8DA266 /* QuartzCore.framework */; };
-		B6211339CE0EF8EFB6C818ADCBF967FB /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E5067D82D606D9DE87C1EE7415A0111 /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B694B038559621CC9D2A912323617B29 /* WTImagePickerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAE28BD391567A1555D4543832DCC2D /* WTImagePickerUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B69F47477A7A892F0185011363F212EA /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE97DF6D0759DEB0B0F486056F8C554 /* IQUIScrollView+Additions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B7010680234D106E7729760222E138C9 /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 404F7FC7AF0AFD8D33DBACA92D7FB108 /* TZPhotoPreviewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		BC04BC7CCC9DE1E6F262CCDEB98A3588 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 624FB0C11F2D963BF4BA28DF6D7A0277 /* IQPreviousNextView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		BE55E6CA41B94B735275119D91CC67C3 /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD5AEBE693E8C2E0DCDBDC6D9B011B /* IQKeyboardManager-dummy.m */; };
-		BF8165F578E449953F94600BE6AA9114 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D66ECAD5530455C408293A675B49CF8 /* IQKeyboardManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		BFFEB914826B93073E2A8A90D43956E5 /* WTFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A176FA80D5BF44B38492C3E9A84669A /* WTFormViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C01D37C84A4FD56C1B767D5E378B747C /* TZImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B7BE125FF2B79A2DC1419F5E9913DB5 /* TZImageManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C2BB4AD69433B10C2D930E85DB32F7DC /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 429A1D767E3816FDC2FBB685E6606378 /* IQToolbar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C3D65E08FAF1BCD319D0C85EF6C61B21 /* WTIconTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EE15E6D0D78BDD11C23A4801CC05EE /* WTIconTextCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C45176DA917697A6B04404C4BA7E3A36 /* NSString+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E28CD08CA4B546C6ECC5B12A472133E /* NSString+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C5423DE1EDBA3D513A8DCA69D881DE6E /* WTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 779844F93CE7AA41C515F11B47563F5D /* WTViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C5EF0F57B50C9BC7D0041FE280BA4C4C /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 181D3B376BC267FA5F796BD2DA859AE3 /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C73A8E9440D171203743D7F932D20A38 /* QLDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AB03B1C3FDCAB9C34E44471CAD6F6F /* QLDropDownMenu.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C85717D03DA23B95F6CA7C126767986F /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = F619979D99401C0503D73019619038A4 /* UIView+Layout.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CBF6FB37ED669A54B1E82B99881AD9DE /* QLDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = B73323CCDAA88FDA380489639F2ADCAE /* QLDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CC5D2314C01DFD70C5B2EA6D1A454AB2 /* TZPhotoPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 89214A22BAC2D7D819D51939921D9B6A /* TZPhotoPreviewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CCE86F86A75B426245A94466D6155E0F /* RETableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E5436F9F935682F4DEF57C5B0CA02C8D /* RETableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CDEA7BDD47154BF7986B7E660673C7AD /* WTLanguageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DA88E0C091F13C264916473ED7A8BA /* WTLanguageUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CF2771334CD747F0F0AEA358F206916B /* TZImageCropManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F934A9FE00DFF1AF631D99500C81C0 /* TZImageCropManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D6F93937CCE989CF8CE28203A54828EC /* RETableViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5CCE009D5CD0475DB3EB619099B887 /* RETableViewManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DC3F788B3CCFAAEC642ACC6AE1A236E5 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA2C5E264F6FF907C2E7F48E8E0857 /* IQUIWindow+Hierarchy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		DC9BEE2D0899F1F266C1E41964C0E794 /* WTBaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB0E58FB7D58D054DB6DAE8861CBB3F /* WTBaseCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DDE205E61240E8F7EB1E7AC603BD8FA5 /* IQUIWindow+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = C3CB554DD5104EDEBBCF20D350B5A5E1 /* IQUIWindow+Hierarchy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DE48A1A6A343A917AB4D21F2C5CE789D /* WTFile.h in Headers */ = {isa = PBXBuildFile; fileRef = B8073D3445E96CB934C42FB071420AD0 /* WTFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E12E958EF7F458CFECCB032C1E30AA98 /* REActionBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0C901C8317779E7BA4995BB5E466EA /* REActionBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E184D50CD8B0A77434BAC5B5C9691665 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 87318417C73E83B8B010487B43AAC84B /* UIButton+Block.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E3D78C20D648BB0234F93D8C9E69ED4D /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4474B922DCA90426F2CE3B70E7DA0A /* IQUIView+IQKeyboardToolbar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E86913D3EA11C1BAD79C7437889C42E5 /* WTUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A015C955BF816F6BD36EEE709EFE1A90 /* WTUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EC5DA582990DE97B32A22246CF209DAF /* WTFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E19F876BF9640EDCBF4B6A99BFF6E0FB /* WTFile.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		EE2C392DFD79A511A05B97973EF07BB1 /* QLFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6005E1C9A04C2A16A2BFEEC854EB2071 /* QLFormViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		EFBD97717CD88E1D85B767FEFC063354 /* WTViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E225F84D90736B149E196217B6C70B /* WTViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F0372A03414F026AB36C8E1896761DF7 /* RETableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 934FD5E0A47D2D111F25BEE65608BE74 /* RETableViewItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F0B688268355EA894917DBCA07E37A61 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE0E9C71EF3D30B3164C8E1F27D1A29 /* TZVideoPlayerController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F126CA68D72221DF5E76872B053FE6DE /* UIView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = C67F7A5C8F3AB89D707671781A18D380 /* UIView+Layout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F616438A5B5A8A820816B152CD260956 /* TZGifPhotoPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD47F53AE11AD138648F9A30907A8B1 /* TZGifPhotoPreviewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F65005F3BA971FE1877ADDE49A494052 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEECA86C2480ED3EA18A7F49B118A85 /* IQTitleBarButtonItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B6211339CE0EF8EFB6C818ADCBF967FB /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = E347DD608BF4347B923400ED9FFAD3B7 /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B694B038559621CC9D2A912323617B29 /* WTImagePickerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5931791F52F67A55C3DCD5799B51B /* WTImagePickerUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B69F47477A7A892F0185011363F212EA /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E4DED39554398667AC903D710699E0 /* IQUIScrollView+Additions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B7010680234D106E7729760222E138C9 /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C43206E7AFC2145195736A96605DC9E7 /* TZPhotoPreviewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BB60EFF1E1507650AAFBD54C378A34B0 /* WTIconTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CC56BBAD20ECFC3D0F0B23BD30D67E /* WTIconTextCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BC04BC7CCC9DE1E6F262CCDEB98A3588 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1903F4D43A93A66921B51B783FDEC628 /* IQPreviousNextView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BE55E6CA41B94B735275119D91CC67C3 /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 838115E73C4DACD04900DE5247BECE0F /* IQKeyboardManager-dummy.m */; };
+		BF8165F578E449953F94600BE6AA9114 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC81820AE9DD244BE03D20C628BD9D8 /* IQKeyboardManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BFFEB914826B93073E2A8A90D43956E5 /* WTFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08111FA0A607FE38E04434B5BD6DC4F /* WTFormViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C01D37C84A4FD56C1B767D5E378B747C /* TZImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EBB7B90B343A510C279F1BBC3A5B91FB /* TZImageManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2BB4AD69433B10C2D930E85DB32F7DC /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB63148BF8D8C0B13ED00E922AA47C4 /* IQToolbar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C45176DA917697A6B04404C4BA7E3A36 /* NSString+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = D29C840B60192B63E8FD466B7908A8D2 /* NSString+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5423DE1EDBA3D513A8DCA69D881DE6E /* WTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E366D2FE8D33F12478BBC63D7FDFC730 /* WTViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C5EF0F57B50C9BC7D0041FE280BA4C4C /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = D20613FB93B581FD74B496AEC5B7C76E /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C85717D03DA23B95F6CA7C126767986F /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F1047DF27DAD0665FA8F4A7827ACB3 /* UIView+Layout.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CC5D2314C01DFD70C5B2EA6D1A454AB2 /* TZPhotoPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C87B852C939EC7E6ED4E7920768734C6 /* TZPhotoPreviewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CCE86F86A75B426245A94466D6155E0F /* RETableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 667BC946413750728938240218BADCFA /* RETableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CDEA7BDD47154BF7986B7E660673C7AD /* WTLanguageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EF38E1E2D7B250308DEAC06C90909E /* WTLanguageUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CF2771334CD747F0F0AEA358F206916B /* TZImageCropManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 436FDA55B450E0DC8D2EF1DC93CD9C95 /* TZImageCropManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6F93937CCE989CF8CE28203A54828EC /* RETableViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D5DA136580FDE1238CC55FD5F9E6E6EC /* RETableViewManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC3F788B3CCFAAEC642ACC6AE1A236E5 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A4294F6CCF7CA57BF00F118805C7E3 /* IQUIWindow+Hierarchy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DC9BEE2D0899F1F266C1E41964C0E794 /* WTBaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 328B6E6A0F04C5A6029493C053610A9D /* WTBaseCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDE205E61240E8F7EB1E7AC603BD8FA5 /* IQUIWindow+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8909A1B8F6F8750F8E4101FEDE5ADE /* IQUIWindow+Hierarchy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE48A1A6A343A917AB4D21F2C5CE789D /* WTFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 435AE283D1C6FC43E4DAA84203F19DB8 /* WTFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E12E958EF7F458CFECCB032C1E30AA98 /* REActionBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 48DBACA39E53DE7AFCCA0E27D1B00FB9 /* REActionBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E184D50CD8B0A77434BAC5B5C9691665 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C937CDC5C224CFCE68F2957821CA55 /* UIButton+Block.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E331C09FA065AD69A273F42EB23B6FF7 /* QLDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C13427C2A14033DB1FD1E3474246CA /* QLDropDownMenu.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E3D78C20D648BB0234F93D8C9E69ED4D /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 16824915281E5258983E9A5EC0B59FBE /* IQUIView+IQKeyboardToolbar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E86913D3EA11C1BAD79C7437889C42E5 /* WTUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 80BAB0F386E20AE47EADAF105BF91FD4 /* WTUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC5DA582990DE97B32A22246CF209DAF /* WTFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9839A316B6B0B2EE62F42C80E35274 /* WTFile.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EFBD97717CD88E1D85B767FEFC063354 /* WTViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472F07E8D672EA9DE793ECC6DE232FC /* WTViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0372A03414F026AB36C8E1896761DF7 /* RETableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D304D6DC1712491486A0064C9716DE30 /* RETableViewItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F0B688268355EA894917DBCA07E37A61 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8214544E0D03D8AB89EEAC448428D2F0 /* TZVideoPlayerController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F126CA68D72221DF5E76872B053FE6DE /* UIView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = AF2389B07DE309594BB1DF3EE8D196CF /* UIView+Layout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F616438A5B5A8A820816B152CD260956 /* TZGifPhotoPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2116AE63BE661808C748F8ABE4E66A47 /* TZGifPhotoPreviewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F65005F3BA971FE1877ADDE49A494052 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F26A8A27EB42921EB2F4AD152119FCAD /* IQTitleBarButtonItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F71FD0B88EAAD64BDD5EC5D9652D7842 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0398BF4A06D44209E25B7D27BFA799 /* Foundation.framework */; };
-		F8EDB8DE6B9DFC03DB269F5DBA7B3AC6 /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D50D7F6BF8AD14A8A1D27FB14C14DFDB /* TZImageManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		FA69E53B09C1D38B4CA98E04EB8F4D9A /* WTTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8065B08BA48FAC1FB4D069F3DE47C23F /* WTTabbarController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		FBC1F5DA54E21E66FC2D2AEE992699BF /* WTBaseCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3D314C791952858B26273910203880 /* WTBaseCore-dummy.m */; };
+		F8EDB8DE6B9DFC03DB269F5DBA7B3AC6 /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDF648EAF4CA99548DC7E49AA6654A6 /* TZImageManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FA69E53B09C1D38B4CA98E04EB8F4D9A /* WTTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C12C2E99F4490FEB49B562947D215C /* WTTabbarController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FBC1F5DA54E21E66FC2D2AEE992699BF /* WTBaseCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB28EB2EB932AAFDA33098D7152A88D1 /* WTBaseCore-dummy.m */; };
 		FFCE2CCE72C4C612BE04F10BA07AD8EA /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E16AA6449C6238CC3E128A2F5B62D3E /* Photos.framework */; };
 /* End PBXBuildFile section */
 
@@ -234,187 +236,189 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		052EEEC6FFA1BBDD8601CA9AC18D1C48 /* WTBaseCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTBaseCore.xcconfig; sourceTree = "<group>"; };
+		0305D2823185C29F65E9AE3F174347BB /* WTCustomButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTCustomButton.h; path = WTBaseCore/CoreUI/WTCustomButton.h; sourceTree = "<group>"; };
+		0472F07E8D672EA9DE793ECC6DE232FC /* WTViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTViewController.h; path = WTBaseCore/CoreController/WTViewController.h; sourceTree = "<group>"; };
 		05C404FA12521084AD9CD8A88B86A8F4 /* libPods-WTDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WTDemo.a"; path = "libPods-WTDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		07009E6BBA24EB9ACFE101C5A58773AA /* UIButton+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Block.h"; path = "WTBaseCore/CoreUI/UIButton+Block.h"; sourceTree = "<group>"; };
-		08A5193C50541D842FAEDF1701BC75A7 /* NSString+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Category.m"; path = "WTBaseCore/CoreString/NSString+Category.m"; sourceTree = "<group>"; };
-		0AC6DEA3F5E585447059EFC721490509 /* WTAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTAppDelegate.m; path = WTBaseCore/WTAppDelegate/WTAppDelegate.m; sourceTree = "<group>"; };
+		05F4D55ADEF693C97F34D84ADD8C0A4A /* WTAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTAppDelegate.h; path = WTBaseCore/WTAppDelegate/WTAppDelegate.h; sourceTree = "<group>"; };
+		06D5778EC24C5D3DB0BF39A998F4C399 /* QLFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLFormViewController.h; path = QLBusiness/Controller/QLFormViewController.h; sourceTree = "<group>"; };
+		07A3AB359531844DB9E8CFDCEA297022 /* WTBaseCore.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WTBaseCore.bundle; path = WTBaseCore/CoreRes/WTBaseCore.bundle; sourceTree = "<group>"; };
+		0C2F340B3620D5E76EF7C85BB42631F3 /* back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = back.png; path = WTBaseCore/WTCustomNavBar/back.png; sourceTree = "<group>"; };
+		0C95419CFBDE9675F3D324544DC07699 /* TZAssetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZAssetCell.m; path = TZImagePickerController/TZImagePickerController/TZAssetCell.m; sourceTree = "<group>"; };
+		0CC055BD1E4A8B8CA3A8B2F385C111DC /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		0CC81820AE9DD244BE03D20C628BD9D8 /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
+		0DD34B4E8E4128CF74A3A33FB38D12F9 /* WTFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTFormViewController.h; path = WTBaseCore/CoreController/WTFormViewController.h; sourceTree = "<group>"; };
 		0E16AA6449C6238CC3E128A2F5B62D3E /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
-		0E24F833FA23F5E9427F15D411D47A1C /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
-		0EB55DF461E3B587B99BAAC05D136337 /* WTDateUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTDateUtil.h; path = WTBaseCore/CoreUtil/WTDateUtil.h; sourceTree = "<group>"; };
-		0EE496635D047515483B47019B694ACD /* WTEmptyCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTEmptyCell.m; path = WTBaseCore/CoreCell/WTEmptyCell.m; sourceTree = "<group>"; };
-		0EE97DF6D0759DEB0B0F486056F8C554 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
-		0F13DD8587BFA0E1879A434C5A9F3FEC /* UIView+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Category.h"; path = "WTBaseCore/CoreUI/UIView+Category.h"; sourceTree = "<group>"; };
-		111BA40B09CE32B42A0C9EC7BF9530FD /* WTEmptyCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTEmptyCell.h; path = WTBaseCore/CoreCell/WTEmptyCell.h; sourceTree = "<group>"; };
-		13DA88E0C091F13C264916473ED7A8BA /* WTLanguageUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTLanguageUtil.m; path = WTBaseCore/CoreUtil/WTLanguageUtil.m; sourceTree = "<group>"; };
-		1480184C9B1458AD08D275516FD6B860 /* WTRegularUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTRegularUtil.h; path = WTBaseCore/CoreUtil/WTRegularUtil.h; sourceTree = "<group>"; };
-		14B5D1FA8507790FBABAC78A826CD399 /* TZLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZLocationManager.m; path = TZImagePickerController/TZImagePickerController/TZLocationManager.m; sourceTree = "<group>"; };
-		152E7A3AC729272B49F1737D6B996649 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Placeholder.m"; path = "WTBaseCore/CoreUI/UITextView+Placeholder.m"; sourceTree = "<group>"; };
-		1620B9827158B2D94A945E5B0BC62578 /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
+		124CB398EDF40A0FFB487470A1BAAD2A /* WTUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTUtil.m; path = WTBaseCore/CoreUtil/WTUtil.m; sourceTree = "<group>"; };
+		14F80F40B458ECC537D695111F076A43 /* WTCustomNavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTCustomNavBar.h; path = WTBaseCore/WTCustomNavBar/WTCustomNavBar.h; sourceTree = "<group>"; };
+		16824915281E5258983E9A5EC0B59FBE /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		169F8F42CBD521E4F8071989A7EB5BD5 /* WTImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTImagePicker.xcconfig; sourceTree = "<group>"; };
 		16F7033CC0B57CB08C663986214B89CE /* libIQKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libIQKeyboardManager.a; path = libIQKeyboardManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1769378F0EFC2EC7B5F5FEB1219D5EE1 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
-		181D3B376BC267FA5F796BD2DA859AE3 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
-		18C25E4D23BF7C1FD3D630AD691EDBE4 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
-		1A5F083DF97E7B57B12F922DB8D2EBCB /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		171BCDFF0CD7EB71EE3D64F768CB47B9 /* REActionBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REActionBar.m; path = WTBaseCore/RETableViewManager/REActionBar.m; sourceTree = "<group>"; };
+		1823EC86B21C56919D3A7643C12A6CEB /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		1903F4D43A93A66921B51B783FDEC628 /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
 		1AE85312CEF53C54D0509044128047F2 /* Pods-WTDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTDemo-resources.sh"; sourceTree = "<group>"; };
-		1B3D314C791952858B26273910203880 /* WTBaseCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WTBaseCore-dummy.m"; sourceTree = "<group>"; };
-		201EFD37F0B2B6905C21B931A311330A /* WTBaseCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTBaseCell.m; path = WTBaseCore/CoreCell/WTBaseCell.m; sourceTree = "<group>"; };
-		21598A16EB23C3727E019EAB919C37F1 /* NarBarUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NarBarUtil.h; path = WTBaseCore/WTCustomNavBar/NarBarUtil.h; sourceTree = "<group>"; };
-		21C1EE418730B66A19A4C7EB26DC1451 /* QLTabbarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLTabbarController.h; path = QLBusiness/Controller/QLTabbarController.h; sourceTree = "<group>"; };
-		221A74AC7F204330957CED53F769DB2B /* TZImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZImagePickerController-prefix.pch"; sourceTree = "<group>"; };
-		2A068517D67C9682379D423C83159D79 /* WTCustomBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTCustomBarItem.m; path = WTBaseCore/WTCustomNavBar/WTCustomBarItem.m; sourceTree = "<group>"; };
-		2DC0CE63D0472251BAC4223CC38B5481 /* WTCustomButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTCustomButton.h; path = WTBaseCore/CoreUI/WTCustomButton.h; sourceTree = "<group>"; };
-		2E28CD08CA4B546C6ECC5B12A472133E /* NSString+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Category.h"; path = "WTBaseCore/CoreString/NSString+Category.h"; sourceTree = "<group>"; };
+		1DE77CC7278B45368A67A8E125E8B7AB /* QLViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLViewController.m; path = QLBusiness/Controller/QLViewController.m; sourceTree = "<group>"; };
+		1E0F298759C1389F400CDC612208B0D6 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPreviewCell.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		1ED753FC54D156C38FDC5EF6DEE51297 /* WTCustomBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTCustomBarItem.m; path = WTBaseCore/WTCustomNavBar/WTCustomBarItem.m; sourceTree = "<group>"; };
+		20EF38E1E2D7B250308DEAC06C90909E /* WTLanguageUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTLanguageUtil.m; path = WTBaseCore/CoreUtil/WTLanguageUtil.m; sourceTree = "<group>"; };
+		2116AE63BE661808C748F8ABE4E66A47 /* TZGifPhotoPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZGifPhotoPreviewController.h; path = TZImagePickerController/TZImagePickerController/TZGifPhotoPreviewController.h; sourceTree = "<group>"; };
+		22C12C2E99F4490FEB49B562947D215C /* WTTabbarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTTabbarController.m; path = WTBaseCore/CoreController/WTTabbarController.m; sourceTree = "<group>"; };
+		2C65F1206E77505B5FBC8DED9195E711 /* WTToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTToast.h; path = WTBaseCore/CoreUI/WTToast.h; sourceTree = "<group>"; };
+		2C870A73EE8E9B2216BC89352AD8B8EE /* TZImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZImagePickerController-prefix.pch"; sourceTree = "<group>"; };
+		2DDF648EAF4CA99548DC7E49AA6654A6 /* TZImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImageManager.m; path = TZImagePickerController/TZImagePickerController/TZImageManager.m; sourceTree = "<group>"; };
+		2E8C5A9A2604F87CC7A27A6B7013D959 /* NSString+WTRegex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+WTRegex.m"; path = "WTBaseCore/CoreString/NSString+WTRegex.m"; sourceTree = "<group>"; };
 		2F0398BF4A06D44209E25B7D27BFA799 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2F4474B922DCA90426F2CE3B70E7DA0A /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
-		340874F6FB1E599E6B97E24EEC752219 /* WTToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTToast.m; path = WTBaseCore/CoreUI/WTToast.m; sourceTree = "<group>"; };
-		3446A4700064555125D0328DD4B490DD /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
-		34C44613157EF48B1F59A7019103FB17 /* WTWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTWebViewController.m; path = WTBaseCore/CoreController/WTWebViewController.m; sourceTree = "<group>"; };
-		3A871560CA6F7D9DFD85D7C90031E6E1 /* WTImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTImagePicker-prefix.pch"; sourceTree = "<group>"; };
-		3D66ECAD5530455C408293A675B49CF8 /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
-		3D7BE4D1FB5FFD4E9A9BC1475755AA91 /* TZAssetModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZAssetModel.m; path = TZImagePickerController/TZImagePickerController/TZAssetModel.m; sourceTree = "<group>"; };
-		3DE7C26871F17339E93AADD94D325321 /* NSString+WTRegex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+WTRegex.m"; path = "WTBaseCore/CoreString/NSString+WTRegex.m"; sourceTree = "<group>"; };
-		404F7FC7AF0AFD8D33DBACA92D7FB108 /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPreviewCell.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewCell.m; sourceTree = "<group>"; };
-		4133BA69A99D0FD87707F1E51377EE17 /* TZAssetModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZAssetModel.h; path = TZImagePickerController/TZImagePickerController/TZAssetModel.h; sourceTree = "<group>"; };
-		414DB9A91F1D67D6A6B53ED39CFAC581 /* WTAlertUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTAlertUtil.m; path = WTBaseCore/CoreUtil/WTAlertUtil.m; sourceTree = "<group>"; };
-		4286666DAB575C7D4E8DC0B4126ACFE4 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TZImagePickerController.bundle; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle; sourceTree = "<group>"; };
-		429A1D767E3816FDC2FBB685E6606378 /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
-		435BFF2E59D54F26C453DD8CA2D76EE9 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
-		43977A7EEDC981AFB66021FD71C49A25 /* TZPhotoPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPickerController.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPickerController.m; sourceTree = "<group>"; };
-		44CFCCBFB53015BBCF311B17555130CB /* WTRegularUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTRegularUtil.m; path = WTBaseCore/CoreUtil/WTRegularUtil.m; sourceTree = "<group>"; };
-		44D72CF5F6CCF65312F946721F34E3F9 /* IQKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.xcconfig; sourceTree = "<group>"; };
-		44EAF53D35B50713424CB517AA2E3C8E /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZGifPhotoPreviewController.m; path = TZImagePickerController/TZImagePickerController/TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
-		44F8313528B50D1B4863E08019FE7B96 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
+		328B6E6A0F04C5A6029493C053610A9D /* WTBaseCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTBaseCell.h; path = WTBaseCore/CoreCell/WTBaseCell.h; sourceTree = "<group>"; };
+		35C13427C2A14033DB1FD1E3474246CA /* QLDropDownMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLDropDownMenu.m; path = QLBusiness/View/QLDropDownMenu.m; sourceTree = "<group>"; };
+		36DFE327A6A68D27B1B8CC8510A2516E /* QLDropDownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLDropDownMenu.h; path = QLBusiness/View/QLDropDownMenu.h; sourceTree = "<group>"; };
+		37F1047DF27DAD0665FA8F4A7827ACB3 /* UIView+Layout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Layout.m"; path = "TZImagePickerController/TZImagePickerController/UIView+Layout.m"; sourceTree = "<group>"; };
+		37F885BE73AA2D3EEE32019BAB785EF9 /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
+		38E4DED39554398667AC903D710699E0 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		3A1F6A25A17610A2C35EE7F9FDB4472D /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		3AEF760699A1A0D5B677F33CC9940ED3 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		3B0864D29A623F338166BC43A545B458 /* NarBarUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NarBarUtil.m; path = WTBaseCore/WTCustomNavBar/NarBarUtil.m; sourceTree = "<group>"; };
+		3BAFEEC6AC0B18F8A1564DE360366FEE /* WTRegularUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTRegularUtil.h; path = WTBaseCore/CoreUtil/WTRegularUtil.h; sourceTree = "<group>"; };
+		3CA7D70B38AE6C5409E2EA7493D36735 /* WTImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTImagePicker-prefix.pch"; sourceTree = "<group>"; };
+		3DD0B3E7EFD30AAF5425697DB31700BB /* NarBarUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NarBarUtil.h; path = WTBaseCore/WTCustomNavBar/NarBarUtil.h; sourceTree = "<group>"; };
+		3E97461CAA96CCD024579CD4347546D6 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Placeholder.m"; path = "WTBaseCore/CoreUI/UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		435AE283D1C6FC43E4DAA84203F19DB8 /* WTFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTFile.h; path = WTBaseCore/CoreUtil/WTFile.h; sourceTree = "<group>"; };
+		436FDA55B450E0DC8D2EF1DC93CD9C95 /* TZImageCropManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImageCropManager.h; path = TZImagePickerController/TZImagePickerController/TZImageCropManager.h; sourceTree = "<group>"; };
 		45CE7410EDDEE3A6218C0AFA576854C8 /* libWTBaseCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWTBaseCore.a; path = libWTBaseCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		474FE9281DDA0AB507B9ACFA3B36F29D /* RETableViewCellStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewCellStyle.m; path = WTBaseCore/RETableViewManager/RETableViewCellStyle.m; sourceTree = "<group>"; };
-		4B45507F1BE301D4CD9B4B83BC1AF63B /* RETableViewSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewSection.m; path = WTBaseCore/RETableViewManager/RETableViewSection.m; sourceTree = "<group>"; };
-		4BDB7E7E4EF88D11B49E3C6E66C3A164 /* WTCustomBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTCustomBarItem.h; path = WTBaseCore/WTCustomNavBar/WTCustomBarItem.h; sourceTree = "<group>"; };
+		47AB511E6E11B8B61AF4A917FF861AB1 /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPreviewController.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		48DBACA39E53DE7AFCCA0E27D1B00FB9 /* REActionBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REActionBar.h; path = WTBaseCore/RETableViewManager/REActionBar.h; sourceTree = "<group>"; };
+		48E7C280F77E0A867DF092A80D91EC05 /* WTCustomButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTCustomButton.m; path = WTBaseCore/CoreUI/WTCustomButton.m; sourceTree = "<group>"; };
+		49A2E43AF215E555742429C98ED7A801 /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
+		4AB4AF83B435927F53FE8F981C5755AB /* TZProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZProgressView.h; path = TZImagePickerController/TZImagePickerController/TZProgressView.h; sourceTree = "<group>"; };
+		4BA279D399F9B21FAB121784FB72BAFA /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
+		4BDC0742D3C3115B8F8DEFC56C26D47F /* QLBusiness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLBusiness.h; path = QLBusiness/QLBusiness.h; sourceTree = "<group>"; };
+		4BE630B4068C931DEBF8EE05F8AA7344 /* WTTabbarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTTabbarController.h; path = WTBaseCore/CoreController/WTTabbarController.h; sourceTree = "<group>"; };
 		4C7D4C00522D5171E48285E11511B138 /* libFDFullscreenPopGesture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFDFullscreenPopGesture.a; path = libFDFullscreenPopGesture.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E5CCE009D5CD0475DB3EB619099B887 /* RETableViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewManager.h; path = WTBaseCore/RETableViewManager/RETableViewManager.h; sourceTree = "<group>"; };
-		5415963D10DA200A604C5E2AB293CB39 /* QLBusiness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLBusiness.h; path = QLBusiness/QLBusiness.h; sourceTree = "<group>"; };
-		547646E2D22D4A219E0404FCAE423675 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
-		57FDEF87B7048B1ED383352E1D260CF5 /* WTImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WTImagePicker-dummy.m"; sourceTree = "<group>"; };
-		59732C274086F62B4DAC0BD03722399E /* WTLanguageUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTLanguageUtil.h; path = WTBaseCore/CoreUtil/WTLanguageUtil.h; sourceTree = "<group>"; };
-		59A7381DB98F435CFAC8EE7505600238 /* WTImagePickerUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTImagePickerUtil.h; path = WTImagePicker/WTImagePickerUtil.h; sourceTree = "<group>"; };
+		4DB63148BF8D8C0B13ED00E922AA47C4 /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
+		4E407322DC1AEA0D5B779509897BAFE6 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		4E8F9CE7B6F305C674D374B6FC6F8D17 /* WTCustomNavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTCustomNavBar.m; path = WTBaseCore/WTCustomNavBar/WTCustomNavBar.m; sourceTree = "<group>"; };
+		4EBF6932F4B77859FD3CF86A49DAEFE3 /* UIView+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Category.h"; path = "WTBaseCore/CoreUI/UIView+Category.h"; sourceTree = "<group>"; };
+		511F290A0D121318287F03289C315F5C /* WTAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTAppDelegate.m; path = WTBaseCore/WTAppDelegate/WTAppDelegate.m; sourceTree = "<group>"; };
+		51CC56BBAD20ECFC3D0F0B23BD30D67E /* WTIconTextCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTIconTextCell.m; path = QLBusiness/Cell/WTIconTextCell.m; sourceTree = "<group>"; };
+		52D7AC16BB22108CE586DA73CBF16AA3 /* RETableViewCellStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewCellStyle.h; path = WTBaseCore/RETableViewManager/RETableViewCellStyle.h; sourceTree = "<group>"; };
+		54CE601F848913717EAE288D7B4B222A /* QLTabbarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLTabbarController.m; path = QLBusiness/Controller/QLTabbarController.m; sourceTree = "<group>"; };
+		592769C6E1B8B13EC48231441D64617A /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		5A706B11DB4150A7045DCCA29951DEF2 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		5C5A12E976A1BC8B79B2764AE97BE0E2 /* Pods-WTDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTDemo.release.xcconfig"; sourceTree = "<group>"; };
-		5D10C165DA4124D650B48C28D028B9F2 /* WTCustomNavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTCustomNavBar.h; path = WTBaseCore/WTCustomNavBar/WTCustomNavBar.h; sourceTree = "<group>"; };
-		5DAD5AEBE693E8C2E0DCDBDC6D9B011B /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
-		5EB0E58FB7D58D054DB6DAE8861CBB3F /* WTBaseCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTBaseCell.h; path = WTBaseCore/CoreCell/WTBaseCell.h; sourceTree = "<group>"; };
-		6005E1C9A04C2A16A2BFEEC854EB2071 /* QLFormViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLFormViewController.m; path = QLBusiness/Controller/QLFormViewController.m; sourceTree = "<group>"; };
-		61B5B257AB0AF3BE169E450635BBE447 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
-		61EE0009E4C4ABD5929A0E3473A6C4A1 /* TZAssetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZAssetCell.m; path = TZImagePickerController/TZImagePickerController/TZAssetCell.m; sourceTree = "<group>"; };
+		5D2C1F7853FABBA73B747F93B406B462 /* TZImageCropManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImageCropManager.m; path = TZImagePickerController/TZImagePickerController/TZImageCropManager.m; sourceTree = "<group>"; };
+		5D2FAA718DCDEDDAD009C526017F31E0 /* UIButton+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Block.h"; path = "WTBaseCore/CoreUI/UIButton+Block.h"; sourceTree = "<group>"; };
+		5E5D4A19A4BA7F9A2AFB216B1C4A36D1 /* RETableViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewItem.h; path = WTBaseCore/RETableViewManager/RETableViewItem.h; sourceTree = "<group>"; };
+		606C11BB671B0F9FF87AB04E4FAF4DAF /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		60F9E9F1685C5CFA3591464CBC05C86C /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		61039AA009E93E62D840DF5F143941F0 /* TZImagePickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TZImagePickerController-dummy.m"; sourceTree = "<group>"; };
 		622C8F9FCD5F17D37327213CD885E742 /* Pods-WTDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		624FB0C11F2D963BF4BA28DF6D7A0277 /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
 		6258713CC340A626D3CC07E8CF34C510 /* libTZImagePickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTZImagePickerController.a; path = libTZImagePickerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		62C006733FC19A24EB4F849DCAD1ADBC /* FDFullscreenPopGesture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDFullscreenPopGesture.xcconfig; sourceTree = "<group>"; };
-		6637B8357D05011523FF0CA17904BB8A /* WTTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTTextField.m; path = WTBaseCore/CoreUI/WTTextField.m; sourceTree = "<group>"; };
-		6841B9B9288E248758206D43284C4D31 /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
-		69C658EDBCD30591F9138D9CB0F00950 /* QLDropDownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLDropDownMenu.h; path = QLBusiness/View/QLDropDownMenu.h; sourceTree = "<group>"; };
-		6A176FA80D5BF44B38492C3E9A84669A /* WTFormViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTFormViewController.m; path = WTBaseCore/CoreController/WTFormViewController.m; sourceTree = "<group>"; };
+		665175039049415241EE24F5E387DC79 /* FDFullscreenPopGesture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDFullscreenPopGesture.xcconfig; sourceTree = "<group>"; };
+		667BC946413750728938240218BADCFA /* RETableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewCell.h; path = WTBaseCore/RETableViewManager/RETableViewCell.h; sourceTree = "<group>"; };
+		67894F01B385FF8D98E23C56201211CE /* TZImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImagePickerController.h; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.h; sourceTree = "<group>"; };
+		697BAF2741A1EE475533F7E5CBA74635 /* TZImagePickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZImagePickerController.xcconfig; sourceTree = "<group>"; };
 		6A38C450DE7B2916B053A1253884AEF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		6A64250E8DA4E2FCC9AFDC7C53578A91 /* back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = back.png; path = WTBaseCore/WTCustomNavBar/back.png; sourceTree = "<group>"; };
-		6B18D14E83B1F19B8B5DCC108F1E17CB /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
-		6B7BE125FF2B79A2DC1419F5E9913DB5 /* TZImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImageManager.h; path = TZImagePickerController/TZImagePickerController/TZImageManager.h; sourceTree = "<group>"; };
 		6BA2CA3231C0BA0F940491D2CE8DA266 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		6BDC7DF434FA76B586A35F36B4DD94EE /* QLBusiness.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QLBusiness.xcconfig; sourceTree = "<group>"; };
-		6C3A6009F2B172F849F94E2B4792B812 /* WTTabbarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTTabbarController.h; path = WTBaseCore/CoreController/WTTabbarController.h; sourceTree = "<group>"; };
-		6DAA2C5E264F6FF907C2E7F48E8E0857 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIWindow+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
-		6E5067D82D606D9DE87C1EE7415A0111 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
-		6F5FB0FD1B742D3C7764EFB4D0D36CE6 /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+TZImagePicker.h"; path = "TZImagePickerController/TZImagePickerController/NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
-		70403422284A24F199453F4F0DA8986A /* NarBarUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NarBarUtil.m; path = WTBaseCore/WTCustomNavBar/NarBarUtil.m; sourceTree = "<group>"; };
+		6C1E7CAD34FA3B91DBC22F4F7386DA7F /* WTWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTWebViewController.h; path = WTBaseCore/CoreController/WTWebViewController.h; sourceTree = "<group>"; };
+		6C5DB54AC4796660196D67A0F7BD6DA6 /* QLTabbarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLTabbarController.h; path = QLBusiness/Controller/QLTabbarController.h; sourceTree = "<group>"; };
+		6C83F1887A60A9842A18397F63495116 /* RETableViewSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewSection.m; path = WTBaseCore/RETableViewManager/RETableViewSection.m; sourceTree = "<group>"; };
 		704047001650852C5E516ECD46A0B570 /* Pods-WTDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WTDemo-dummy.m"; sourceTree = "<group>"; };
-		70D4DA905D0F56A7DDA5E761D9A63A4B /* FDFullscreenPopGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FDFullscreenPopGesture-dummy.m"; sourceTree = "<group>"; };
-		711FCE29BBF12258BD6E4C6FDE4DE52A /* TZImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImagePickerController.h; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.h; sourceTree = "<group>"; };
-		7217A13F9287D1DDBD0747C14E91ED9C /* TZProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZProgressView.h; path = TZImagePickerController/TZImagePickerController/TZProgressView.h; sourceTree = "<group>"; };
-		75F59D2B7BDD6AF0EB9BC7B5A7476AEE /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
-		776AF7E55864B367060C752FB1929CDD /* WTImageUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTImageUtil.m; path = WTBaseCore/CoreUtil/WTImageUtil.m; sourceTree = "<group>"; };
-		777106B1822A166E96CE114A2F0562FB /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
-		779844F93CE7AA41C515F11B47563F5D /* WTViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTViewController.m; path = WTBaseCore/CoreController/WTViewController.m; sourceTree = "<group>"; };
-		7A24D82F96764E46647CEF094868F285 /* TZPhotoPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPickerController.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPickerController.h; sourceTree = "<group>"; };
-		7B52AF6B2DB4FE6E7C588088AA8A2847 /* WTBaseCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTBaseCore.h; path = WTBaseCore/WTBaseCore.h; sourceTree = "<group>"; };
-		7F4C16C996C2FD63E9B65DAC7D14C33F /* WTWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTWebViewController.h; path = WTBaseCore/CoreController/WTWebViewController.h; sourceTree = "<group>"; };
-		8065B08BA48FAC1FB4D069F3DE47C23F /* WTTabbarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTTabbarController.m; path = WTBaseCore/CoreController/WTTabbarController.m; sourceTree = "<group>"; };
-		81110017248991CFE384B77440E76CEB /* WTBaseCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTBaseCore-prefix.pch"; sourceTree = "<group>"; };
-		858C308759F7C17FB5491DE59E951C4E /* UIView+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Category.m"; path = "WTBaseCore/CoreUI/UIView+Category.m"; sourceTree = "<group>"; };
-		87318417C73E83B8B010487B43AAC84B /* UIButton+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Block.m"; path = "WTBaseCore/CoreUI/UIButton+Block.m"; sourceTree = "<group>"; };
-		87A36D14C5934738EB3AEF16B3242996 /* TZImageCropManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImageCropManager.m; path = TZImagePickerController/TZImagePickerController/TZImageCropManager.m; sourceTree = "<group>"; };
-		8862DF9FE777A960F4A4B34E14981457 /* RETableViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewItem.h; path = WTBaseCore/RETableViewManager/RETableViewItem.h; sourceTree = "<group>"; };
-		889630FE4C3D0F67E22843D467279F1D /* WTIconTextCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTIconTextCell.h; path = QLBusiness/Cell/WTIconTextCell.h; sourceTree = "<group>"; };
-		89214A22BAC2D7D819D51939921D9B6A /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPreviewController.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewController.h; sourceTree = "<group>"; };
-		8A0E0A7883E1FF28891663FB9B9280BD /* NSString+WTRegex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+WTRegex.h"; path = "WTBaseCore/CoreString/NSString+WTRegex.h"; sourceTree = "<group>"; };
-		8E8B108EEAFFAE13CDBAF33B9E8E5EA3 /* WTBaseCore.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WTBaseCore.bundle; path = WTBaseCore/CoreRes/WTBaseCore.bundle; sourceTree = "<group>"; };
-		90877B3F5374B3179D22B8320AA892DC /* QLBusiness-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QLBusiness-dummy.m"; sourceTree = "<group>"; };
-		91D4EC9D389D55ADEB7D7DE0A0C6F6F1 /* WTAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTAppDelegate.h; path = WTBaseCore/WTAppDelegate/WTAppDelegate.h; sourceTree = "<group>"; };
-		9285AB59FA36F8C8FBCAC4224E712626 /* WTToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTToast.h; path = WTBaseCore/CoreUI/WTToast.h; sourceTree = "<group>"; };
-		933C32650FC248C6D7B114894EE2E00D /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
-		934FD5E0A47D2D111F25BEE65608BE74 /* RETableViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewItem.m; path = WTBaseCore/RETableViewManager/RETableViewItem.m; sourceTree = "<group>"; };
+		70A1D68AEAD94C72C051F3185D7AEBBF /* WTBaseCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTBaseCore.h; path = WTBaseCore/WTBaseCore.h; sourceTree = "<group>"; };
+		73843255B15020D28F2D3A7262A7C19E /* WTTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTTextField.m; path = WTBaseCore/CoreUI/WTTextField.m; sourceTree = "<group>"; };
+		75C937CDC5C224CFCE68F2957821CA55 /* UIButton+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Block.m"; path = "WTBaseCore/CoreUI/UIButton+Block.m"; sourceTree = "<group>"; };
+		787386C60BA53D7001B13DA478041178 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TZImagePickerController.bundle; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle; sourceTree = "<group>"; };
+		7D3C849455208AB76498B757C55787C4 /* TZPhotoPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPickerController.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPickerController.h; sourceTree = "<group>"; };
+		7D8EF16243D2EF775458A1865534C010 /* WTBaseCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTBaseCore.xcconfig; sourceTree = "<group>"; };
+		7E6B3B1D9C63780F7665F7E20A8BD1CF /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		80BAB0F386E20AE47EADAF105BF91FD4 /* WTUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTUtil.h; path = WTBaseCore/CoreUtil/WTUtil.h; sourceTree = "<group>"; };
+		81A4294F6CCF7CA57BF00F118805C7E3 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIWindow+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		8214544E0D03D8AB89EEAC448428D2F0 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZVideoPlayerController.m; path = TZImagePickerController/TZImagePickerController/TZVideoPlayerController.m; sourceTree = "<group>"; };
+		838115E73C4DACD04900DE5247BECE0F /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		862B32869E41763F8EC075BFC6164AAB /* TZLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZLocationManager.h; path = TZImagePickerController/TZImagePickerController/TZLocationManager.h; sourceTree = "<group>"; };
+		87406D16639CD03078A82F0C10D5532B /* WTRegularUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTRegularUtil.m; path = WTBaseCore/CoreUtil/WTRegularUtil.m; sourceTree = "<group>"; };
+		88A9838BAE950BC2C88599DEA59638D0 /* WTBaseCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTBaseCell.m; path = WTBaseCore/CoreCell/WTBaseCell.m; sourceTree = "<group>"; };
+		8ECDA878996AE976955FA654841C6C82 /* TZImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImagePickerController.m; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.m; sourceTree = "<group>"; };
+		92571F1B960A2FF877C6188EC2E2D2D0 /* RETableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewCell.m; path = WTBaseCore/RETableViewManager/RETableViewCell.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		953AA43E1450344670A5AB23A673BEA2 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
-		96119B3792015D5869F2F5831CA94B9A /* TZImagePickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TZImagePickerController-dummy.m"; sourceTree = "<group>"; };
-		9898087DC90BAF6E22DA368DD8929CF7 /* TZImagePickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZImagePickerController.xcconfig; sourceTree = "<group>"; };
-		990795EB645909328E2A7FC447CD0566 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZVideoPlayerController.h; path = TZImagePickerController/TZImagePickerController/TZVideoPlayerController.h; sourceTree = "<group>"; };
-		9A0C901C8317779E7BA4995BB5E466EA /* REActionBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REActionBar.h; path = WTBaseCore/RETableViewManager/REActionBar.h; sourceTree = "<group>"; };
-		9A80BF555C09DD0F678EB573DDC8398C /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Placeholder.h"; path = "WTBaseCore/CoreUI/UITextView+Placeholder.h"; sourceTree = "<group>"; };
-		9C07C2420275F525EB9A64B19483962B /* TZProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZProgressView.m; path = TZImagePickerController/TZImagePickerController/TZProgressView.m; sourceTree = "<group>"; };
-		9CE0E9C71EF3D30B3164C8E1F27D1A29 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZVideoPlayerController.m; path = TZImagePickerController/TZImagePickerController/TZVideoPlayerController.m; sourceTree = "<group>"; };
-		9D296F899073AC09A9C2BD4ED3119758 /* RETableViewCellStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewCellStyle.h; path = WTBaseCore/RETableViewManager/RETableViewCellStyle.h; sourceTree = "<group>"; };
-		A015C955BF816F6BD36EEE709EFE1A90 /* WTUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTUtil.h; path = WTBaseCore/CoreUtil/WTUtil.h; sourceTree = "<group>"; };
-		A3BA1A6505E8DDD7F3E6B80350355928 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
-		AAD3F0ED15F6C869908EA13EBD63215C /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
-		AC51FD0CF9739DA1260AF049B6B025F0 /* WTImageUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTImageUtil.h; path = WTBaseCore/CoreUtil/WTImageUtil.h; sourceTree = "<group>"; };
-		AD571EA6F10DB4C1953EC0D9FDD3BFA3 /* TZImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImagePickerController.m; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.m; sourceTree = "<group>"; };
-		ADAE503650A3294F85BF28AFAC909A4C /* RETableViewSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewSection.h; path = WTBaseCore/RETableViewManager/RETableViewSection.h; sourceTree = "<group>"; };
-		AE64021848C4484BA708DD4B3868A6A5 /* RETableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewCell.m; path = WTBaseCore/RETableViewManager/RETableViewCell.m; sourceTree = "<group>"; };
-		AFD47F53AE11AD138648F9A30907A8B1 /* TZGifPhotoPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZGifPhotoPreviewController.h; path = TZImagePickerController/TZImagePickerController/TZGifPhotoPreviewController.h; sourceTree = "<group>"; };
-		B5C5D8D5E3E18692CF9B3E44B164B0D0 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
-		B5DDE97E476261FF5454EFEDEDB6F7DD /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
-		B5F934A9FE00DFF1AF631D99500C81C0 /* TZImageCropManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImageCropManager.h; path = TZImagePickerController/TZImagePickerController/TZImageCropManager.h; sourceTree = "<group>"; };
-		B65416BAEFD66D94859F4C978195F4F9 /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+TZImagePicker.m"; path = "TZImagePickerController/TZImagePickerController/NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
-		B668CC300DC89436C013B9717EDC0DAD /* QLTabbarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLTabbarController.m; path = QLBusiness/Controller/QLTabbarController.m; sourceTree = "<group>"; };
-		B6D56465981E14D640B84D62599182FA /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPreviewController.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewController.m; sourceTree = "<group>"; };
-		B73323CCDAA88FDA380489639F2ADCAE /* QLDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLDefine.h; path = QLBusiness/QLDefine.h; sourceTree = "<group>"; };
-		B8073D3445E96CB934C42FB071420AD0 /* WTFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTFile.h; path = WTBaseCore/CoreUtil/WTFile.h; sourceTree = "<group>"; };
-		B93C28CCBC1FA3CE5B9373BC9C59CBA5 /* RETableViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewManager.m; path = WTBaseCore/RETableViewManager/RETableViewManager.m; sourceTree = "<group>"; };
-		BAFEE08F7B8D2E9CC0F9849F1090EFEB /* QLBusiness-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLBusiness-prefix.pch"; sourceTree = "<group>"; };
-		BB298FA760D9CA306826AC1B37320221 /* WTTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTTextField.h; path = WTBaseCore/CoreUI/WTTextField.h; sourceTree = "<group>"; };
-		BC3C6AAB7C91356F9C035ACB8068B950 /* TZAssetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZAssetCell.h; path = TZImagePickerController/TZImagePickerController/TZAssetCell.h; sourceTree = "<group>"; };
-		BCEECA86C2480ED3EA18A7F49B118A85 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		9658EF210E0BDE7B7F2B20CC10A04EDC /* QLBusiness-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLBusiness-prefix.pch"; sourceTree = "<group>"; };
+		96C10B7446F153510AACDCB525E1AAFF /* TZAssetModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZAssetModel.h; path = TZImagePickerController/TZImagePickerController/TZAssetModel.h; sourceTree = "<group>"; };
+		9A3554FD4872412AAF5E7F7B63D3720A /* TZAssetModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZAssetModel.m; path = TZImagePickerController/TZImagePickerController/TZAssetModel.m; sourceTree = "<group>"; };
+		9A9839A316B6B0B2EE62F42C80E35274 /* WTFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTFile.m; path = WTBaseCore/CoreUtil/WTFile.m; sourceTree = "<group>"; };
+		9B0E16DBC639A8DA9CCBD0B7F17FBDF0 /* WTDateUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTDateUtil.h; path = WTBaseCore/CoreUtil/WTDateUtil.h; sourceTree = "<group>"; };
+		9BEDFB8C5980E909F94033CB604FA8BF /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		9CF2CBBB842F44FE39E7D80C2336445B /* UIView+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Category.m"; path = "WTBaseCore/CoreUI/UIView+Category.m"; sourceTree = "<group>"; };
+		9F21DA82F2FFFC57C1CB8DD17A840A8C /* TZLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZLocationManager.m; path = TZImagePickerController/TZImagePickerController/TZLocationManager.m; sourceTree = "<group>"; };
+		A355C4CD901ED4D488DC4F17F9545392 /* FDFullscreenPopGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-prefix.pch"; sourceTree = "<group>"; };
+		A3ADFAD63EBCAD54413387D256783340 /* QLBusinessUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLBusinessUtil.m; path = QLBusiness/Util/QLBusinessUtil.m; sourceTree = "<group>"; };
+		A4099D3ED8499F1D57C533E525F7FE97 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		A4532CC72E2220505B13903FEC332C26 /* TZProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZProgressView.m; path = TZImagePickerController/TZImagePickerController/TZProgressView.m; sourceTree = "<group>"; };
+		A4E412CEEC388C1A3DE010503F295B32 /* WTTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTTextField.h; path = WTBaseCore/CoreUI/WTTextField.h; sourceTree = "<group>"; };
+		A5D1B5B7D3AFCA15F287623A2B30F960 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZVideoPlayerController.h; path = TZImagePickerController/TZImagePickerController/TZVideoPlayerController.h; sourceTree = "<group>"; };
+		A670E7D05516CCD4822A151F21F43665 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		A6D908E561756C26D01A66D431F33C7B /* FDFullscreenPopGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FDFullscreenPopGesture-dummy.m"; sourceTree = "<group>"; };
+		A71AC65D7E68CB3937E3FFD7C0DBC9B3 /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+TZImagePicker.h"; path = "TZImagePickerController/TZImagePickerController/NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
+		A9FF7D84EABFBF6E1118DE81ECDBF9ED /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		ABB9AA565E648E204742AF961E4637CD /* WTImagePickerUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTImagePickerUtil.h; path = WTImagePicker/WTImagePickerUtil.h; sourceTree = "<group>"; };
+		ABBBAFE5BED575C09067619268D38686 /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
+		AF2389B07DE309594BB1DF3EE8D196CF /* UIView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Layout.h"; path = "TZImagePickerController/TZImagePickerController/UIView+Layout.h"; sourceTree = "<group>"; };
+		AF306F54A7EE93079CA6239A5E842CF1 /* WTLanguageUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTLanguageUtil.h; path = WTBaseCore/CoreUtil/WTLanguageUtil.h; sourceTree = "<group>"; };
+		B00905976D52D2CAD59384FF1A24E414 /* WTBaseCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTBaseCore-prefix.pch"; sourceTree = "<group>"; };
+		B08111FA0A607FE38E04434B5BD6DC4F /* WTFormViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTFormViewController.m; path = WTBaseCore/CoreController/WTFormViewController.m; sourceTree = "<group>"; };
+		B1242B7BBAC59879A65ADEAE6B5BCA0D /* NSString+WTRegex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+WTRegex.h"; path = "WTBaseCore/CoreString/NSString+WTRegex.h"; sourceTree = "<group>"; };
+		B62A37FBB401D1166A53046D7FEA31F8 /* RETableViewCellStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewCellStyle.m; path = WTBaseCore/RETableViewManager/RETableViewCellStyle.m; sourceTree = "<group>"; };
+		B71B44B0971C11F1EAA2AF6FF37B5350 /* QLBusiness-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QLBusiness-dummy.m"; sourceTree = "<group>"; };
+		B8C0B19C9B6AF73EB86A614DB488B259 /* TZAssetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZAssetCell.h; path = TZImagePickerController/TZImagePickerController/TZAssetCell.h; sourceTree = "<group>"; };
+		B9BB53B50B46931649E5E7ADC905522A /* WTAlertUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTAlertUtil.h; path = WTBaseCore/CoreUtil/WTAlertUtil.h; sourceTree = "<group>"; };
+		BA59688DFEE83B1D2F84F27F9E58E3B0 /* WTIconTextCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTIconTextCell.h; path = QLBusiness/Cell/WTIconTextCell.h; sourceTree = "<group>"; };
+		BBF5931791F52F67A55C3DCD5799B51B /* WTImagePickerUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTImagePickerUtil.m; path = WTImagePicker/WTImagePickerUtil.m; sourceTree = "<group>"; };
 		BD21DB1F8A1FAF949FD027FB8EAFA6B7 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
-		C19CF79653ED2885CA4951CA2491AC35 /* WTDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTDefine.h; path = WTBaseCore/WTDefine.h; sourceTree = "<group>"; };
 		C213F5696D0523EA660A7FBDDF669C8D /* Pods-WTDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		C3CB554DD5104EDEBBCF20D350B5A5E1 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIWindow+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
-		C601D7A2E640F12E4668B6579F1C22C2 /* WTCustomButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTCustomButton.m; path = WTBaseCore/CoreUI/WTCustomButton.m; sourceTree = "<group>"; };
-		C67F7A5C8F3AB89D707671781A18D380 /* UIView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Layout.h"; path = "TZImagePickerController/TZImagePickerController/UIView+Layout.h"; sourceTree = "<group>"; };
-		C7EE15E6D0D78BDD11C23A4801CC05EE /* WTIconTextCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTIconTextCell.m; path = QLBusiness/Cell/WTIconTextCell.m; sourceTree = "<group>"; };
-		C991EB97F89159DDFDFC7E1915FD674A /* WTAlertUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTAlertUtil.h; path = WTBaseCore/CoreUtil/WTAlertUtil.h; sourceTree = "<group>"; };
-		CB094D3E4D9E0BBAA1AC030091EEAC26 /* REActionBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REActionBar.m; path = WTBaseCore/RETableViewManager/REActionBar.m; sourceTree = "<group>"; };
-		CC071B232B6B43D756506E12F2757237 /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
-		CC3C37C94883BEDD8DE87ADE95177847 /* WTFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTFormViewController.h; path = WTBaseCore/CoreController/WTFormViewController.h; sourceTree = "<group>"; };
-		D2032C32266BBF95AD8D7C2E53C3784C /* TZLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZLocationManager.h; path = TZImagePickerController/TZImagePickerController/TZLocationManager.h; sourceTree = "<group>"; };
+		C333C10CA8BE860452F65D962F1EF9D6 /* WTCustomBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTCustomBarItem.h; path = WTBaseCore/WTCustomNavBar/WTCustomBarItem.h; sourceTree = "<group>"; };
+		C3C2C385B3C2A5EEABE717979E992538 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		C42995D3767E74CD60838ABBB73D9B25 /* IQKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.xcconfig; sourceTree = "<group>"; };
+		C43206E7AFC2145195736A96605DC9E7 /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPreviewCell.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		C7BED2E04955E47F7708257B5B176326 /* WTToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTToast.m; path = WTBaseCore/CoreUI/WTToast.m; sourceTree = "<group>"; };
+		C87B852C939EC7E6ED4E7920768734C6 /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPreviewController.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		CB02340932229740DB41C8EAF3656611 /* WTAlertUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTAlertUtil.m; path = WTBaseCore/CoreUtil/WTAlertUtil.m; sourceTree = "<group>"; };
+		CBAF5206F528CE2BD10436E4A0829B65 /* WTDateUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTDateUtil.m; path = WTBaseCore/CoreUtil/WTDateUtil.m; sourceTree = "<group>"; };
+		D20613FB93B581FD74B496AEC5B7C76E /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
 		D2412F250D8B5C5795EDE53BE95B47DA /* libWTImagePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWTImagePicker.a; path = libWTImagePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2C17066B34D36ADAF47A072C7755C10 /* FDFullscreenPopGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-prefix.pch"; sourceTree = "<group>"; };
-		D50D7F6BF8AD14A8A1D27FB14C14DFDB /* TZImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImageManager.m; path = TZImagePickerController/TZImagePickerController/TZImageManager.m; sourceTree = "<group>"; };
-		D761E3D13E84AD99B66F4EA6401D48F2 /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
-		DCC95768B7D71FC9F4A175706827F0B0 /* QLViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLViewController.m; path = QLBusiness/Controller/QLViewController.m; sourceTree = "<group>"; };
-		DD0B24411622833D49C3DA72AE6E2A9B /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
-		DFAE28BD391567A1555D4543832DCC2D /* WTImagePickerUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTImagePickerUtil.m; path = WTImagePicker/WTImagePickerUtil.m; sourceTree = "<group>"; };
-		E19F876BF9640EDCBF4B6A99BFF6E0FB /* WTFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTFile.m; path = WTBaseCore/CoreUtil/WTFile.m; sourceTree = "<group>"; };
-		E32267B345D90AFC58B9615A10F7938F /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		D29C840B60192B63E8FD466B7908A8D2 /* NSString+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Category.h"; path = "WTBaseCore/CoreString/NSString+Category.h"; sourceTree = "<group>"; };
+		D304D6DC1712491486A0064C9716DE30 /* RETableViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewItem.m; path = WTBaseCore/RETableViewManager/RETableViewItem.m; sourceTree = "<group>"; };
+		D38D2850AF2AB4C9FDBE5D2010E2A360 /* QLBusiness.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QLBusiness.xcconfig; sourceTree = "<group>"; };
+		D5DA136580FDE1238CC55FD5F9E6E6EC /* RETableViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewManager.h; path = WTBaseCore/RETableViewManager/RETableViewManager.h; sourceTree = "<group>"; };
+		D6DC8C65F5952067EF21E6B9D7F8B4B2 /* WTWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTWebViewController.m; path = WTBaseCore/CoreController/WTWebViewController.m; sourceTree = "<group>"; };
+		D729EF0C1EC779A49B7098F1030AC69B /* TZPhotoPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPickerController.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPickerController.m; sourceTree = "<group>"; };
+		D8E0E659F20BE6AE5C8C7A3D9A182F77 /* NSString+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Category.m"; path = "WTBaseCore/CoreString/NSString+Category.m"; sourceTree = "<group>"; };
+		DA9F8D999C6FE32C1A1059053CC1E4F3 /* WTEmptyCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTEmptyCell.m; path = WTBaseCore/CoreCell/WTEmptyCell.m; sourceTree = "<group>"; };
+		DC6A345E73C1AC9C11DA997D9D98EEB6 /* QLFormViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLFormViewController.m; path = QLBusiness/Controller/QLFormViewController.m; sourceTree = "<group>"; };
+		DC8909A1B8F6F8750F8E4101FEDE5ADE /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIWindow+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		DF0EB33AE824C2D7E64E1C5A7092D661 /* QLViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLViewController.h; path = QLBusiness/Controller/QLViewController.h; sourceTree = "<group>"; };
+		DF19F92C5101CDA47A0212313B058AE1 /* QLBusinessUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLBusinessUtil.h; path = QLBusiness/Util/QLBusinessUtil.h; sourceTree = "<group>"; };
+		E0546468B9A56FB63B759E889F54A3DF /* WTImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WTImagePicker-dummy.m"; sourceTree = "<group>"; };
+		E253E5693EFC04C365BED8116730F2CA /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		E326F0574FB26B74DC34B5A035B2C70C /* WTDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTDefine.h; path = WTBaseCore/WTDefine.h; sourceTree = "<group>"; };
+		E347DD608BF4347B923400ED9FFAD3B7 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		E366D2FE8D33F12478BBC63D7FDFC730 /* WTViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTViewController.m; path = WTBaseCore/CoreController/WTViewController.m; sourceTree = "<group>"; };
 		E48E857FDF81F6085BD120AAAC4FD1EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E4A52535C77608FB29BE9F5983267C1B /* WTUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTUtil.m; path = WTBaseCore/CoreUtil/WTUtil.m; sourceTree = "<group>"; };
-		E5436F9F935682F4DEF57C5B0CA02C8D /* RETableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewCell.h; path = WTBaseCore/RETableViewManager/RETableViewCell.h; sourceTree = "<group>"; };
-		E66885D303F6198B1262C29A226CB05C /* WTCustomNavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTCustomNavBar.m; path = WTBaseCore/WTCustomNavBar/WTCustomNavBar.m; sourceTree = "<group>"; };
-		E6E225F84D90736B149E196217B6C70B /* WTViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTViewController.h; path = WTBaseCore/CoreController/WTViewController.h; sourceTree = "<group>"; };
+		E4B64C328423962AD16A4CA785A48EA7 /* WTImageUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTImageUtil.h; path = WTBaseCore/CoreUtil/WTImageUtil.h; sourceTree = "<group>"; };
+		E65A1A9C71330D54588BB298CA3CA6CD /* QLDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLDefine.h; path = QLBusiness/QLDefine.h; sourceTree = "<group>"; };
 		E6EDD35E9F6E534DBE23A4663AB92F1A /* Pods-WTDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		F06A500F057FA5BD5C856898DE4AEC11 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPreviewCell.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewCell.h; sourceTree = "<group>"; };
-		F619979D99401C0503D73019619038A4 /* UIView+Layout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Layout.m"; path = "TZImagePickerController/TZImagePickerController/UIView+Layout.m"; sourceTree = "<group>"; };
+		EAF59F0102BBB1D3D40C2F83D526333C /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		EB8BC2FC704C6A39E837F191B86EB7B1 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
+		EB94031E4F117CCA1DB9D50B5450AEAD /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+TZImagePicker.m"; path = "TZImagePickerController/TZImagePickerController/NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
+		EBB7B90B343A510C279F1BBC3A5B91FB /* TZImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImageManager.h; path = TZImagePickerController/TZImagePickerController/TZImageManager.h; sourceTree = "<group>"; };
+		ED06D56E1BB68B678C50DE14A1D3B36E /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		F08DC9B7E57B138B056A56CA12B2844E /* WTImageUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTImageUtil.m; path = WTBaseCore/CoreUtil/WTImageUtil.m; sourceTree = "<group>"; };
+		F26A8A27EB42921EB2F4AD152119FCAD /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		F6E8B68CE322261E5DB8D0B7C20C7BC1 /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZGifPhotoPreviewController.m; path = TZImagePickerController/TZImagePickerController/TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
 		F6FA1A2C54811DEA6668286C4F1091FF /* libQLBusiness.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libQLBusiness.a; path = libQLBusiness.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8833A0D3C8E2673CA6F09F13A97CD95 /* WTImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTImagePicker.xcconfig; sourceTree = "<group>"; };
-		F9AB03B1C3FDCAB9C34E44471CAD6F6F /* QLDropDownMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLDropDownMenu.m; path = QLBusiness/View/QLDropDownMenu.m; sourceTree = "<group>"; };
-		F9D6FA91B2F2E2BC4F40C75D1BF72B32 /* QLFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLFormViewController.h; path = QLBusiness/Controller/QLFormViewController.h; sourceTree = "<group>"; };
-		FC8931D9ACAECEE1DB53FA123CF9C7A6 /* WTDateUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTDateUtil.m; path = WTBaseCore/CoreUtil/WTDateUtil.m; sourceTree = "<group>"; };
-		FCEFAE5A3E9FA45EB6364CF94A0CC178 /* QLViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLViewController.h; path = QLBusiness/Controller/QLViewController.h; sourceTree = "<group>"; };
+		F75F3F7D389D72F1CF88DB182C7CF3C9 /* WTEmptyCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTEmptyCell.h; path = WTBaseCore/CoreCell/WTEmptyCell.h; sourceTree = "<group>"; };
+		F8A0235030C4EE6AEF0FF74AC2F86BD0 /* RETableViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RETableViewManager.m; path = WTBaseCore/RETableViewManager/RETableViewManager.m; sourceTree = "<group>"; };
+		FA5A1856F8EF175F58B4C38B6FD190CB /* RETableViewSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RETableViewSection.h; path = WTBaseCore/RETableViewManager/RETableViewSection.h; sourceTree = "<group>"; };
+		FB28EB2EB932AAFDA33098D7152A88D1 /* WTBaseCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WTBaseCore-dummy.m"; sourceTree = "<group>"; };
+		FE3237B834EC121BDEB4FD3703B52B8A /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
 		FE875AB1FC785113F63923757E9A128A /* Pods-WTDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTDemo-frameworks.sh"; sourceTree = "<group>"; };
+		FEE5618C6EFCCFEF427C06C47D6A33A7 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Placeholder.h"; path = "WTBaseCore/CoreUI/UITextView+Placeholder.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -482,6 +486,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0671469CF7A66FA9B3AC3B66EFFC5A31 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DF19F92C5101CDA47A0212313B058AE1 /* QLBusinessUtil.h */,
+				A3ADFAD63EBCAD54413387D256783340 /* QLBusinessUtil.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -490,138 +503,94 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		107635697C5E1F20E98231D13CDC6A87 /* CoreCell */ = {
+		16AFAFADF0DBEE2F32F54A202A70826B /* CoreController */ = {
 			isa = PBXGroup;
 			children = (
-				5EB0E58FB7D58D054DB6DAE8861CBB3F /* WTBaseCell.h */,
-				201EFD37F0B2B6905C21B931A311330A /* WTBaseCell.m */,
-				111BA40B09CE32B42A0C9EC7BF9530FD /* WTEmptyCell.h */,
-				0EE496635D047515483B47019B694ACD /* WTEmptyCell.m */,
+				0DD34B4E8E4128CF74A3A33FB38D12F9 /* WTFormViewController.h */,
+				B08111FA0A607FE38E04434B5BD6DC4F /* WTFormViewController.m */,
+				4BE630B4068C931DEBF8EE05F8AA7344 /* WTTabbarController.h */,
+				22C12C2E99F4490FEB49B562947D215C /* WTTabbarController.m */,
+				0472F07E8D672EA9DE793ECC6DE232FC /* WTViewController.h */,
+				E366D2FE8D33F12478BBC63D7FDFC730 /* WTViewController.m */,
+				6C1E7CAD34FA3B91DBC22F4F7386DA7F /* WTWebViewController.h */,
+				D6DC8C65F5952067EF21E6B9D7F8B4B2 /* WTWebViewController.m */,
 			);
-			name = CoreCell;
+			name = CoreController;
 			sourceTree = "<group>";
 		};
-		1ECB6A0D0F7904335FD37B94DA1183D0 /* QLBusiness */ = {
+		1BA6DA3B739DF4E7A379F519832928FD /* WTAppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				5415963D10DA200A604C5E2AB293CB39 /* QLBusiness.h */,
-				B73323CCDAA88FDA380489639F2ADCAE /* QLDefine.h */,
-				CA288E62802369484B825AB9FDF1E304 /* Cell */,
-				A61204F0487BD47F4B3FFBD3D4CC9AEA /* Controller */,
-				7659621966ACFD82755AE228CD0FD081 /* Support Files */,
-				DC44AB271551703347CF8BB6A24B7F8D /* View */,
-			);
-			name = QLBusiness;
-			path = QLBusiness;
-			sourceTree = "<group>";
-		};
-		37DAC2B777E81632CE9D339D3432BC4E /* TZImagePickerController */ = {
-			isa = PBXGroup;
-			children = (
-				6F5FB0FD1B742D3C7764EFB4D0D36CE6 /* NSBundle+TZImagePicker.h */,
-				B65416BAEFD66D94859F4C978195F4F9 /* NSBundle+TZImagePicker.m */,
-				BC3C6AAB7C91356F9C035ACB8068B950 /* TZAssetCell.h */,
-				61EE0009E4C4ABD5929A0E3473A6C4A1 /* TZAssetCell.m */,
-				4133BA69A99D0FD87707F1E51377EE17 /* TZAssetModel.h */,
-				3D7BE4D1FB5FFD4E9A9BC1475755AA91 /* TZAssetModel.m */,
-				AFD47F53AE11AD138648F9A30907A8B1 /* TZGifPhotoPreviewController.h */,
-				44EAF53D35B50713424CB517AA2E3C8E /* TZGifPhotoPreviewController.m */,
-				B5F934A9FE00DFF1AF631D99500C81C0 /* TZImageCropManager.h */,
-				87A36D14C5934738EB3AEF16B3242996 /* TZImageCropManager.m */,
-				6B7BE125FF2B79A2DC1419F5E9913DB5 /* TZImageManager.h */,
-				D50D7F6BF8AD14A8A1D27FB14C14DFDB /* TZImageManager.m */,
-				711FCE29BBF12258BD6E4C6FDE4DE52A /* TZImagePickerController.h */,
-				AD571EA6F10DB4C1953EC0D9FDD3BFA3 /* TZImagePickerController.m */,
-				D2032C32266BBF95AD8D7C2E53C3784C /* TZLocationManager.h */,
-				14B5D1FA8507790FBABAC78A826CD399 /* TZLocationManager.m */,
-				7A24D82F96764E46647CEF094868F285 /* TZPhotoPickerController.h */,
-				43977A7EEDC981AFB66021FD71C49A25 /* TZPhotoPickerController.m */,
-				F06A500F057FA5BD5C856898DE4AEC11 /* TZPhotoPreviewCell.h */,
-				404F7FC7AF0AFD8D33DBACA92D7FB108 /* TZPhotoPreviewCell.m */,
-				89214A22BAC2D7D819D51939921D9B6A /* TZPhotoPreviewController.h */,
-				B6D56465981E14D640B84D62599182FA /* TZPhotoPreviewController.m */,
-				7217A13F9287D1DDBD0747C14E91ED9C /* TZProgressView.h */,
-				9C07C2420275F525EB9A64B19483962B /* TZProgressView.m */,
-				990795EB645909328E2A7FC447CD0566 /* TZVideoPlayerController.h */,
-				9CE0E9C71EF3D30B3164C8E1F27D1A29 /* TZVideoPlayerController.m */,
-				C67F7A5C8F3AB89D707671781A18D380 /* UIView+Layout.h */,
-				F619979D99401C0503D73019619038A4 /* UIView+Layout.m */,
-				41DCB8D744CD6670E98316CA5D5FEC62 /* Resources */,
-				539D553652B839BD416E990AA9FF547D /* Support Files */,
-			);
-			name = TZImagePickerController;
-			path = TZImagePickerController;
-			sourceTree = "<group>";
-		};
-		393B9BE7D430A8C8EB993CFF93928801 /* FDFullscreenPopGesture */ = {
-			isa = PBXGroup;
-			children = (
-				953AA43E1450344670A5AB23A673BEA2 /* UINavigationController+FDFullscreenPopGesture.h */,
-				1A5F083DF97E7B57B12F922DB8D2EBCB /* UINavigationController+FDFullscreenPopGesture.m */,
-				F5B671B0CB4F14DF95523AB5CE34183C /* Support Files */,
-			);
-			name = FDFullscreenPopGesture;
-			path = FDFullscreenPopGesture;
-			sourceTree = "<group>";
-		};
-		41DCB8D744CD6670E98316CA5D5FEC62 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4286666DAB575C7D4E8DC0B4126ACFE4 /* TZImagePickerController.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		42B8D2AC30A75AC17DA6AF9014F4CD0E /* WTAppDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				91D4EC9D389D55ADEB7D7DE0A0C6F6F1 /* WTAppDelegate.h */,
-				0AC6DEA3F5E585447059EFC721490509 /* WTAppDelegate.m */,
+				05F4D55ADEF693C97F34D84ADD8C0A4A /* WTAppDelegate.h */,
+				511F290A0D121318287F03289C315F5C /* WTAppDelegate.m */,
 			);
 			name = WTAppDelegate;
 			sourceTree = "<group>";
 		};
-		539D553652B839BD416E990AA9FF547D /* Support Files */ = {
+		47DD17E736A2422B94553060DBA4B075 /* WTCustomNavBar */ = {
 			isa = PBXGroup;
 			children = (
-				9898087DC90BAF6E22DA368DD8929CF7 /* TZImagePickerController.xcconfig */,
-				96119B3792015D5869F2F5831CA94B9A /* TZImagePickerController-dummy.m */,
-				221A74AC7F204330957CED53F769DB2B /* TZImagePickerController-prefix.pch */,
+				0C2F340B3620D5E76EF7C85BB42631F3 /* back.png */,
+				3DD0B3E7EFD30AAF5425697DB31700BB /* NarBarUtil.h */,
+				3B0864D29A623F338166BC43A545B458 /* NarBarUtil.m */,
+				C333C10CA8BE860452F65D962F1EF9D6 /* WTCustomBarItem.h */,
+				1ED753FC54D156C38FDC5EF6DEE51297 /* WTCustomBarItem.m */,
+				14F80F40B458ECC537D695111F076A43 /* WTCustomNavBar.h */,
+				4E8F9CE7B6F305C674D374B6FC6F8D17 /* WTCustomNavBar.m */,
+			);
+			name = WTCustomNavBar;
+			sourceTree = "<group>";
+		};
+		50FE41AB78F06C07B06D70D58320D224 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D38D2850AF2AB4C9FDBE5D2010E2A360 /* QLBusiness.xcconfig */,
+				B71B44B0971C11F1EAA2AF6FF37B5350 /* QLBusiness-dummy.m */,
+				9658EF210E0BDE7B7F2B20CC10A04EDC /* QLBusiness-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/TZImagePickerController";
+			path = "../Target Support Files/QLBusiness";
 			sourceTree = "<group>";
 		};
-		61EFCF2440791AFD88C0920E12914624 /* Resources */ = {
+		56B312B65C65DE0BB38F29EA874591FD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8E8B108EEAFFAE13CDBAF33B9E8E5EA3 /* WTBaseCore.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		628EA9E208C9107567BDDBFEF67CCFE1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				393B9BE7D430A8C8EB993CFF93928801 /* FDFullscreenPopGesture */,
-				F76EB499EA8F0D1FD51710371F3362A5 /* IQKeyboardManager */,
-				1ECB6A0D0F7904335FD37B94DA1183D0 /* QLBusiness */,
-				37DAC2B777E81632CE9D339D3432BC4E /* TZImagePickerController */,
-				6D43C0C11F9BAC5A0BE1834DB71D2A85 /* WTBaseCore */,
-				7FFD6FB88A5ECA7E0D35067F0F971DE8 /* WTImagePicker */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		63B2E982EA94F85DC05F9DDE1DB0BF87 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F8833A0D3C8E2673CA6F09F13A97CD95 /* WTImagePicker.xcconfig */,
-				57FDEF87B7048B1ED383352E1D260CF5 /* WTImagePicker-dummy.m */,
-				3A871560CA6F7D9DFD85D7C90031E6E1 /* WTImagePicker-prefix.pch */,
+				665175039049415241EE24F5E387DC79 /* FDFullscreenPopGesture.xcconfig */,
+				A6D908E561756C26D01A66D431F33C7B /* FDFullscreenPopGesture-dummy.m */,
+				A355C4CD901ED4D488DC4F17F9545392 /* FDFullscreenPopGesture-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/WTImagePicker";
+			path = "../Target Support Files/FDFullscreenPopGesture";
+			sourceTree = "<group>";
+		};
+		58FA7E29FF5CA2CDA518AB3A5F7B421A /* CoreString */ = {
+			isa = PBXGroup;
+			children = (
+				D29C840B60192B63E8FD466B7908A8D2 /* NSString+Category.h */,
+				D8E0E659F20BE6AE5C8C7A3D9A182F77 /* NSString+Category.m */,
+				B1242B7BBAC59879A65ADEAE6B5BCA0D /* NSString+WTRegex.h */,
+				2E8C5A9A2604F87CC7A27A6B7013D959 /* NSString+WTRegex.m */,
+			);
+			name = CoreString;
+			sourceTree = "<group>";
+		};
+		599AE35AC5BBCE365783E389170EFE3F /* CoreUI */ = {
+			isa = PBXGroup;
+			children = (
+				5D2FAA718DCDEDDAD009C526017F31E0 /* UIButton+Block.h */,
+				75C937CDC5C224CFCE68F2957821CA55 /* UIButton+Block.m */,
+				FEE5618C6EFCCFEF427C06C47D6A33A7 /* UITextView+Placeholder.h */,
+				3E97461CAA96CCD024579CD4347546D6 /* UITextView+Placeholder.m */,
+				4EBF6932F4B77859FD3CF86A49DAEFE3 /* UIView+Category.h */,
+				9CF2CBBB842F44FE39E7D80C2336445B /* UIView+Category.m */,
+				0305D2823185C29F65E9AE3F174347BB /* WTCustomButton.h */,
+				48E7C280F77E0A867DF092A80D91EC05 /* WTCustomButton.m */,
+				A4E412CEEC388C1A3DE010503F295B32 /* WTTextField.h */,
+				73843255B15020D28F2D3A7262A7C19E /* WTTextField.m */,
+				2C65F1206E77505B5FBC8DED9195E711 /* WTToast.h */,
+				C7BED2E04955E47F7708257B5B176326 /* WTToast.m */,
+			);
+			name = CoreUI;
 			sourceTree = "<group>";
 		};
 		663DC533B8C7F338976E160E0D8BED28 /* Targets Support Files */ = {
@@ -630,26 +599,6 @@
 				EECFA04AD27097A7FC4F09C2DDA3730B /* Pods-WTDemo */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		6D43C0C11F9BAC5A0BE1834DB71D2A85 /* WTBaseCore */ = {
-			isa = PBXGroup;
-			children = (
-				7B52AF6B2DB4FE6E7C588088AA8A2847 /* WTBaseCore.h */,
-				C19CF79653ED2885CA4951CA2491AC35 /* WTDefine.h */,
-				107635697C5E1F20E98231D13CDC6A87 /* CoreCell */,
-				B3479BA9C2F1761A9A151D3153A4AE3E /* CoreController */,
-				D0CCD1BAD7012CF2FEBE44EFB78DD30C /* CoreString */,
-				A3EBC1BCDE71CE8DFC3C61570492B646 /* CoreUI */,
-				C377CF5DD8F5A60B52AE3F060DAFD4C7 /* CoreUtil */,
-				61EFCF2440791AFD88C0920E12914624 /* Resources */,
-				D93A41FC3351CCDB2A62A48DEE15AD11 /* RETableViewManager */,
-				D3C1811645A2E767917C3E13C48113CC /* Support Files */,
-				42B8D2AC30A75AC17DA6AF9014F4CD0E /* WTAppDelegate */,
-				8096FED9DA5232BDAC9EADF60DFD0F1A /* WTCustomNavBar */,
-			);
-			name = WTBaseCore;
-			path = WTBaseCore;
 			sourceTree = "<group>";
 		};
 		730040FCAE44ACE59C9A32192053D013 /* Products */ = {
@@ -666,15 +615,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7659621966ACFD82755AE228CD0FD081 /* Support Files */ = {
+		77B8667FB322228E9B25ABABCC562D47 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				6BDC7DF434FA76B586A35F36B4DD94EE /* QLBusiness.xcconfig */,
-				90877B3F5374B3179D22B8320AA892DC /* QLBusiness-dummy.m */,
-				BAFEE08F7B8D2E9CC0F9849F1090EFEB /* QLBusiness-prefix.pch */,
+				06D5778EC24C5D3DB0BF39A998F4C399 /* QLFormViewController.h */,
+				DC6A345E73C1AC9C11DA997D9D98EEB6 /* QLFormViewController.m */,
+				6C5DB54AC4796660196D67A0F7BD6DA6 /* QLTabbarController.h */,
+				54CE601F848913717EAE288D7B4B222A /* QLTabbarController.m */,
+				DF0EB33AE824C2D7E64E1C5A7092D661 /* QLViewController.h */,
+				1DE77CC7278B45368A67A8E125E8B7AB /* QLViewController.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/QLBusiness";
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -682,179 +633,274 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
-				628EA9E208C9107567BDDBFEF67CCFE1 /* Pods */,
+				BEE7037284018860DA5E29D74BF93635 /* Pods */,
 				730040FCAE44ACE59C9A32192053D013 /* Products */,
 				663DC533B8C7F338976E160E0D8BED28 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7FFD6FB88A5ECA7E0D35067F0F971DE8 /* WTImagePicker */ = {
+		7F137343CE1B6330E38138E8C6AB3923 /* FDFullscreenPopGesture */ = {
 			isa = PBXGroup;
 			children = (
-				59A7381DB98F435CFAC8EE7505600238 /* WTImagePickerUtil.h */,
-				DFAE28BD391567A1555D4543832DCC2D /* WTImagePickerUtil.m */,
-				63B2E982EA94F85DC05F9DDE1DB0BF87 /* Support Files */,
+				3AEF760699A1A0D5B677F33CC9940ED3 /* UINavigationController+FDFullscreenPopGesture.h */,
+				5A706B11DB4150A7045DCCA29951DEF2 /* UINavigationController+FDFullscreenPopGesture.m */,
+				56B312B65C65DE0BB38F29EA874591FD /* Support Files */,
 			);
-			name = WTImagePicker;
-			path = WTImagePicker;
+			name = FDFullscreenPopGesture;
+			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
-		8096FED9DA5232BDAC9EADF60DFD0F1A /* WTCustomNavBar */ = {
+		863EA30B25A8E8E8742DB603B96435D1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6A64250E8DA4E2FCC9AFDC7C53578A91 /* back.png */,
-				21598A16EB23C3727E019EAB919C37F1 /* NarBarUtil.h */,
-				70403422284A24F199453F4F0DA8986A /* NarBarUtil.m */,
-				4BDB7E7E4EF88D11B49E3C6E66C3A164 /* WTCustomBarItem.h */,
-				2A068517D67C9682379D423C83159D79 /* WTCustomBarItem.m */,
-				5D10C165DA4124D650B48C28D028B9F2 /* WTCustomNavBar.h */,
-				E66885D303F6198B1262C29A226CB05C /* WTCustomNavBar.m */,
-			);
-			name = WTCustomNavBar;
-			sourceTree = "<group>";
-		};
-		A3EBC1BCDE71CE8DFC3C61570492B646 /* CoreUI */ = {
-			isa = PBXGroup;
-			children = (
-				07009E6BBA24EB9ACFE101C5A58773AA /* UIButton+Block.h */,
-				87318417C73E83B8B010487B43AAC84B /* UIButton+Block.m */,
-				9A80BF555C09DD0F678EB573DDC8398C /* UITextView+Placeholder.h */,
-				152E7A3AC729272B49F1737D6B996649 /* UITextView+Placeholder.m */,
-				0F13DD8587BFA0E1879A434C5A9F3FEC /* UIView+Category.h */,
-				858C308759F7C17FB5491DE59E951C4E /* UIView+Category.m */,
-				2DC0CE63D0472251BAC4223CC38B5481 /* WTCustomButton.h */,
-				C601D7A2E640F12E4668B6579F1C22C2 /* WTCustomButton.m */,
-				BB298FA760D9CA306826AC1B37320221 /* WTTextField.h */,
-				6637B8357D05011523FF0CA17904BB8A /* WTTextField.m */,
-				9285AB59FA36F8C8FBCAC4224E712626 /* WTToast.h */,
-				340874F6FB1E599E6B97E24EEC752219 /* WTToast.m */,
-			);
-			name = CoreUI;
-			sourceTree = "<group>";
-		};
-		A61204F0487BD47F4B3FFBD3D4CC9AEA /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				F9D6FA91B2F2E2BC4F40C75D1BF72B32 /* QLFormViewController.h */,
-				6005E1C9A04C2A16A2BFEEC854EB2071 /* QLFormViewController.m */,
-				21C1EE418730B66A19A4C7EB26DC1451 /* QLTabbarController.h */,
-				B668CC300DC89436C013B9717EDC0DAD /* QLTabbarController.m */,
-				FCEFAE5A3E9FA45EB6364CF94A0CC178 /* QLViewController.h */,
-				DCC95768B7D71FC9F4A175706827F0B0 /* QLViewController.m */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		AE61D98351973ABA43FB32DE45338AF9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				44D72CF5F6CCF65312F946721F34E3F9 /* IQKeyboardManager.xcconfig */,
-				5DAD5AEBE693E8C2E0DCDBDC6D9B011B /* IQKeyboardManager-dummy.m */,
-				0E24F833FA23F5E9427F15D411D47A1C /* IQKeyboardManager-prefix.pch */,
+				C42995D3767E74CD60838ABBB73D9B25 /* IQKeyboardManager.xcconfig */,
+				838115E73C4DACD04900DE5247BECE0F /* IQKeyboardManager-dummy.m */,
+				3A1F6A25A17610A2C35EE7F9FDB4472D /* IQKeyboardManager-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/IQKeyboardManager";
 			sourceTree = "<group>";
 		};
-		B3479BA9C2F1761A9A151D3153A4AE3E /* CoreController */ = {
+		902755E46E2222F25570CB0078CBF4A6 /* CoreCell */ = {
 			isa = PBXGroup;
 			children = (
-				CC3C37C94883BEDD8DE87ADE95177847 /* WTFormViewController.h */,
-				6A176FA80D5BF44B38492C3E9A84669A /* WTFormViewController.m */,
-				6C3A6009F2B172F849F94E2B4792B812 /* WTTabbarController.h */,
-				8065B08BA48FAC1FB4D069F3DE47C23F /* WTTabbarController.m */,
-				E6E225F84D90736B149E196217B6C70B /* WTViewController.h */,
-				779844F93CE7AA41C515F11B47563F5D /* WTViewController.m */,
-				7F4C16C996C2FD63E9B65DAC7D14C33F /* WTWebViewController.h */,
-				34C44613157EF48B1F59A7019103FB17 /* WTWebViewController.m */,
+				328B6E6A0F04C5A6029493C053610A9D /* WTBaseCell.h */,
+				88A9838BAE950BC2C88599DEA59638D0 /* WTBaseCell.m */,
+				F75F3F7D389D72F1CF88DB182C7CF3C9 /* WTEmptyCell.h */,
+				DA9F8D999C6FE32C1A1059053CC1E4F3 /* WTEmptyCell.m */,
 			);
-			name = CoreController;
+			name = CoreCell;
 			sourceTree = "<group>";
 		};
-		C377CF5DD8F5A60B52AE3F060DAFD4C7 /* CoreUtil */ = {
+		903BBF4FA4AFA043E124D691300AA81B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C991EB97F89159DDFDFC7E1915FD674A /* WTAlertUtil.h */,
-				414DB9A91F1D67D6A6B53ED39CFAC581 /* WTAlertUtil.m */,
-				0EB55DF461E3B587B99BAAC05D136337 /* WTDateUtil.h */,
-				FC8931D9ACAECEE1DB53FA123CF9C7A6 /* WTDateUtil.m */,
-				B8073D3445E96CB934C42FB071420AD0 /* WTFile.h */,
-				E19F876BF9640EDCBF4B6A99BFF6E0FB /* WTFile.m */,
-				AC51FD0CF9739DA1260AF049B6B025F0 /* WTImageUtil.h */,
-				776AF7E55864B367060C752FB1929CDD /* WTImageUtil.m */,
-				59732C274086F62B4DAC0BD03722399E /* WTLanguageUtil.h */,
-				13DA88E0C091F13C264916473ED7A8BA /* WTLanguageUtil.m */,
-				1480184C9B1458AD08D275516FD6B860 /* WTRegularUtil.h */,
-				44CFCCBFB53015BBCF311B17555130CB /* WTRegularUtil.m */,
-				A015C955BF816F6BD36EEE709EFE1A90 /* WTUtil.h */,
-				E4A52535C77608FB29BE9F5983267C1B /* WTUtil.m */,
+				697BAF2741A1EE475533F7E5CBA74635 /* TZImagePickerController.xcconfig */,
+				61039AA009E93E62D840DF5F143941F0 /* TZImagePickerController-dummy.m */,
+				2C870A73EE8E9B2216BC89352AD8B8EE /* TZImagePickerController-prefix.pch */,
 			);
-			name = CoreUtil;
+			name = "Support Files";
+			path = "../Target Support Files/TZImagePickerController";
 			sourceTree = "<group>";
 		};
-		CA288E62802369484B825AB9FDF1E304 /* Cell */ = {
+		93D0B720618368B825F21D2DACDC10B9 /* WTBaseCore */ = {
 			isa = PBXGroup;
 			children = (
-				889630FE4C3D0F67E22843D467279F1D /* WTIconTextCell.h */,
-				C7EE15E6D0D78BDD11C23A4801CC05EE /* WTIconTextCell.m */,
+				70A1D68AEAD94C72C051F3185D7AEBBF /* WTBaseCore.h */,
+				E326F0574FB26B74DC34B5A035B2C70C /* WTDefine.h */,
+				902755E46E2222F25570CB0078CBF4A6 /* CoreCell */,
+				16AFAFADF0DBEE2F32F54A202A70826B /* CoreController */,
+				58FA7E29FF5CA2CDA518AB3A5F7B421A /* CoreString */,
+				599AE35AC5BBCE365783E389170EFE3F /* CoreUI */,
+				C21A150880E2BD99691DB08A6051527C /* CoreUtil */,
+				9F71A77C61F937E42D76FC45C1BBC55C /* Resources */,
+				F74D23C9836458153BFA31CB6582D0DF /* RETableViewManager */,
+				C5EF3C06C7A61457FBF5D50198D5D99C /* Support Files */,
+				1BA6DA3B739DF4E7A379F519832928FD /* WTAppDelegate */,
+				47DD17E736A2422B94553060DBA4B075 /* WTCustomNavBar */,
+			);
+			name = WTBaseCore;
+			path = WTBaseCore;
+			sourceTree = "<group>";
+		};
+		9F71A77C61F937E42D76FC45C1BBC55C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07A3AB359531844DB9E8CFDCEA297022 /* WTBaseCore.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A0F3F9EAB018144D0F410C2FE2AD782A /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				A71AC65D7E68CB3937E3FFD7C0DBC9B3 /* NSBundle+TZImagePicker.h */,
+				EB94031E4F117CCA1DB9D50B5450AEAD /* NSBundle+TZImagePicker.m */,
+				B8C0B19C9B6AF73EB86A614DB488B259 /* TZAssetCell.h */,
+				0C95419CFBDE9675F3D324544DC07699 /* TZAssetCell.m */,
+				96C10B7446F153510AACDCB525E1AAFF /* TZAssetModel.h */,
+				9A3554FD4872412AAF5E7F7B63D3720A /* TZAssetModel.m */,
+				2116AE63BE661808C748F8ABE4E66A47 /* TZGifPhotoPreviewController.h */,
+				F6E8B68CE322261E5DB8D0B7C20C7BC1 /* TZGifPhotoPreviewController.m */,
+				436FDA55B450E0DC8D2EF1DC93CD9C95 /* TZImageCropManager.h */,
+				5D2C1F7853FABBA73B747F93B406B462 /* TZImageCropManager.m */,
+				EBB7B90B343A510C279F1BBC3A5B91FB /* TZImageManager.h */,
+				2DDF648EAF4CA99548DC7E49AA6654A6 /* TZImageManager.m */,
+				67894F01B385FF8D98E23C56201211CE /* TZImagePickerController.h */,
+				8ECDA878996AE976955FA654841C6C82 /* TZImagePickerController.m */,
+				862B32869E41763F8EC075BFC6164AAB /* TZLocationManager.h */,
+				9F21DA82F2FFFC57C1CB8DD17A840A8C /* TZLocationManager.m */,
+				7D3C849455208AB76498B757C55787C4 /* TZPhotoPickerController.h */,
+				D729EF0C1EC779A49B7098F1030AC69B /* TZPhotoPickerController.m */,
+				1E0F298759C1389F400CDC612208B0D6 /* TZPhotoPreviewCell.h */,
+				C43206E7AFC2145195736A96605DC9E7 /* TZPhotoPreviewCell.m */,
+				C87B852C939EC7E6ED4E7920768734C6 /* TZPhotoPreviewController.h */,
+				47AB511E6E11B8B61AF4A917FF861AB1 /* TZPhotoPreviewController.m */,
+				4AB4AF83B435927F53FE8F981C5755AB /* TZProgressView.h */,
+				A4532CC72E2220505B13903FEC332C26 /* TZProgressView.m */,
+				A5D1B5B7D3AFCA15F287623A2B30F960 /* TZVideoPlayerController.h */,
+				8214544E0D03D8AB89EEAC448428D2F0 /* TZVideoPlayerController.m */,
+				AF2389B07DE309594BB1DF3EE8D196CF /* UIView+Layout.h */,
+				37F1047DF27DAD0665FA8F4A7827ACB3 /* UIView+Layout.m */,
+				D83452017218364DC83A35F357859D1C /* Resources */,
+				903BBF4FA4AFA043E124D691300AA81B /* Support Files */,
+			);
+			name = TZImagePickerController;
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		A487C6EF8ED2283CD3E7727BCBA3A11C /* QLBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				4BDC0742D3C3115B8F8DEFC56C26D47F /* QLBusiness.h */,
+				E65A1A9C71330D54588BB298CA3CA6CD /* QLDefine.h */,
+				A634FE11F558FEBBC0FFE23108FB719D /* Cell */,
+				77B8667FB322228E9B25ABABCC562D47 /* Controller */,
+				50FE41AB78F06C07B06D70D58320D224 /* Support Files */,
+				0671469CF7A66FA9B3AC3B66EFFC5A31 /* Util */,
+				CE57DF60C5BB773312EFEF0485E0D41F /* View */,
+			);
+			name = QLBusiness;
+			path = QLBusiness;
+			sourceTree = "<group>";
+		};
+		A634FE11F558FEBBC0FFE23108FB719D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BA59688DFEE83B1D2F84F27F9E58E3B0 /* WTIconTextCell.h */,
+				51CC56BBAD20ECFC3D0F0B23BD30D67E /* WTIconTextCell.m */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
 		};
-		D0CCD1BAD7012CF2FEBE44EFB78DD30C /* CoreString */ = {
+		AAE963123D09C5A949885AB671932D89 /* IQKeyboardManager */ = {
 			isa = PBXGroup;
 			children = (
-				2E28CD08CA4B546C6ECC5B12A472133E /* NSString+Category.h */,
-				08A5193C50541D842FAEDF1701BC75A7 /* NSString+Category.m */,
-				8A0E0A7883E1FF28891663FB9B9280BD /* NSString+WTRegex.h */,
-				3DE7C26871F17339E93AADD94D325321 /* NSString+WTRegex.m */,
+				ED06D56E1BB68B678C50DE14A1D3B36E /* IQBarButtonItem.h */,
+				60F9E9F1685C5CFA3591464CBC05C86C /* IQBarButtonItem.m */,
+				37F885BE73AA2D3EEE32019BAB785EF9 /* IQKeyboardManager.h */,
+				0CC81820AE9DD244BE03D20C628BD9D8 /* IQKeyboardManager.m */,
+				EAF59F0102BBB1D3D40C2F83D526333C /* IQKeyboardManagerConstants.h */,
+				592769C6E1B8B13EC48231441D64617A /* IQKeyboardManagerConstantsInternal.h */,
+				7E6B3B1D9C63780F7665F7E20A8BD1CF /* IQKeyboardReturnKeyHandler.h */,
+				E253E5693EFC04C365BED8116730F2CA /* IQKeyboardReturnKeyHandler.m */,
+				A9FF7D84EABFBF6E1118DE81ECDBF9ED /* IQNSArray+Sort.h */,
+				1823EC86B21C56919D3A7643C12A6CEB /* IQNSArray+Sort.m */,
+				ABBBAFE5BED575C09067619268D38686 /* IQPreviousNextView.h */,
+				1903F4D43A93A66921B51B783FDEC628 /* IQPreviousNextView.m */,
+				EB8BC2FC704C6A39E837F191B86EB7B1 /* IQTextView.h */,
+				4BA279D399F9B21FAB121784FB72BAFA /* IQTextView.m */,
+				A670E7D05516CCD4822A151F21F43665 /* IQTitleBarButtonItem.h */,
+				F26A8A27EB42921EB2F4AD152119FCAD /* IQTitleBarButtonItem.m */,
+				49A2E43AF215E555742429C98ED7A801 /* IQToolbar.h */,
+				4DB63148BF8D8C0B13ED00E922AA47C4 /* IQToolbar.m */,
+				4E407322DC1AEA0D5B779509897BAFE6 /* IQUIScrollView+Additions.h */,
+				38E4DED39554398667AC903D710699E0 /* IQUIScrollView+Additions.m */,
+				D20613FB93B581FD74B496AEC5B7C76E /* IQUITextFieldView+Additions.h */,
+				FE3237B834EC121BDEB4FD3703B52B8A /* IQUITextFieldView+Additions.m */,
+				9BEDFB8C5980E909F94033CB604FA8BF /* IQUIView+Hierarchy.h */,
+				A4099D3ED8499F1D57C533E525F7FE97 /* IQUIView+Hierarchy.m */,
+				E347DD608BF4347B923400ED9FFAD3B7 /* IQUIView+IQKeyboardToolbar.h */,
+				16824915281E5258983E9A5EC0B59FBE /* IQUIView+IQKeyboardToolbar.m */,
+				606C11BB671B0F9FF87AB04E4FAF4DAF /* IQUIViewController+Additions.h */,
+				C3C2C385B3C2A5EEABE717979E992538 /* IQUIViewController+Additions.m */,
+				DC8909A1B8F6F8750F8E4101FEDE5ADE /* IQUIWindow+Hierarchy.h */,
+				81A4294F6CCF7CA57BF00F118805C7E3 /* IQUIWindow+Hierarchy.m */,
+				C56EB94D4E75E43E10BECC00E77B4167 /* Resources */,
+				863EA30B25A8E8E8742DB603B96435D1 /* Support Files */,
 			);
-			name = CoreString;
+			name = IQKeyboardManager;
+			path = IQKeyboardManager;
 			sourceTree = "<group>";
 		};
-		D3C1811645A2E767917C3E13C48113CC /* Support Files */ = {
+		AD8B641E75D4BF946F3C9BD689DE8F7B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				052EEEC6FFA1BBDD8601CA9AC18D1C48 /* WTBaseCore.xcconfig */,
-				1B3D314C791952858B26273910203880 /* WTBaseCore-dummy.m */,
-				81110017248991CFE384B77440E76CEB /* WTBaseCore-prefix.pch */,
+				169F8F42CBD521E4F8071989A7EB5BD5 /* WTImagePicker.xcconfig */,
+				E0546468B9A56FB63B759E889F54A3DF /* WTImagePicker-dummy.m */,
+				3CA7D70B38AE6C5409E2EA7493D36735 /* WTImagePicker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WTImagePicker";
+			sourceTree = "<group>";
+		};
+		BEE7037284018860DA5E29D74BF93635 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F137343CE1B6330E38138E8C6AB3923 /* FDFullscreenPopGesture */,
+				AAE963123D09C5A949885AB671932D89 /* IQKeyboardManager */,
+				A487C6EF8ED2283CD3E7727BCBA3A11C /* QLBusiness */,
+				A0F3F9EAB018144D0F410C2FE2AD782A /* TZImagePickerController */,
+				93D0B720618368B825F21D2DACDC10B9 /* WTBaseCore */,
+				CF7799986235C40CDAFF44D1DF77F67C /* WTImagePicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C21A150880E2BD99691DB08A6051527C /* CoreUtil */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB53B50B46931649E5E7ADC905522A /* WTAlertUtil.h */,
+				CB02340932229740DB41C8EAF3656611 /* WTAlertUtil.m */,
+				9B0E16DBC639A8DA9CCBD0B7F17FBDF0 /* WTDateUtil.h */,
+				CBAF5206F528CE2BD10436E4A0829B65 /* WTDateUtil.m */,
+				435AE283D1C6FC43E4DAA84203F19DB8 /* WTFile.h */,
+				9A9839A316B6B0B2EE62F42C80E35274 /* WTFile.m */,
+				E4B64C328423962AD16A4CA785A48EA7 /* WTImageUtil.h */,
+				F08DC9B7E57B138B056A56CA12B2844E /* WTImageUtil.m */,
+				AF306F54A7EE93079CA6239A5E842CF1 /* WTLanguageUtil.h */,
+				20EF38E1E2D7B250308DEAC06C90909E /* WTLanguageUtil.m */,
+				3BAFEEC6AC0B18F8A1564DE360366FEE /* WTRegularUtil.h */,
+				87406D16639CD03078A82F0C10D5532B /* WTRegularUtil.m */,
+				80BAB0F386E20AE47EADAF105BF91FD4 /* WTUtil.h */,
+				124CB398EDF40A0FFB487470A1BAAD2A /* WTUtil.m */,
+			);
+			name = CoreUtil;
+			sourceTree = "<group>";
+		};
+		C56EB94D4E75E43E10BECC00E77B4167 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0CC055BD1E4A8B8CA3A8B2F385C111DC /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C5EF3C06C7A61457FBF5D50198D5D99C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D8EF16243D2EF775458A1865534C010 /* WTBaseCore.xcconfig */,
+				FB28EB2EB932AAFDA33098D7152A88D1 /* WTBaseCore-dummy.m */,
+				B00905976D52D2CAD59384FF1A24E414 /* WTBaseCore-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/WTBaseCore";
 			sourceTree = "<group>";
 		};
-		D93A41FC3351CCDB2A62A48DEE15AD11 /* RETableViewManager */ = {
+		CE57DF60C5BB773312EFEF0485E0D41F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9A0C901C8317779E7BA4995BB5E466EA /* REActionBar.h */,
-				CB094D3E4D9E0BBAA1AC030091EEAC26 /* REActionBar.m */,
-				E5436F9F935682F4DEF57C5B0CA02C8D /* RETableViewCell.h */,
-				AE64021848C4484BA708DD4B3868A6A5 /* RETableViewCell.m */,
-				9D296F899073AC09A9C2BD4ED3119758 /* RETableViewCellStyle.h */,
-				474FE9281DDA0AB507B9ACFA3B36F29D /* RETableViewCellStyle.m */,
-				8862DF9FE777A960F4A4B34E14981457 /* RETableViewItem.h */,
-				934FD5E0A47D2D111F25BEE65608BE74 /* RETableViewItem.m */,
-				4E5CCE009D5CD0475DB3EB619099B887 /* RETableViewManager.h */,
-				B93C28CCBC1FA3CE5B9373BC9C59CBA5 /* RETableViewManager.m */,
-				ADAE503650A3294F85BF28AFAC909A4C /* RETableViewSection.h */,
-				4B45507F1BE301D4CD9B4B83BC1AF63B /* RETableViewSection.m */,
-			);
-			name = RETableViewManager;
-			sourceTree = "<group>";
-		};
-		DC44AB271551703347CF8BB6A24B7F8D /* View */ = {
-			isa = PBXGroup;
-			children = (
-				69C658EDBCD30591F9138D9CB0F00950 /* QLDropDownMenu.h */,
-				F9AB03B1C3FDCAB9C34E44471CAD6F6F /* QLDropDownMenu.m */,
+				36DFE327A6A68D27B1B8CC8510A2516E /* QLDropDownMenu.h */,
+				35C13427C2A14033DB1FD1E3474246CA /* QLDropDownMenu.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
 		};
-		DF697007DB4ABFF178DDAF1CA8949FF6 /* Resources */ = {
+		CF7799986235C40CDAFF44D1DF77F67C /* WTImagePicker */ = {
 			isa = PBXGroup;
 			children = (
-				547646E2D22D4A219E0404FCAE423675 /* IQKeyboardManager.bundle */,
+				ABB9AA565E648E204742AF961E4637CD /* WTImagePickerUtil.h */,
+				BBF5931791F52F67A55C3DCD5799B51B /* WTImagePickerUtil.m */,
+				AD8B641E75D4BF946F3C9BD689DE8F7B /* Support Files */,
+			);
+			name = WTImagePicker;
+			path = WTImagePicker;
+			sourceTree = "<group>";
+		};
+		D83452017218364DC83A35F357859D1C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				787386C60BA53D7001B13DA478041178 /* TZImagePickerController.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -887,55 +933,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F5B671B0CB4F14DF95523AB5CE34183C /* Support Files */ = {
+		F74D23C9836458153BFA31CB6582D0DF /* RETableViewManager */ = {
 			isa = PBXGroup;
 			children = (
-				62C006733FC19A24EB4F849DCAD1ADBC /* FDFullscreenPopGesture.xcconfig */,
-				70D4DA905D0F56A7DDA5E761D9A63A4B /* FDFullscreenPopGesture-dummy.m */,
-				D2C17066B34D36ADAF47A072C7755C10 /* FDFullscreenPopGesture-prefix.pch */,
+				48DBACA39E53DE7AFCCA0E27D1B00FB9 /* REActionBar.h */,
+				171BCDFF0CD7EB71EE3D64F768CB47B9 /* REActionBar.m */,
+				667BC946413750728938240218BADCFA /* RETableViewCell.h */,
+				92571F1B960A2FF877C6188EC2E2D2D0 /* RETableViewCell.m */,
+				52D7AC16BB22108CE586DA73CBF16AA3 /* RETableViewCellStyle.h */,
+				B62A37FBB401D1166A53046D7FEA31F8 /* RETableViewCellStyle.m */,
+				5E5D4A19A4BA7F9A2AFB216B1C4A36D1 /* RETableViewItem.h */,
+				D304D6DC1712491486A0064C9716DE30 /* RETableViewItem.m */,
+				D5DA136580FDE1238CC55FD5F9E6E6EC /* RETableViewManager.h */,
+				F8A0235030C4EE6AEF0FF74AC2F86BD0 /* RETableViewManager.m */,
+				FA5A1856F8EF175F58B4C38B6FD190CB /* RETableViewSection.h */,
+				6C83F1887A60A9842A18397F63495116 /* RETableViewSection.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FDFullscreenPopGesture";
-			sourceTree = "<group>";
-		};
-		F76EB499EA8F0D1FD51710371F3362A5 /* IQKeyboardManager */ = {
-			isa = PBXGroup;
-			children = (
-				D761E3D13E84AD99B66F4EA6401D48F2 /* IQBarButtonItem.h */,
-				B5C5D8D5E3E18692CF9B3E44B164B0D0 /* IQBarButtonItem.m */,
-				1620B9827158B2D94A945E5B0BC62578 /* IQKeyboardManager.h */,
-				3D66ECAD5530455C408293A675B49CF8 /* IQKeyboardManager.m */,
-				A3BA1A6505E8DDD7F3E6B80350355928 /* IQKeyboardManagerConstants.h */,
-				6B18D14E83B1F19B8B5DCC108F1E17CB /* IQKeyboardManagerConstantsInternal.h */,
-				75F59D2B7BDD6AF0EB9BC7B5A7476AEE /* IQKeyboardReturnKeyHandler.h */,
-				E32267B345D90AFC58B9615A10F7938F /* IQKeyboardReturnKeyHandler.m */,
-				DD0B24411622833D49C3DA72AE6E2A9B /* IQNSArray+Sort.h */,
-				933C32650FC248C6D7B114894EE2E00D /* IQNSArray+Sort.m */,
-				CC071B232B6B43D756506E12F2757237 /* IQPreviousNextView.h */,
-				624FB0C11F2D963BF4BA28DF6D7A0277 /* IQPreviousNextView.m */,
-				18C25E4D23BF7C1FD3D630AD691EDBE4 /* IQTextView.h */,
-				44F8313528B50D1B4863E08019FE7B96 /* IQTextView.m */,
-				B5DDE97E476261FF5454EFEDEDB6F7DD /* IQTitleBarButtonItem.h */,
-				BCEECA86C2480ED3EA18A7F49B118A85 /* IQTitleBarButtonItem.m */,
-				6841B9B9288E248758206D43284C4D31 /* IQToolbar.h */,
-				429A1D767E3816FDC2FBB685E6606378 /* IQToolbar.m */,
-				1769378F0EFC2EC7B5F5FEB1219D5EE1 /* IQUIScrollView+Additions.h */,
-				0EE97DF6D0759DEB0B0F486056F8C554 /* IQUIScrollView+Additions.m */,
-				181D3B376BC267FA5F796BD2DA859AE3 /* IQUITextFieldView+Additions.h */,
-				61B5B257AB0AF3BE169E450635BBE447 /* IQUITextFieldView+Additions.m */,
-				777106B1822A166E96CE114A2F0562FB /* IQUIView+Hierarchy.h */,
-				435BFF2E59D54F26C453DD8CA2D76EE9 /* IQUIView+Hierarchy.m */,
-				6E5067D82D606D9DE87C1EE7415A0111 /* IQUIView+IQKeyboardToolbar.h */,
-				2F4474B922DCA90426F2CE3B70E7DA0A /* IQUIView+IQKeyboardToolbar.m */,
-				AAD3F0ED15F6C869908EA13EBD63215C /* IQUIViewController+Additions.h */,
-				3446A4700064555125D0328DD4B490DD /* IQUIViewController+Additions.m */,
-				C3CB554DD5104EDEBBCF20D350B5A5E1 /* IQUIWindow+Hierarchy.h */,
-				6DAA2C5E264F6FF907C2E7F48E8E0857 /* IQUIWindow+Hierarchy.m */,
-				DF697007DB4ABFF178DDAF1CA8949FF6 /* Resources */,
-				AE61D98351973ABA43FB32DE45338AF9 /* Support Files */,
-			);
-			name = IQKeyboardManager;
-			path = IQKeyboardManager;
+			name = RETableViewManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -985,25 +999,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45071959BB9FF226AC077A18449462F5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9AFFBA75143A7704F935EAFA9AA10DC0 /* QLBusiness.h in Headers */,
-				CBF6FB37ED669A54B1E82B99881AD9DE /* QLDefine.h in Headers */,
-				6602CDDAD0B9D6D8FE4311CDAA1BAB04 /* QLDropDownMenu.h in Headers */,
-				78C2E388BF1A1FA6DC6B38A9207E2E01 /* QLFormViewController.h in Headers */,
-				A817B09FF7572E6AC049D9961BF86536 /* QLTabbarController.h in Headers */,
-				0EF07DBC32B7591B6F487170D9385B48 /* QLViewController.h in Headers */,
-				A3C22E677AD241A3636D3015C6C3D8AE /* WTIconTextCell.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6528D49BBCDEB5E0F7B2BDF1992AD226 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9B2048BC3640ACC73E645A82177EC222 /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CEFF6E2B0B0145061153F04CA3402C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86CE2154CCDA4D5118083B88B328A95A /* QLBusiness.h in Headers */,
+				216326A0AF7AFDAC916DE24C416DD637 /* QLBusinessUtil.h in Headers */,
+				600874E5958B8854BC067E9BECC1C5F8 /* QLDefine.h in Headers */,
+				A1A88808F441B00AFBF2008BD88E83BC /* QLDropDownMenu.h in Headers */,
+				49E8AB4E76CE89521C2C93669A7C579C /* QLFormViewController.h in Headers */,
+				8B7543E0B55C4CDD2E5E48052003913D /* QLTabbarController.h in Headers */,
+				B1296309B8C74810CC227A5B27A1DE93 /* QLViewController.h in Headers */,
+				024B01902A0BCCFE64117BADECDEF4CF /* WTIconTextCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1062,9 +1077,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1454AE351FE9D528BC3452233886FE0C /* Build configuration list for PBXNativeTarget "QLBusiness" */;
 			buildPhases = (
-				1C461845E20181C6ED81C83C2AD78969 /* Sources */,
+				DF98FE2FBF71C5ABBF77F9DE87CB18FF /* Sources */,
 				28C3D4A9B02BDC03E8DFD6ABFC2401A3 /* Frameworks */,
-				45071959BB9FF226AC077A18449462F5 /* Headers */,
+				9CEFF6E2B0B0145061153F04CA3402C7 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1227,19 +1242,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1C461845E20181C6ED81C83C2AD78969 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14FE698B2D18673005D0C1BA47D25E19 /* QLBusiness-dummy.m in Sources */,
-				C73A8E9440D171203743D7F932D20A38 /* QLDropDownMenu.m in Sources */,
-				EE2C392DFD79A511A05B97973EF07BB1 /* QLFormViewController.m in Sources */,
-				95B99958DA96A2FB6A5792D6EDBDF0C7 /* QLTabbarController.m in Sources */,
-				2B354445D4BE48D08CE00F229D18982A /* QLViewController.m in Sources */,
-				C3D65E08FAF1BCD319D0C85EF6C61B21 /* WTIconTextCell.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4F0B0CC180A6B116E5B75E155207473C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1341,6 +1343,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF98FE2FBF71C5ABBF77F9DE87CB18FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E592EA812D017128AFB66EDC7023003 /* QLBusiness-dummy.m in Sources */,
+				79F1BA6EC8084301D4FFA36F35EE5F50 /* QLBusinessUtil.m in Sources */,
+				E331C09FA065AD69A273F42EB23B6FF7 /* QLDropDownMenu.m in Sources */,
+				207C27FA46FB754C10F52E9997EC9155 /* QLFormViewController.m in Sources */,
+				2A8C740B95FE471C50BD11349609DE91 /* QLTabbarController.m in Sources */,
+				6D84CF09F167599EE25C3C7DE89C4526 /* QLViewController.m in Sources */,
+				BB60EFF1E1507650AAFBD54C378A34B0 /* WTIconTextCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1403,7 +1419,7 @@
 /* Begin XCBuildConfiguration section */
 		00E48448B424485A8B6DF90EFA058CA5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44D72CF5F6CCF65312F946721F34E3F9 /* IQKeyboardManager.xcconfig */;
+			baseConfigurationReference = C42995D3767E74CD60838ABBB73D9B25 /* IQKeyboardManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1425,7 +1441,7 @@
 		};
 		048C887264DC0E661345A15D28900356 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9898087DC90BAF6E22DA368DD8929CF7 /* TZImagePickerController.xcconfig */;
+			baseConfigurationReference = 697BAF2741A1EE475533F7E5CBA74635 /* TZImagePickerController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1447,7 +1463,7 @@
 		};
 		054A10AB514D2F0D1C646928134AF94D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62C006733FC19A24EB4F849DCAD1ADBC /* FDFullscreenPopGesture.xcconfig */;
+			baseConfigurationReference = 665175039049415241EE24F5E387DC79 /* FDFullscreenPopGesture.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1469,7 +1485,7 @@
 		};
 		164022DE67A066F4FF9D44A29C2EAFB6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8833A0D3C8E2673CA6F09F13A97CD95 /* WTImagePicker.xcconfig */;
+			baseConfigurationReference = 169F8F42CBD521E4F8071989A7EB5BD5 /* WTImagePicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1512,7 +1528,7 @@
 		};
 		1FAFE5A9B7B0AB2C41E2FABD465330D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9898087DC90BAF6E22DA368DD8929CF7 /* TZImagePickerController.xcconfig */;
+			baseConfigurationReference = 697BAF2741A1EE475533F7E5CBA74635 /* TZImagePickerController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1533,7 +1549,7 @@
 		};
 		30D78DC431C1BA94C5A4DF92CF1A5124 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BDC7DF434FA76B586A35F36B4DD94EE /* QLBusiness.xcconfig */;
+			baseConfigurationReference = D38D2850AF2AB4C9FDBE5D2010E2A360 /* QLBusiness.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1554,7 +1570,7 @@
 		};
 		451494C72444D007E5D0A9576DBD6AD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62C006733FC19A24EB4F849DCAD1ADBC /* FDFullscreenPopGesture.xcconfig */;
+			baseConfigurationReference = 665175039049415241EE24F5E387DC79 /* FDFullscreenPopGesture.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1595,7 +1611,7 @@
 		};
 		76EBC3D074F8C5A9EEB8949BE8CB0E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 052EEEC6FFA1BBDD8601CA9AC18D1C48 /* WTBaseCore.xcconfig */;
+			baseConfigurationReference = 7D8EF16243D2EF775458A1865534C010 /* WTBaseCore.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1616,7 +1632,7 @@
 		};
 		98BBB783C1C6659895801FDE50C02459 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8833A0D3C8E2673CA6F09F13A97CD95 /* WTImagePicker.xcconfig */;
+			baseConfigurationReference = 169F8F42CBD521E4F8071989A7EB5BD5 /* WTImagePicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1637,7 +1653,7 @@
 		};
 		BD2493092F093DA17A07A0FB6779592F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44D72CF5F6CCF65312F946721F34E3F9 /* IQKeyboardManager.xcconfig */;
+			baseConfigurationReference = C42995D3767E74CD60838ABBB73D9B25 /* IQKeyboardManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1721,7 +1737,7 @@
 		};
 		D4F1F82E8C5D529ED09993E013725F15 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BDC7DF434FA76B586A35F36B4DD94EE /* QLBusiness.xcconfig */;
+			baseConfigurationReference = D38D2850AF2AB4C9FDBE5D2010E2A360 /* QLBusiness.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1801,7 +1817,7 @@
 		};
 		EE7D604A52F3EA7709D4CDDE76B6724B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 052EEEC6FFA1BBDD8601CA9AC18D1C48 /* WTBaseCore.xcconfig */;
+			baseConfigurationReference = 7D8EF16243D2EF775458A1865534C010 /* WTBaseCore.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
