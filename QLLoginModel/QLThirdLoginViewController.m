@@ -14,6 +14,7 @@
 
 @interface QLThirdLoginViewController ()
 @property (nonatomic,strong) UIButton *iconBtn;
+@property (nonatomic,strong) UILabel *nameLab;
 @property (nonatomic,strong) UITextField *phoneNameTextField;
 @property (nonatomic,strong) UITextField *verifyTextField;
 @property (nonatomic,strong) UITextField *passwordTextField;
@@ -55,8 +56,18 @@
     _iconBtn.layer.masksToBounds = YES;
     [self.view addSubview:_iconBtn];
     
+    _nameLab = [[UILabel alloc] initWithFrame:CGRectMake(0, _iconBtn.bottom+10, WTScreenWidth, 12)];
+    _nameLab.text = @"Alves Chen";
+    _nameLab.font = WTFontSys(16);
+    _nameLab.textAlignment = NSTextAlignmentCenter;
+    _nameLab.textColor = WTColorHex(0xFF36342A);
+    [self.view addSubview:_nameLab];
+    [_nameLab sizeToFit];
+    _nameLab.left = 0;
+    _nameLab.width = WTScreenWidth;
+
     //用户名或手机号
-    _phoneNameTextField = [QLLoginUtil createTextFieldView:CGRectMake(24, _iconBtn.bottom+32, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"请输入用户名或手机号"];
+    _phoneNameTextField = [QLLoginUtil createTextFieldView:CGRectMake(24, _nameLab.bottom+32, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"请输入用户名或手机号"];
     _phoneNameTextField.text = @"13478906890";
     
     UIButton *clearBtn = [[UIButton alloc] initWithFrame:CGRectMake(_phoneNameTextField.right+15-14-22, _phoneNameTextField.top+11, 22, 22)];
