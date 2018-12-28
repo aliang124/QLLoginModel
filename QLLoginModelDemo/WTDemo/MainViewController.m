@@ -8,7 +8,6 @@
 
 #import "MainViewController.h"
 #import "QLLoginViewController.h"
-
 @interface MainViewController ()
 
 @end
