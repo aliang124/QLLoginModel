@@ -53,9 +53,10 @@
     [self.view addSubview:titleLab];
     //用户名或手机号
     _phoneNameTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, titleLab.bottom+32, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"请输入用户名或手机号"];
-    _phoneNameTextField.text = @"13916749985";
+    _phoneNameTextField.text = @"15105609556";
     //密码
     _passwordTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, _phoneNameTextField.bottom+12, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"请输入密码"];
+    _passwordTextField.text = @"123456";
     //登录按钮
     UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(24, _passwordTextField.bottom+16, WTScreenWidth-24-24, 44)];
     [QLBusinessUtil setRoundBtn:loginBtn titleText:@"登录"];
@@ -112,10 +113,14 @@
 }
 
 - (void)loginAction {
-    [QLLoginNetWork SentSMSMessage:@"13916749985" type:@"1" successHandler:^(id json) {
-        ;
+    [QLMBProgressHUDUtil showActivityMessageInWindow:@"正在加载"];
+    [QLLoginNetWork loginWithPhone:_phoneNameTextField.text password:_passwordTextField.text successHandler:^(id json) {
+        [QLMBProgressHUDUtil hideHUD];
+        [WTToast makeText:@"登录成功"];
+        //进入首页
     } failHandler:^(NSString *message) {
+        [QLMBProgressHUDUtil hideHUD];
         [WTToast makeText:message];
-    }];
+    }];;
 }
 @end
