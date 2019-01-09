@@ -104,13 +104,13 @@
     [QLLoginNetWork registerWithPhone:self.phoneNameTextField.text password:self.passwordTextField.text code:self.verifyTextField.text successHandler:^(id json) {
         [QLMBProgressHUDUtil hideHUD];
         [WTToast makeText:@"注册成功"];
+        //进入完善资料页面
+        QLWanShanViewController *wan = [QLWanShanViewController new];
+        [self.navigationController pushViewController:wan animated:YES];
     } failHandler:^(NSString *message) {
         [QLMBProgressHUDUtil hideHUD];
         [WTToast makeText:message];
     }];;
-
-    QLWanShanViewController *wan = [QLWanShanViewController new];
-    [self.navigationController pushViewController:wan animated:YES];
 }
 
 - (void)clearBtnPress {

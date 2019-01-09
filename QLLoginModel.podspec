@@ -23,4 +23,8 @@ Pod::Spec.new do |s|
   ss.source_files = 'QLLoginModel/Util/**/*.{h,m,c,mm}'
   end
 
+  s.subspec 'NetWorking' do |ss|
+  ss.source_files = 'QLLoginModel/NetWorking/**/*.{h,m,c,mm}'
+  end
+
 end
