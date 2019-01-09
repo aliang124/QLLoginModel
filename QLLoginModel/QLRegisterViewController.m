@@ -56,7 +56,7 @@
     
     //用户名或手机号
     _phoneNameTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, titleLab.bottom+32, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"请输入用户名或手机号"];
-    _phoneNameTextField.text = @"1153196375040448279";
+    _phoneNameTextField.text = @"15105609556";
     
     UIButton *clearBtn = [[UIButton alloc] initWithFrame:CGRectMake(_phoneNameTextField.right+15-14-22, _phoneNameTextField.top+11, 22, 22)];
     [clearBtn setImage:[UIImage imageNamed:@"clearBtn"] forState:UIControlStateNormal];
@@ -82,11 +82,20 @@
     
     UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(24, _passwordTextField.bottom+16, WTScreenWidth-24-24, 44)];
     [QLBusinessUtil setRoundBtn:loginBtn titleText:@"确定"];
-    [loginBtn addTarget:self action:@selector(loginBtnPress) forControlEvents:UIControlEventTouchUpInside];
+    [loginBtn addTarget:self action:@selector(registerBtnPress) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:loginBtn];
 }
 
-- (void)loginBtnPress {
+- (void)registerBtnPress {
+    [QLMBProgressHUDUtil showActivityMessageInWindow:@"正在加载"];
+    [QLLoginNetWork registerWithPhone:self.phoneNameTextField.text password:self.passwordTextField.text code:self.verifyTextField.text successHandler:^(id json) {
+        [QLMBProgressHUDUtil hideHUD];
+        [WTToast makeText:@"注册成功"];
+    } failHandler:^(NSString *message) {
+        [QLMBProgressHUDUtil hideHUD];
+        [WTToast makeText:message];
+    }];;
+
     QLWanShanViewController *wan = [QLWanShanViewController new];
     [self.navigationController pushViewController:wan animated:YES];
 }
@@ -96,9 +105,12 @@
 }
 
 - (void)sendSMSMessageAction {
+    [QLMBProgressHUDUtil showActivityMessageInWindow:@"正在加载"];
     [QLLoginNetWork SentSMSMessage:@"13916749985" type:@"1" successHandler:^(id json) {
+        [QLMBProgressHUDUtil hideHUD];
         [WTToast makeText:@"获取验证码成功"];
     } failHandler:^(NSString *message) {
+        [QLMBProgressHUDUtil hideHUD];
         [WTToast makeText:message];
     }];
 }
