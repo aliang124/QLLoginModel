@@ -16,6 +16,7 @@
 @property (nonatomic,strong) UITextField *phoneNameTextField;
 @property (nonatomic,strong) UITextField *verifyTextField;
 @property (nonatomic,strong) UITextField *passwordTextField;
+@property (nonatomic,strong) QLCountDownButton *verifyBtn;
 @end
 
 @implementation QLRegisterViewController
@@ -48,6 +49,8 @@
 }
 
 - (void)createSubView {
+    WT(weakSelf);
+    
     UILabel *titleLab = [[UILabel alloc] initWithFrame:CGRectMake(25, 98+WT_Height_StatusBar-20, WTScreenWidth-25-25, 23)];
     titleLab.font = WTFontSys(24);
     titleLab.textColor = QL_NavBar_TitleColor_Black;
@@ -68,12 +71,22 @@
     _verifyTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, _phoneNameTextField.bottom+12, verifyViewWidth, 44) superView:self.view placeHolder:@"请输入验证码"];
     _verifyTextField.text = @"514836";
     
-    UIButton *verifyBtn = [[UIButton alloc] initWithFrame:CGRectMake(_verifyTextField.right+15+12, _verifyTextField.top, 100, 44)];
-    [QLBusinessUtil setRoundBtn:verifyBtn titleText:@"获取验证码"];
-    verifyBtn.titleLabel.font = WTFontSys(14);
-    [verifyBtn setTitleColor:QL_UserName_TitleColor_Black forState:UIControlStateNormal];
-    [verifyBtn addTarget:self action:@selector(sendSMSMessageAction) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:verifyBtn];
+    _verifyBtn = [[QLCountDownButton alloc] initWithDuration:60 buttonClicked:^{
+        [weakSelf sendSMSMessageAction];
+    } countDownStart:^{
+    }  countDownUnderway:^(NSInteger restCountDownNum) {
+        NSString *title = [NSString stringWithFormat:@"%lds", (long)restCountDownNum];
+        [weakSelf.verifyBtn setTitle:title forState:UIControlStateNormal];
+    } countDownCompletion:^{
+        weakSelf.verifyBtn.enabled = YES;
+        [weakSelf.verifyBtn setTitle:@"获取验证码" forState:UIControlStateNormal];
+    }];
+    _verifyBtn.frame = CGRectMake(_verifyTextField.right+15+12, _verifyTextField.top, 100, 44);
+    [QLBusinessUtil setRoundBtn:_verifyBtn titleText:@"获取验证码"];
+    _verifyBtn.titleLabel.font = WTFontSys(14);
+    [_verifyBtn setTitleColor:QL_UserName_TitleColor_Black forState:UIControlStateNormal];
+    [_verifyBtn addTarget:self action:@selector(sendSMSMessageAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_verifyBtn];
 
     //设置登录密码
     _passwordTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, _verifyTextField.bottom+12, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"设置登录密码"];
@@ -105,13 +118,16 @@
 }
 
 - (void)sendSMSMessageAction {
+    self.verifyBtn.enabled = NO;
     [QLMBProgressHUDUtil showActivityMessageInWindow:@"正在加载"];
     [QLLoginNetWork SentSMSMessage:@"13916749985" type:@"1" successHandler:^(id json) {
         [QLMBProgressHUDUtil hideHUD];
         [WTToast makeText:@"获取验证码成功"];
+        [self.verifyBtn startCountDown];
     } failHandler:^(NSString *message) {
         [QLMBProgressHUDUtil hideHUD];
         [WTToast makeText:message];
+        self.verifyBtn.enabled = YES;
     }];
 }
 @end
