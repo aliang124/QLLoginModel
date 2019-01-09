@@ -9,4 +9,7 @@
 #ifndef QLBusiness_QLConfig_h
 #define QLBusiness_QLConfig_h
 #define QL_Net_Host  @"https://qlapi.inkcc.cn"
+
+#define QL_LoginSuccess_CompletionHandler @"QLLoginSuccessCompletionHandler"
+
 #endif

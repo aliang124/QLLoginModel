@@ -112,7 +112,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   QLBusiness:
-    :commit: d0808b732df030caec2d17d940821e75604ccf17
+    :commit: 3830dd99c637b6feb8e9324745903f1e3abc4bc8
     :git: https://github.com/aliang124/QLBusiness.git
   WTBaseCore:
     :commit: 0d8f618f74695250952f05ba5176711d79a7621c

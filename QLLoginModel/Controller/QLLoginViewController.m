@@ -121,10 +121,13 @@
         //读取登录对象并写入登录数据
         [[QLLoginInfo sharedInstance] setLoginInfoWithDict:json];
         [[QLLoginInfo sharedInstance] writeUserInfo:json];
+        WTPostNotification(QL_LoginSuccess_CompletionHandler,nil);
         //进入首页
         if (weakSelf.loginCompletionHandler) {
             weakSelf.loginCompletionHandler();
         }
+        [weakSelf dismissViewControllerAnimated:YES completion:^{
+        }];
     } failHandler:^(NSString *message) {
         [QLMBProgressHUDUtil hideHUD];
         [WTToast makeText:message];
