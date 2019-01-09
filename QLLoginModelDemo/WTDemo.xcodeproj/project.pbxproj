@@ -88,6 +88,23 @@
 			path = NetWorking;
 			sourceTree = "<group>";
 		};
+		503A80CE21E6074B00201601 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				50E8FF9021996CCE002C0695 /* QLLoginViewController.h */,
+				50E8FF9221996CCE002C0695 /* QLLoginViewController.m */,
+				505D27BD21CFD8E700B82E60 /* QLThirdLoginViewController.h */,
+				505D27BE21CFD8E800B82E60 /* QLThirdLoginViewController.m */,
+				50E8FF96219975C3002C0695 /* QLRegisterViewController.h */,
+				50E8FF97219975C3002C0695 /* QLRegisterViewController.m */,
+				50E8FF9C21997D68002C0695 /* QLWanShanViewController.h */,
+				50E8FF9D21997D68002C0695 /* QLWanShanViewController.m */,
+				50E8FF9F21997D88002C0695 /* QLWanShanNextViewController.h */,
+				50E8FFA021997D88002C0695 /* QLWanShanNextViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		507CD35721CE97EF00F5AF8C /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,21 +167,12 @@
 		50E8FF8F21996CCE002C0695 /* QLLoginModel */ = {
 			isa = PBXGroup;
 			children = (
+				50E8FF9321996CCE002C0695 /* Target_QLLoginModel.h */,
+				50E8FF9121996CCE002C0695 /* Target_QLLoginModel.m */,
+				503A80CE21E6074B00201601 /* Controller */,
 				503A80C621E5ED1B00201601 /* NetWorking */,
 				507CD35721CE97EF00F5AF8C /* Util */,
 				507CD35A21CE97EF00F5AF8C /* View */,
-				50E8FF9321996CCE002C0695 /* Target_QLLoginModel.h */,
-				50E8FF9121996CCE002C0695 /* Target_QLLoginModel.m */,
-				50E8FF9021996CCE002C0695 /* QLLoginViewController.h */,
-				50E8FF9221996CCE002C0695 /* QLLoginViewController.m */,
-				505D27BD21CFD8E700B82E60 /* QLThirdLoginViewController.h */,
-				505D27BE21CFD8E800B82E60 /* QLThirdLoginViewController.m */,
-				50E8FF96219975C3002C0695 /* QLRegisterViewController.h */,
-				50E8FF97219975C3002C0695 /* QLRegisterViewController.m */,
-				50E8FF9C21997D68002C0695 /* QLWanShanViewController.h */,
-				50E8FF9D21997D68002C0695 /* QLWanShanViewController.m */,
-				50E8FF9F21997D88002C0695 /* QLWanShanNextViewController.h */,
-				50E8FFA021997D88002C0695 /* QLWanShanNextViewController.m */,
 			);
 			name = QLLoginModel;
 			path = ../../QLLoginModel;
