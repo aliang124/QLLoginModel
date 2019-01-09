@@ -35,6 +35,7 @@
 #import "WTUtil.h"
 #import "WTDateUtil.h"
 #import "WTLanguageUtil.h"
+#import "WTJsonUtil.h"
 
 //RETableViewManager
 #import "REActionBar.h"

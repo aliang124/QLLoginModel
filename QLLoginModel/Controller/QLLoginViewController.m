@@ -118,7 +118,9 @@
     [QLLoginNetWork loginWithPhone:_phoneNameTextField.text password:_passwordTextField.text successHandler:^(id json) {
         [QLMBProgressHUDUtil hideHUD];
         [WTToast makeText:@"登录成功"];
-        //写入登录数据
+        //读取登录对象并写入登录数据
+        [[QLLoginInfo sharedInstance] setLoginInfoWithDict:json];
+        [[QLLoginInfo sharedInstance] writeUserInfo:json];
         //进入首页
         if (weakSelf.loginCompletionHandler) {
             weakSelf.loginCompletionHandler();

@@ -10,72 +10,63 @@
 #import "WTBaseCore.h"
 
 @implementation QLLoginInfo
-+ (QLLoginInfo *)loginInfoWithDict:(NSDictionary *)dInfo{
-    QLLoginInfo *loginInfo = [[QLLoginInfo alloc] init];
+// 跟上面的方法实现有一点不同
++ (QLLoginInfo *)sharedInstance {
+    static QLLoginInfo *_sharedSingleton = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _sharedSingleton = [[self alloc] init];
+    });
+    return _sharedSingleton;
+}
+
+- (void)setLoginInfoWithDict:(NSDictionary *)dInfo{
+    QLLoginInfo *loginInfo = [QLLoginInfo sharedInstance];
     loginInfo.phone = [WTUtil strRelay:dInfo[@"phone"]];
-    loginInfo.name = [WTUtil strRelay:dInfo[@"name"]];
-    return loginInfo;
+    loginInfo.username = [WTUtil strRelay:dInfo[@"username"]];
+    loginInfo.userId = [WTUtil strRelay:dInfo[@"userId"]];
+    loginInfo.token = [WTUtil strRelay:dInfo[@"token"]];
+    loginInfo.image = [WTUtil strRelay:dInfo[@"image"]];
 }
 
-+ (NSString *)getUserInfoFile {
-    NSArray * paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    NSString * documentsDirectory = [paths objectAtIndex:0];
-    NSString * path = [documentsDirectory stringByAppendingPathComponent:@"user.txt"];
-    return path;
-}
-
-+ (void)writeUserInfo:(NSDictionary *)dic {
-    NSString *fileName = [QLLoginInfo getUserInfoFile];
+- (void)writeUserInfo:(NSDictionary *)dic {
+    NSString *fileName = [QLLoginInfo getUserInfoFilePath];
     if ([WTFile fileExistAtPath:fileName]) {
         [WTFile fileDel:fileName];
     }
-    dic = [self processDictionaryIsNSNull:dic];
+    dic = [QLLoginInfo processDictionaryIsNSNull:dic];
     NSString *str = [WTJsonUtil jsonStringWithObject:dic];
     NSData *data = [str dataUsingEncoding:NSUTF8StringEncoding];
     [data writeToFile:fileName atomically:YES];
 }
 
-+ (NSDictionary *)getUserDic {
-    NSString *fileName = [QLLoginInfo getUserInfoFile];
-    NSString *version = [WTUtil getAppVersion];
-    if ([WTFile fileExistAtPath:fileName]) {
-        NSData *data = [NSData dataWithContentsOfFile:fileName];
-        if (data) {
-            NSDictionary *d = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
-            NSMutableDictionary *dic = nil;
-            if (d!=nil) {
-                dic = [[NSMutableDictionary alloc] init];
-                [dic addEntriesFromDictionary:d];
-                if (![[WTUtil strRelay:dic[@"appVersion"]] isEqualToString:version]) {
-                    return nil;
-                }
-            }
-            return dic;
+- (void)readLoginInfoFromFile {
+    NSString *fileName = [QLLoginInfo getUserInfoFilePath];
+    //文件不存在
+    if (![WTFile fileExistAtPath:fileName]) {
+        return;
+    }
+    NSData *data = [NSData dataWithContentsOfFile:fileName];
+    if (data) {
+        NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+        if (dic!=nil) {
+            [[QLLoginInfo sharedInstance] setLoginInfoWithDict:dic];
         }
     }
-    return nil;
 }
 
-+ (QLLoginInfo *)getUserInfo {
-    NSDictionary *dic = [QLLoginInfo getUserDic];
-    NSLog(@"%@",dic);
-    if (dic==nil) {
-        return nil;
+- (BOOL)isLogin {
+    if ([WTUtil strNilOrEmpty:[QLLoginInfo sharedInstance].userId]) {
+        return NO;
     }
-    QLLoginInfo *loginInfo = [QLLoginInfo loginInfoWithDict:dic];
-    return loginInfo;
+    return YES;
 }
 
-+ (BOOL)isLogin {
-//    if ([WSLUtil appDelegate].loginInfo==nil||
-//        [WSLUtil strNilOrEmpty:[WSLUtil appDelegate].loginInfo.userId]) {
-//        return NO;
-//    }
-//    NSString *str = [WTUtil getAppVersion];
-//    if (![[WTUtil strRelay:[WSLUtil appDelegate].loginInfo.appVersion] isEqualToString:str]) {
-//        return NO;
-//    }
-    return YES;
++ (NSString *)getUserInfoFilePath {
+    NSArray * paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString * documentsDirectory = [paths objectAtIndex:0];
+    NSString * path = [documentsDirectory stringByAppendingPathComponent:@"user.txt"];
+    return path;
 }
 
 + (id) processDictionaryIsNSNull:(id)obj {

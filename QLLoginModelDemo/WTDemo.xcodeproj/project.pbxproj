@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		221AEC82A8DB30A6462C9440 /* libPods-WTDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A24F37922F2E1F5DE6CD53EC /* libPods-WTDemo.a */; };
 		503A80C921E5ED5000201601 /* QLLoginNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 503A80C821E5ED5000201601 /* QLLoginNetWork.m */; };
-		503A80D121E60A4600201601 /* QLLoginInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 503A80D021E60A4600201601 /* QLLoginInfo.m */; };
 		505D27BC21CFB73500B82E60 /* QLAddBabyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 505D27BB21CFB73500B82E60 /* QLAddBabyCell.m */; };
 		505D27BF21CFD8E800B82E60 /* QLThirdLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505D27BE21CFD8E800B82E60 /* QLThirdLoginViewController.m */; };
 		507CD36121CEAA4E00F5AF8C /* QLWanShanTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 507CD35F21CEAA4E00F5AF8C /* QLWanShanTitleCell.m */; };
@@ -31,8 +30,6 @@
 /* Begin PBXFileReference section */
 		503A80C721E5ED5000201601 /* QLLoginNetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLLoginNetWork.h; sourceTree = "<group>"; };
 		503A80C821E5ED5000201601 /* QLLoginNetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLLoginNetWork.m; sourceTree = "<group>"; };
-		503A80CF21E60A4500201601 /* QLLoginInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLLoginInfo.h; sourceTree = "<group>"; };
-		503A80D021E60A4600201601 /* QLLoginInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLLoginInfo.m; sourceTree = "<group>"; };
 		505D27BA21CFB73500B82E60 /* QLAddBabyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLAddBabyCell.h; sourceTree = "<group>"; };
 		505D27BB21CFB73500B82E60 /* QLAddBabyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLAddBabyCell.m; sourceTree = "<group>"; };
 		505D27BD21CFD8E700B82E60 /* QLThirdLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLThirdLoginViewController.h; sourceTree = "<group>"; };
@@ -153,8 +150,6 @@
 		50DADCDE2192811A00DA8BFE /* WTDemo */ = {
 			isa = PBXGroup;
 			children = (
-				503A80CF21E60A4500201601 /* QLLoginInfo.h */,
-				503A80D021E60A4600201601 /* QLLoginInfo.m */,
 				50E8FF99219975FD002C0695 /* MainViewController.h */,
 				50E8FF9A219975FD002C0695 /* MainViewController.m */,
 				50E8FF8F21996CCE002C0695 /* QLLoginModel */,
@@ -340,7 +335,6 @@
 				50DADCE12192811A00DA8BFE /* AppDelegate.m in Sources */,
 				50E8FF9521996CCF002C0695 /* QLLoginViewController.m in Sources */,
 				507CD36E21CEC53300F5AF8C /* QLChildInfoCell.m in Sources */,
-				503A80D121E60A4600201601 /* QLLoginInfo.m in Sources */,
 				50E8FF9E21997D68002C0695 /* QLWanShanViewController.m in Sources */,
 				50E8FF98219975C3002C0695 /* QLRegisterViewController.m in Sources */,
 				507CD36121CEAA4E00F5AF8C /* QLWanShanTitleCell.m in Sources */,

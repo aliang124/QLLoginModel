@@ -20,6 +20,8 @@
 #import "QLMBProgressHUDUtil.h"
 #import "QLCountDownButton.h"
 
+#import "QLLoginInfo.h"
+
 #import "QLViewController.h"
 #import "QLFormViewController.h"
 #import "QLTabbarController.h"
