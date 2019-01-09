@@ -9,6 +9,8 @@
 #import "QLLoginViewController.h"
 #import "QLRegisterViewController.h"
 #import "QLThirdLoginViewController.h"
+#import "QLLoginNetWork.h"
+
 @interface QLLoginViewController ()
 @property (nonatomic,strong) UITextField *phoneNameTextField;
 @property (nonatomic,strong) UITextField *passwordTextField;
@@ -51,11 +53,13 @@
     [self.view addSubview:titleLab];
     //用户名或手机号
     _phoneNameTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, titleLab.bottom+32, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"请输入用户名或手机号"];
+    _phoneNameTextField.text = @"13916749985";
     //密码
     _passwordTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, _phoneNameTextField.bottom+12, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"请输入密码"];
     //登录按钮
     UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(24, _passwordTextField.bottom+16, WTScreenWidth-24-24, 44)];
     [QLBusinessUtil setRoundBtn:loginBtn titleText:@"登录"];
+    [loginBtn addTarget:self action:@selector(loginAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:loginBtn];
     //底部第三方登录区域背景
     UIView *bgView = [[UIView alloc] initWithFrame:CGRectMake(0, WTScreenHeight-196, WTScreenWidth, 196)];
@@ -105,5 +109,13 @@
 - (void)goThirdLogin {
     QLThirdLoginViewController *third = [[QLThirdLoginViewController alloc] init];
     [self.navigationController pushViewController:third animated:YES];
+}
+
+- (void)loginAction {
+    [QLLoginNetWork SentSMSMessage:@"13916749985" type:@"1" successHandler:^(id json) {
+        ;
+    } failHandler:^(NSString *message) {
+        [WTToast makeText:message];
+    }];
 }
 @end

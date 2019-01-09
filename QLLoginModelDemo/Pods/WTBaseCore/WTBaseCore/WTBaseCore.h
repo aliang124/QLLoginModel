@@ -28,6 +28,7 @@
 #import "UIView+Category.h"
 #import "WTTextField.h"
 #import "WTCustomButton.h"
+#import "WTToast.h"
 
 //CoreUtil
 #import "WTFile.h"

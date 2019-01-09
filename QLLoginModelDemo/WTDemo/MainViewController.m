@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 #import "QLLoginViewController.h"
+
 @interface MainViewController ()
 
 @end
@@ -24,6 +25,7 @@
     [self.view addSubview:btn];
     
     [self performSelector:@selector(goLogin) withObject:nil afterDelay:0.5];
+    
 }
 
 - (void)goLogin {

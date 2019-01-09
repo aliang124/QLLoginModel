@@ -21,6 +21,10 @@
  */
 #define WT_NavBar_Height (WT_NavBar_Title_Height+WT_Height_StatusBar)
 
+#define QL_SafeArea_TOP (iPhoneX ? 44 : 0)
+#define QL_SafeArea_BOTTOM (iPhoneX ? 34 : 0)
+#define QL_TabBar_HEIGHT ((!iPhoneX) ? 56 : (56 + QL_SafeArea_BOTTOM))
+
 
 
 //导航栏的黄色
@@ -35,7 +39,7 @@
 //多页面滑动的下面游标颜色
 #define QL_NavBar_CursorColor_Black WTColorHex(0x4D4207)
 #define QL_TagColor_Green WTColorHex(0xE5FBF7)
-#define QL_TagTextColor_Green WTColorHex(0x63625C)
+#define QL_TagTextColor_Green WTColorHex(0x10BE9F)
 
 //线条颜色
 #define QL_TableView_LineColor WTColorHex(0xDDE5EA)
