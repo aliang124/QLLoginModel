@@ -113,11 +113,16 @@
 }
 
 - (void)loginAction {
+    WT(weakSelf);
     [QLMBProgressHUDUtil showActivityMessageInWindow:@"正在加载"];
     [QLLoginNetWork loginWithPhone:_phoneNameTextField.text password:_passwordTextField.text successHandler:^(id json) {
         [QLMBProgressHUDUtil hideHUD];
         [WTToast makeText:@"登录成功"];
+        //写入登录数据
         //进入首页
+        if (weakSelf.loginCompletionHandler) {
+            weakSelf.loginCompletionHandler();
+        }
     } failHandler:^(NSString *message) {
         [QLMBProgressHUDUtil hideHUD];
         [WTToast makeText:message];
