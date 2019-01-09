@@ -59,7 +59,7 @@
     
     //用户名或手机号
     _phoneNameTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, titleLab.bottom+32, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"请输入用户名或手机号"];
-    _phoneNameTextField.text = @"15105609556";
+    _phoneNameTextField.text = @"15105609557";
     
     UIButton *clearBtn = [[UIButton alloc] initWithFrame:CGRectMake(_phoneNameTextField.right+15-14-22, _phoneNameTextField.top+11, 22, 22)];
     [clearBtn setImage:[UIImage imageNamed:@"clearBtn"] forState:UIControlStateNormal];
@@ -69,7 +69,7 @@
     //验证码
     float verifyViewWidth = _phoneNameTextField.width+30-12-100;
     _verifyTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, _phoneNameTextField.bottom+12, verifyViewWidth, 44) superView:self.view placeHolder:@"请输入验证码"];
-    _verifyTextField.text = @"514836";
+    _verifyTextField.text = @"123456";
     
     _verifyBtn = [[QLCountDownButton alloc] initWithDuration:60 buttonClicked:^{
         [weakSelf sendSMSMessageAction];
@@ -91,7 +91,7 @@
     //设置登录密码
     _passwordTextField = [QLBusinessUtil createTextFieldView:CGRectMake(24, _verifyTextField.bottom+12, WTScreenWidth-24-24, 44) superView:self.view placeHolder:@"设置登录密码"];
     _passwordTextField.secureTextEntry = YES;
-    _passwordTextField.text = @"1153196375040412238";
+    _passwordTextField.text = @"123456";
     
     UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(24, _passwordTextField.bottom+16, WTScreenWidth-24-24, 44)];
     [QLBusinessUtil setRoundBtn:loginBtn titleText:@"确定"];
@@ -120,7 +120,7 @@
 - (void)sendSMSMessageAction {
     self.verifyBtn.enabled = NO;
     [QLMBProgressHUDUtil showActivityMessageInWindow:@"正在加载"];
-    [QLLoginNetWork SentSMSMessage:@"13916749985" type:@"1" successHandler:^(id json) {
+    [QLLoginNetWork SentSMSMessage:self.phoneNameTextField.text type:@"1" successHandler:^(id json) {
         [QLMBProgressHUDUtil hideHUD];
         [WTToast makeText:@"获取验证码成功"];
         [self.verifyBtn startCountDown];
